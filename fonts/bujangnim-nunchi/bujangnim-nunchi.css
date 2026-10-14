@@ -1,0 +1,8 @@
+/* 부장님 눈치체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/bujangnim-nunchi/bujangnim-nunchi.css */
+@font-face {
+  font-family: '부장님 눈치체';
+  src: url('Bujangnim_nunchi.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

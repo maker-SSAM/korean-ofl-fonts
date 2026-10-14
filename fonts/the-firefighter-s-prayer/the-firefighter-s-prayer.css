@@ -1,0 +1,8 @@
+/* 소방관의 기도 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/the-firefighter-s-prayer/the-firefighter-s-prayer.css */
+@font-face {
+  font-family: '소방관의 기도';
+  src: url('Firefighter_prayer.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

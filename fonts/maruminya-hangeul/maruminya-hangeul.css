@@ -1,0 +1,8 @@
+/* 마루미냐 한글 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/maruminya-hangeul/maruminya-hangeul.css */
+@font-face {
+  font-family: '마루미냐 한글';
+  src: url('x12y12pxMaruMinyaHangul.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

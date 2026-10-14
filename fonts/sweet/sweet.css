@@ -1,0 +1,56 @@
+/* 스위트 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/sweet/sweet.css */
+@font-face {
+  font-family: '스위트';
+  src: url('SUITE-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '스위트';
+  src: url('SUITE-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '스위트';
+  src: url('SUITE-Heavy.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '스위트';
+  src: url('SUITE-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '스위트';
+  src: url('SUITE-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '스위트';
+  src: url('SUITE-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '스위트';
+  src: url('SUITE-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,8 @@
+/* 금은보화 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/gold-silver-and-jewels/gold-silver-and-jewels.css */
+@font-face {
+  font-family: '금은보화';
+  src: url('Geumeunbohwa.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

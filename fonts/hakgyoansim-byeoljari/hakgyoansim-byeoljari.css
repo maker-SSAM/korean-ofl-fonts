@@ -1,0 +1,16 @@
+/* Hakgyoansim Byeoljari TTF — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-byeoljari/hakgyoansim-byeoljari.css */
+@font-face {
+  font-family: 'Hakgyoansim Byeoljari TTF';
+  src: url('Hakgyoansim-Byeoljari-TTF-B.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Byeoljari TTF';
+  src: url('Hakgyoansim-Byeoljari-TTF-L.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,32 @@
+/* NanumSquareRound — https://maker-ssam.github.io/korean-ofl-fonts/fonts/nanumsquareround/nanumsquareround.css */
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('NanumSquareRoundB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('NanumSquareRoundEB.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('NanumSquareRoundL.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('NanumSquareRoundR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

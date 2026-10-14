@@ -1,0 +1,8 @@
+/* 세구세구 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/segusegu-regular/segusegu-regular.css */
+@font-face {
+  font-family: '세구세구';
+  src: url('SeguSegu-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

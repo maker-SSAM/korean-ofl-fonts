@@ -1,0 +1,8 @@
+/* 다행체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/dahaeng/dahaeng.css */
+@font-face {
+  font-family: '다행체';
+  src: url('Daheng.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,8 @@
+/* 진주 박경아체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/jinju-park-kyeong-a/jinju-park-kyeong-a.css */
+@font-face {
+  font-family: '진주 박경아체';
+  src: url('Parkgyunga.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

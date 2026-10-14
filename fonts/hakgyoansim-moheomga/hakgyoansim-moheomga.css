@@ -1,0 +1,16 @@
+/* Hakgyoansim Moheomga — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-moheomga/hakgyoansim-moheomga.css */
+@font-face {
+  font-family: 'Hakgyoansim Moheomga';
+  src: url('HakgyoansimMoheomgaB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Moheomga';
+  src: url('HakgyoansimMoheomgaR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

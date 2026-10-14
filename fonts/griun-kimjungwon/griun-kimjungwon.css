@@ -1,0 +1,8 @@
+/* Griun Kimjungwon — https://maker-ssam.github.io/korean-ofl-fonts/fonts/griun-kimjungwon/griun-kimjungwon.css */
+@font-face {
+  font-family: 'Griun Kimjungwon';
+  src: url('griun-kimjungwon-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

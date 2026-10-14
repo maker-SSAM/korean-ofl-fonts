@@ -1,0 +1,32 @@
+/* KERIS BAEUM — https://maker-ssam.github.io/korean-ofl-fonts/fonts/keris-baeum/keris-baeum.css */
+@font-face {
+  font-family: 'KERIS BAEUM';
+  src: url('KERISBAEUM_B.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KERIS BAEUM';
+  src: url('KERISBAEUM_EB.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KERIS BAEUM';
+  src: url('KERISBAEUM_L.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KERIS BAEUM';
+  src: url('KERISBAEUM_R.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

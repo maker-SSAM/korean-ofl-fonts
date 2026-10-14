@@ -1,0 +1,8 @@
+/* 예당체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/yedang/yedang.css */
+@font-face {
+  font-family: '예당체';
+  src: url('Yedang.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

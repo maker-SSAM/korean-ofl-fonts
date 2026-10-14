@@ -1,0 +1,8 @@
+/* 검은고딕 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/black-gothic/black-gothic.css */
+@font-face {
+  font-family: '검은고딕';
+  src: url('BlackHanSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

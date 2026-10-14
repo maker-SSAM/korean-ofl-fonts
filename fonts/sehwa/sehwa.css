@@ -1,0 +1,8 @@
+/* 세화체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/sehwa/sehwa.css */
+@font-face {
+  font-family: '세화체';
+  src: url('Se-hwa.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

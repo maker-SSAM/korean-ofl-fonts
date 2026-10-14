@@ -1,0 +1,15 @@
+DungGeunMo (둥근모꼴)
+========================================
+라이선스 근거: 둥근모꼴: 퍼블릭 도메인(재배포·수정 자유)
+공식 배포처: https://cactus.tistory.com/193
+받은 곳: https://maker-ssam.github.io/korean-ofl-fonts/ (korean-ofl-fonts)
+
+[폰트 파일 안 저작권 문구]
+Public Domain
+
+[제작사 라이선스 안내]
+원본과 동일한 퍼블릭 도메인으로 재배포, 수정, 영리 목적 사용 등 걱정 없이 자유롭게 쓰면 됩니다.
+
+둥근모꼴과 Fixedsys Excelsior 참조
+
+퍼블릭 도메인 알아보기 https://ko.m.wikipedia.org/wiki/퍼블릭_도메인

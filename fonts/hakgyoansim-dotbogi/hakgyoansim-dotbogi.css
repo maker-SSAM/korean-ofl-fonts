@@ -1,0 +1,8 @@
+/* Hakgyoansim Dotbogi — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-dotbogi/hakgyoansim-dotbogi.css */
+@font-face {
+  font-family: 'Hakgyoansim Dotbogi';
+  src: url('HakgyoansimDotbogiR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

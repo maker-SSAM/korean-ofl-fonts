@@ -1,0 +1,8 @@
+/* Hakgyoansim Poster B — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-poster-b/hakgyoansim-poster-b.css */
+@font-face {
+  font-family: 'Hakgyoansim Poster B';
+  src: url('Hakgyoansim_PosterB.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

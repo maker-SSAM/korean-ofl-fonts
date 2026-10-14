@@ -1,0 +1,8 @@
+/* 엉겅퀴체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/eonggeongkwi/eonggeongkwi.css */
+@font-face {
+  font-family: '엉겅퀴체';
+  src: url('Unggungqui.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

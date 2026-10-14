@@ -1,0 +1,24 @@
+/* HUFS — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hufs/hufs.css */
+@font-face {
+  font-family: 'HUFS';
+  src: url('hufs-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HUFS';
+  src: url('hufs-300.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HUFS';
+  src: url('hufs-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

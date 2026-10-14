@@ -1,0 +1,8 @@
+/* KCC-Hanbit — https://maker-ssam.github.io/korean-ofl-fonts/fonts/kcc-hanbit/kcc-hanbit.css */
+@font-face {
+  font-family: 'KCC-Hanbit';
+  src: url('KCC-Hanbit.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

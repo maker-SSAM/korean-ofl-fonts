@@ -1,0 +1,8 @@
+/* 갈무리9 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/galmuri9/galmuri9.css */
+@font-face {
+  font-family: '갈무리9';
+  src: url('Galmuri9.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

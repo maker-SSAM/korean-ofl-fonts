@@ -1,0 +1,24 @@
+/* DAEHWA_2024_12_FONT — https://maker-ssam.github.io/korean-ofl-fonts/fonts/daehwa-2024-12-font/daehwa-2024-12-font.css */
+@font-face {
+  font-family: 'DAEHWA_2024_12_FONT';
+  src: url('daehwa-2024-12-font-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DAEHWA_2024_12_FONT Light';
+  src: url('daehwa-2024-12-font-400-2.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DAEHWA_2024_12_FONT Regular';
+  src: url('daehwa-2024-12-font-400-3.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

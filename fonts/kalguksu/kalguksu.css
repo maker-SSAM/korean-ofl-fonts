@@ -1,0 +1,8 @@
+/* 칼국수 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/kalguksu/kalguksu.css */
+@font-face {
+  font-family: '칼국수';
+  src: url('Kalguksu.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

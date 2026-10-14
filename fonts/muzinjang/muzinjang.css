@@ -1,0 +1,8 @@
+/* 무진장체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/muzinjang/muzinjang.css */
+@font-face {
+  font-family: '무진장체';
+  src: url('Mujinjang.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

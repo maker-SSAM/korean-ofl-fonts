@@ -1,0 +1,8 @@
+/* 여름글씨 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/summer-font/summer-font.css */
+@font-face {
+  font-family: '여름글씨';
+  src: url('Summer_letter.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

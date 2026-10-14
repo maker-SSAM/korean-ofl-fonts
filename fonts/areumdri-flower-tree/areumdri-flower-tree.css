@@ -1,0 +1,8 @@
+/* 아름드리 꽃나무 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/areumdri-flower-tree/areumdri-flower-tree.css */
+@font-face {
+  font-family: '아름드리 꽃나무';
+  src: url('Flower_tree.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

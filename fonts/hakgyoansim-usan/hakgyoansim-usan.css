@@ -1,0 +1,8 @@
+/* Hakgyoansim Usan — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-usan/hakgyoansim-usan.css */
+@font-face {
+  font-family: 'Hakgyoansim Usan';
+  src: url('HakgyoansimUsanR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

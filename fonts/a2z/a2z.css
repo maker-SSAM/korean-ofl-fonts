@@ -1,0 +1,72 @@
+/* A2Z — https://maker-ssam.github.io/korean-ofl-fonts/fonts/a2z/a2z.css */
+@font-face {
+  font-family: 'A2Z';
+  src: url('a2z-250.woff2') format('woff2');
+  font-weight: 250;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'A2Z 2ExtraLight';
+  src: url('a2z-250-2.woff2') format('woff2');
+  font-weight: 250;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'A2Z';
+  src: url('a2z-300.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'A2Z';
+  src: url('a2z-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'A2Z';
+  src: url('a2z-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'A2Z';
+  src: url('a2z-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'A2Z';
+  src: url('a2z-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'A2Z';
+  src: url('a2z-800.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'A2Z';
+  src: url('a2z-900.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

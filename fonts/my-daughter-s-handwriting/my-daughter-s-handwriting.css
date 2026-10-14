@@ -1,0 +1,8 @@
+/* 우리딸 손글씨 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/my-daughter-s-handwriting/my-daughter-s-handwriting.css */
+@font-face {
+  font-family: '우리딸 손글씨';
+  src: url('Daughter_handwriting.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

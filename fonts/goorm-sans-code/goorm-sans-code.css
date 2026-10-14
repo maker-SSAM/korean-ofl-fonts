@@ -1,0 +1,8 @@
+/* goorm Sans Code — https://maker-ssam.github.io/korean-ofl-fonts/fonts/goorm-sans-code/goorm-sans-code.css */
+@font-face {
+  font-family: 'goorm Sans Code';
+  src: url('goorm_Sans_Code_400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

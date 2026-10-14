@@ -1,0 +1,16 @@
+/* Hakgyoansim Santteutbatang — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-santteutbatang/hakgyoansim-santteutbatang.css */
+@font-face {
+  font-family: 'Hakgyoansim Santteutbatang';
+  src: url('HakgyoansimSantteutbatangL.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Santteutbatang';
+  src: url('HakgyoansimSantteutbatangM.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

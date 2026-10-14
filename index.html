@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>한글 OFL 폰트 창고</title>
+<meta name="description" content="누구나 자유롭게 쓰고 다시 나눌 수 있는 한글 폰트 모음 — 웹폰트·설치용 파일·분류 정보">
+<style>
+:root { --bg: #fbfaf7; --card: #fff; --ink: #1d1c1a; --sub: #6b6862; --line: #e6e2da; --accent: #2f5d50; --chip: #f1eee7; }
+@media (prefers-color-scheme: dark) { :root { --bg: #161615; --card: #1f1f1d; --ink: #ecebe7; --sub: #a3a09a; --line: #34332f; --accent: #8cc4b0; --chip: #2a2a27; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.6 system-ui, -apple-system, "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; }
+header, main { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+header { padding-top: 32px; }
+h1 { font-size: 26px; margin: 0 0 6px; }
+.lead { color: var(--sub); margin: 0 0 18px; }
+.lead a { color: var(--accent); }
+.bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
+input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--ink); font: inherit; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+.chip { border: 1px solid var(--line); background: var(--chip); color: var(--ink); border-radius: 999px; padding: 4px 12px; font: inherit; font-size: 13px; cursor: pointer; }
+.chip.on { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.count { color: var(--sub); font-size: 13px; margin: 0 0 10px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; padding-bottom: 48px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.top { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.nm { font-weight: 600; overflow-wrap: anywhere; }
+.en { color: var(--sub); font-size: 12px; overflow-wrap: anywhere; }
+.grp { font-size: 12px; color: var(--accent); white-space: nowrap; }
+.pv { font-size: 30px; line-height: 1.35; min-height: 82px; overflow-wrap: anywhere; color: var(--ink); opacity: .25; transition: opacity .2s; }
+.pv.ok { opacity: 1; }
+.links { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 13px; }
+.links a, .links button { color: var(--accent); background: none; border: 0; padding: 0; font: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px 32px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>한글 OFL 폰트 창고</h1>
+  <p class="lead">누구나 자유롭게 쓰고 다시 나눌 수 있는 한글 폰트 <b id="total">…</b>종. 폰트마다 재배포 근거를 확인했습니다.
+    웹폰트 CSS · 설치용 zip · 라이선스를 바로 쓸 수 있고, 목록은 <a href="fonts.json">fonts.json</a>에 있습니다. 사용법은 <a id="repo" href="https://github.com/maker-SSAM/korean-ofl-fonts">저장소 안내</a>.</p>
+  <div class="bar">
+    <input id="q" type="search" placeholder="폰트 이름 찾기 (한글·영문)" aria-label="폰트 이름 찾기">
+    <input id="sample" type="text" placeholder="미리보기 문장 바꾸기 (글자를 모두 불러오므로 조금 느려요)" aria-label="미리보기 문장">
+  </div>
+  <div class="chips" id="groups"></div>
+</header>
+<main>
+  <p class="count" id="count"></p>
+  <div class="grid" id="grid"></div>
+</main>
+<footer>폰트 파일은 각 폰트의 라이선스를 따릅니다(대부분 SIL OFL 1.1, 폰트 자체 판매 금지). 네이버 나눔 계열은 출처 표기를 권장합니다. 분류 정보(fonts.json)는 CC BY 4.0입니다.</footer>
+<script>
+'use strict';
+const $ = s => document.querySelector(s);
+const E = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
+const SAMPLE = '다람쥐 헌 쳇바퀴에 타고파';
+let D, groups = new Set(), full = new Set();
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { io.unobserve(e.target); load(e.target); } }), { rootMargin: '400px' });
+function load(pv) {  // 화면에 가까워진 카드만 미리보기 파일을 불러온다
+  const f = pv._f, fam = 'kofp-' + f.id;
+  new FontFace(fam, `url(${f.preview})`).load().then(ff => { document.fonts.add(ff); pv.style.fontFamily = `'${fam}', sans-serif`; pv.classList.add('ok'); })
+    .catch(() => { pv.textContent = '(미리보기를 불러오지 못했습니다)'; pv.classList.add('ok'); });
+}
+function useFull(f, pv) {  // 직접 입력한 문장은 웹폰트 전체(대표 굵기)로
+  const file = f.files.find(x => !x.variable && x.style === 'normal' && x.weight === 400) || f.files.find(x => x.style === 'normal') || f.files[0];
+  const fam = 'kof-' + f.id;
+  if (!full.has(fam)) { full.add(fam); new FontFace(fam, `url(${file.file})`).load().then(ff => document.fonts.add(ff)).catch(() => {}); }
+  pv.style.fontFamily = `'${fam}', 'kofp-${f.id}', sans-serif`;
+}
+function card(f) {
+  const c = E('article', 'card'), top = E('div', 'top'), l = E('div');
+  l.append(E('div', 'nm', f.name_ko || f.name), E('div', 'en', [f.name, f.facts.weights > 1 ? `굵기 ${f.facts.weights}` : '', f.facts.variable ? '가변' : ''].filter(Boolean).join(' · ')));
+  top.append(l, E('span', 'grp', f.group || ''));
+  const pv = E('div', 'pv', SAMPLE); pv._f = f; io.observe(pv);
+  const links = E('div', 'links');
+  const css = E('button', '', 'CSS 주소 복사'); css.onclick = () => navigator.clipboard?.writeText(D.base + f.css).then(() => { css.textContent = '복사했어요'; setTimeout(() => css.textContent = 'CSS 주소 복사', 1500); });
+  const dl = E('a', '', '설치용 내려받기'); dl.href = D.release + f.download.file;
+  const lic = E('a', '', '라이선스'); lic.href = f.license.file;
+  const of = E('a', '', '공식 배포처'); if (f.license.official) { of.href = f.license.official; of.rel = 'noopener'; of.target = '_blank'; }
+  links.append(css, dl, lic); if (f.license.official) links.append(of);
+  c.append(top, pv, links); c._f = f; c._pv = pv; return c;
+}
+function run() {
+  const q = $('#q').value.trim().toLowerCase(), s = $('#sample').value;
+  let n = 0;
+  for (const c of $('#grid').children) {
+    const f = c._f, hay = [f.name, f.name_ko, f.name_en, f.id].join(' ').toLowerCase();
+    const show = (!q || hay.includes(q)) && (!groups.size || groups.has(f.group));
+    c.hidden = !show; if (!show) continue; n++;
+    if (s) { c._pv.textContent = s; useFull(f, c._pv); } else if (c._pv.textContent !== SAMPLE) { c._pv.textContent = SAMPLE; c._pv.style.fontFamily = c._pv.classList.contains('ok') ? `'kofp-${f.id}', sans-serif` : ''; }
+  }
+  $('#count').textContent = `${n}종`;
+}
+fetch('fonts.json').then(r => r.json()).then(d => {
+  D = d; $('#total').textContent = d.count; $('#repo').href = d.repo;
+  for (const g of d.groups) {
+    const k = d.fonts.filter(f => f.group === g).length; if (!k) continue;
+    const b = E('button', 'chip', `${g} ${k}`); b.onclick = () => { groups.has(g) ? groups.delete(g) : groups.add(g); b.classList.toggle('on'); run(); };
+    $('#groups').append(b);
+  }
+  $('#grid').append(...d.fonts.map(card)); run();
+});
+let t; $('#q').oninput = run; $('#sample').oninput = () => { clearTimeout(t); t = setTimeout(run, 400); };
+</script>
+</body>
+</html>

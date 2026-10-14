@@ -1,0 +1,13 @@
+Yanolja Yache (야놀자 야체)
+========================================
+라이선스 근거: 야놀자야체: 자유롭게 수정·재배포 가능
+공식 배포처: https://www.kogl.or.kr/recommend/recommendDivView.do?recommendIdx=10441&division=font#
+받은 곳: https://maker-ssam.github.io/korean-ofl-fonts/ (korean-ofl-fonts)
+
+[폰트 파일 안 저작권 문구]
+Copyright (c) 2015 Yanolja. All rights reserved. Font designed by FONTRIX Inc.
+
+[제작사 라이선스 안내]
+야놀자글꼴의 지적 재산권은 (주)야놀자에 있습니다.
+
+개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 수정, 재배포가 가능합니다.

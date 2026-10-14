@@ -1,0 +1,8 @@
+/* BM HANNA Pro — https://maker-ssam.github.io/korean-ofl-fonts/fonts/bm-hanna-pro/bm-hanna-pro.css */
+@font-face {
+  font-family: 'BM HANNA Pro';
+  src: url('BMHANNAPro.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

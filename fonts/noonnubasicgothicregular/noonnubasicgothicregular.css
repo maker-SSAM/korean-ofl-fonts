@@ -1,0 +1,8 @@
+/* 눈누 기초고딕 Regular — https://maker-ssam.github.io/korean-ofl-fonts/fonts/noonnubasicgothicregular/noonnubasicgothicregular.css */
+@font-face {
+  font-family: '눈누 기초고딕 Regular';
+  src: url('NoonnuBasicGothicRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

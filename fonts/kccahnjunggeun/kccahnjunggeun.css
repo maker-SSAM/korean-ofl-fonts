@@ -1,0 +1,8 @@
+/* KCCAhnjunggeun — https://maker-ssam.github.io/korean-ofl-fonts/fonts/kccahnjunggeun/kccahnjunggeun.css */
+@font-face {
+  font-family: 'KCCAhnjunggeun';
+  src: url('KCCAhnjunggeun.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

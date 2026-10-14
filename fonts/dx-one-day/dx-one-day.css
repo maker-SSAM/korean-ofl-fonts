@@ -1,0 +1,8 @@
+/* DX단하루 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/dx-one-day/dx-one-day.css */
+@font-face {
+  font-family: 'DX단하루';
+  src: url('SingleDay-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,8 @@
+/* 하람체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/haram/haram.css */
+@font-face {
+  font-family: '하람체';
+  src: url('Haram.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

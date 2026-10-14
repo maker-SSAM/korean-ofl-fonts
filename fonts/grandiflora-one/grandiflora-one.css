@@ -1,0 +1,8 @@
+/* Grandiflora One — https://maker-ssam.github.io/korean-ofl-fonts/fonts/grandiflora-one/grandiflora-one.css */
+@font-face {
+  font-family: 'Grandiflora One';
+  src: url('GrandifloraOne-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

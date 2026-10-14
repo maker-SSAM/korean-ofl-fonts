@@ -1,0 +1,8 @@
+/* 바른정신 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/right-mind/right-mind.css */
+@font-face {
+  font-family: '바른정신';
+  src: url('Bareun_mental.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,16 @@
+/* Hakgyoansim Badasseugi TTF — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-badasseugi/hakgyoansim-badasseugi.css */
+@font-face {
+  font-family: 'Hakgyoansim Badasseugi TTF';
+  src: url('Hakgyoansim-Badasseugi-TTF-B.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Badasseugi TTF';
+  src: url('Hakgyoansim-Badasseugi-TTF-L.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

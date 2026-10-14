@@ -1,0 +1,16 @@
+/* Cafe24 Ssukssuk — https://maker-ssam.github.io/korean-ofl-fonts/fonts/cafe24-ssukssuk/cafe24-ssukssuk.css */
+@font-face {
+  font-family: 'Cafe24 Ssukssuk';
+  src: url('Cafe24Ssukssuk-v2.0.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cafe24 Ssukssuk';
+  src: url('Cafe24SsukssukLight.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

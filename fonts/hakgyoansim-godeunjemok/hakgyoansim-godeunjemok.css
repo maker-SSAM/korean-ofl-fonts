@@ -1,0 +1,16 @@
+/* Hakgyoansim Godeunjemok — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-godeunjemok/hakgyoansim-godeunjemok.css */
+@font-face {
+  font-family: 'Hakgyoansim Godeunjemok';
+  src: url('HakgyoansimGodeunjemokB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Godeunjemok';
+  src: url('HakgyoansimGodeunjemokM.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

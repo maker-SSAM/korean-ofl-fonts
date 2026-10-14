@@ -1,0 +1,8 @@
+/* 점꼴체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/dotted/dotted.css */
+@font-face {
+  font-family: '점꼴체';
+  src: url('Dot_font.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

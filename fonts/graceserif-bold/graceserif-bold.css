@@ -1,0 +1,16 @@
+/* 우아한 세리프 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/graceserif-bold/graceserif-bold.css */
+@font-face {
+  font-family: '우아한 세리프';
+  src: url('GraceSerif-Bold.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '우아한 세리프 Regular';
+  src: url('GraceSerif-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

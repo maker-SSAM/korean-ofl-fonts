@@ -1,0 +1,8 @@
+/* 물마루 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/mulmaru/mulmaru.css */
+@font-face {
+  font-family: '물마루';
+  src: url('Mulmaru.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

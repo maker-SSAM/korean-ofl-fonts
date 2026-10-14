@@ -1,0 +1,8 @@
+/* 암스테르담 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/amsterdam/amsterdam.css */
+@font-face {
+  font-family: '암스테르담';
+  src: url('Amsterdam.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

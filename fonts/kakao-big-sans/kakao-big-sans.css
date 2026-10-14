@@ -1,0 +1,24 @@
+/* Kakao Big Sans — https://maker-ssam.github.io/korean-ofl-fonts/fonts/kakao-big-sans/kakao-big-sans.css */
+@font-face {
+  font-family: 'Kakao Big Sans';
+  src: url('KakaoBigSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kakao Big Sans';
+  src: url('KakaoBigSans-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kakao Big Sans';
+  src: url('KakaoBigSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

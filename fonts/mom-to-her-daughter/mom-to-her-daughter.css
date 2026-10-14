@@ -1,0 +1,8 @@
+/* 딸에게 엄마가 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/mom-to-her-daughter/mom-to-her-daughter.css */
+@font-face {
+  font-family: '딸에게 엄마가';
+  src: url('mom_to_daughter.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

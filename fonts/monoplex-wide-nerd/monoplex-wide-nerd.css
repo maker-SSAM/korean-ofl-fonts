@@ -1,0 +1,128 @@
+/* 모노플렉스WideNerd — https://maker-ssam.github.io/korean-ofl-fonts/fonts/monoplex-wide-nerd/monoplex-wide-nerd.css */
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-ExtraLightItalic.woff2') format('woff2');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-SemiBoldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-Text.woff2') format('woff2');
+  font-weight: 450;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-TextItalic.woff2') format('woff2');
+  font-weight: 450;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '모노플렉스WideNerd';
+  src: url('MonoplexKRWideNerd-ThinItalic.woff2') format('woff2');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}

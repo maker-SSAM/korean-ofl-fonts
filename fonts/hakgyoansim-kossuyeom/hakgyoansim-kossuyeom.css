@@ -1,0 +1,8 @@
+/* Hakgyoansim Kossuyeom — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-kossuyeom/hakgyoansim-kossuyeom.css */
+@font-face {
+  font-family: 'Hakgyoansim Kossuyeom';
+  src: url('HakgyoansimKossuyeomR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,8 @@
+/* 장미체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/jangmi/jangmi.css */
+@font-face {
+  font-family: '장미체';
+  src: url('Rose.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

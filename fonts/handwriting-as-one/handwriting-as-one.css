@@ -1,0 +1,8 @@
+/* 하나되어 손글씨 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/handwriting-as-one/handwriting-as-one.css */
+@font-face {
+  font-family: '하나되어 손글씨';
+  src: url('Become_one.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

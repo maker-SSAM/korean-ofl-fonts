@@ -1,0 +1,8 @@
+/* Neo둥근모 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/neo-donggeunmo/neo-donggeunmo.css */
+@font-face {
+  font-family: 'Neo둥근모';
+  src: url('NeoDunggeunmo.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

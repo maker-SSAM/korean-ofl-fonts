@@ -1,0 +1,8 @@
+/* 연지체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/yeonji/yeonji.css */
+@font-face {
+  font-family: '연지체';
+  src: url('Yunji.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

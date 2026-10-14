@@ -1,0 +1,8 @@
+/* 델타돋움체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/delta-dotum/delta-dotum.css */
+@font-face {
+  font-family: '델타돋움체';
+  src: url('DeltaDotumKR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

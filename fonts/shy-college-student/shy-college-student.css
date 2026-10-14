@@ -1,0 +1,8 @@
+/* 수줍은 대학생 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/shy-college-student/shy-college-student.css */
+@font-face {
+  font-family: '수줍은 대학생';
+  src: url('Shy_college_student.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

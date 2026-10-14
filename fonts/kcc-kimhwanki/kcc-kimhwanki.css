@@ -1,0 +1,8 @@
+/* KCC-Kimhwanki — https://maker-ssam.github.io/korean-ofl-fonts/fonts/kcc-kimhwanki/kcc-kimhwanki.css */
+@font-face {
+  font-family: 'KCC-Kimhwanki';
+  src: url('KCC-Kimhwanki.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,8 @@
+/* 곰신체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/gomsin/gomsin.css */
+@font-face {
+  font-family: '곰신체';
+  src: url('Gomsin.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,48 @@
+/* NanumHuman TTF — https://maker-ssam.github.io/korean-ofl-fonts/fonts/nanumhuman/nanumhuman.css */
+@font-face {
+  font-family: 'NanumHuman TTF';
+  src: url('NanumHumanBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NanumHuman TTF';
+  src: url('NanumHumanEB.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NanumHuman TTF';
+  src: url('NanumHumanEL.woff2') format('woff2');
+  font-weight: 250;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NanumHuman TTF';
+  src: url('NanumHumanHeavy.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NanumHuman TTF';
+  src: url('NanumHumanLight.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NanumHuman TTF';
+  src: url('NanumHumanRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,8 @@
+/* Hakgyoansim Mabeopsa — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-mabeopsa/hakgyoansim-mabeopsa.css */
+@font-face {
+  font-family: 'Hakgyoansim Mabeopsa';
+  src: url('HakgyoansimMabeopsaR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

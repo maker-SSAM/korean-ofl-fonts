@@ -1,0 +1,16 @@
+/* D2Coding — https://maker-ssam.github.io/korean-ofl-fonts/fonts/d2coding/d2coding.css */
+@font-face {
+  font-family: 'D2Coding';
+  src: url('D2Coding-Ver1.3.2-20180524.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'D2Coding';
+  src: url('D2CodingBold-Ver1.3.2-20180524.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,72 @@
+/* Noto Sans KR — https://maker-ssam.github.io/korean-ofl-fonts/fonts/noto-sans-kr/noto-sans-kr.css */
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url('NotoSansKR-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url('NotoSansKR-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url('NotoSansKR-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url('NotoSansKR-ExtraLight.woff2') format('woff2');
+  font-weight: 250;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url('NotoSansKR-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url('NotoSansKR-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url('NotoSansKR-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url('NotoSansKR-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR Thin';
+  src: url('NotoSansKR-Thin.woff2') format('woff2');
+  font-weight: 250;
+  font-style: normal;
+  font-display: swap;
+}

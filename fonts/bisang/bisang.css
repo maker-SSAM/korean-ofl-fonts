@@ -1,0 +1,8 @@
+/* 비상체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/bisang/bisang.css */
+@font-face {
+  font-family: '비상체';
+  src: url('Bisang.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

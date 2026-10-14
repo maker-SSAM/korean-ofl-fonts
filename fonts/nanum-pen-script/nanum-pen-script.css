@@ -1,0 +1,8 @@
+/* Nanum Pen Script — https://maker-ssam.github.io/korean-ofl-fonts/fonts/nanum-pen-script/nanum-pen-script.css */
+@font-face {
+  font-family: 'Nanum Pen Script';
+  src: url('NanumPen.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

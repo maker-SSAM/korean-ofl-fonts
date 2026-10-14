@@ -1,0 +1,32 @@
+/* Mona12 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/mona12/mona12.css */
+@font-face {
+  font-family: 'Mona12';
+  src: url('Mona12.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mona12';
+  src: url('Mona12-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mona12 Mona12TextKR';
+  src: url('Mona12TextKR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mona12 Bold';
+  src: url('Mona12TextKR-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

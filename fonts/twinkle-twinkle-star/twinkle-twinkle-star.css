@@ -1,0 +1,8 @@
+/* 반짝반짝 별 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/twinkle-twinkle-star/twinkle-twinkle-star.css */
+@font-face {
+  font-family: '반짝반짝 별';
+  src: url('Shining_star.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

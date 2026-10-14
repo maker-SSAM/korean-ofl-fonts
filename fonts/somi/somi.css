@@ -1,0 +1,8 @@
+/* 소미체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/somi/somi.css */
+@font-face {
+  font-family: '소미체';
+  src: url('Somi.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

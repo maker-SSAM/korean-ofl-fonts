@@ -1,0 +1,8 @@
+/* KCCHyerim TTF — https://maker-ssam.github.io/korean-ofl-fonts/fonts/kcchyerim/kcchyerim.css */
+@font-face {
+  font-family: 'KCCHyerim TTF';
+  src: url('KCCHyerimTTF.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

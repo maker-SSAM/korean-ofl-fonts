@@ -1,0 +1,16 @@
+/* Hakgyoansim Namu — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-namu/hakgyoansim-namu.css */
+@font-face {
+  font-family: 'Hakgyoansim Namu';
+  src: url('HakgyoansimNamuL.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Namu';
+  src: url('HakgyoansimNamuR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

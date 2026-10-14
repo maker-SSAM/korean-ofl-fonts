@@ -1,0 +1,8 @@
+/* 북극성 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/polaris/polaris.css */
+@font-face {
+  font-family: '북극성';
+  src: url('Polar_Star.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

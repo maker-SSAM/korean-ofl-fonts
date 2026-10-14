@@ -1,0 +1,8 @@
+/* KCCBangJeonghwan TTF — https://maker-ssam.github.io/korean-ofl-fonts/fonts/kccbangjeonghwan/kccbangjeonghwan.css */
+@font-face {
+  font-family: 'KCCBangJeonghwan TTF';
+  src: url('KCCBangJeonghwanTTF.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,16 @@
+/* Mona10 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/mona10/mona10.css */
+@font-face {
+  font-family: 'Mona10';
+  src: url('Mona10.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mona10';
+  src: url('Mona10-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

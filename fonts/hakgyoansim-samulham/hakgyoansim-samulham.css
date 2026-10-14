@@ -1,0 +1,8 @@
+/* Hakgyoansim Samulham — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-samulham/hakgyoansim-samulham.css */
+@font-face {
+  font-family: 'Hakgyoansim Samulham';
+  src: url('HakgyoansimSamulhamR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

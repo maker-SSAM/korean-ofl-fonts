@@ -1,0 +1,8 @@
+/* BM HANNA Air — https://maker-ssam.github.io/korean-ofl-fonts/fonts/bm-hanna-air/bm-hanna-air.css */
+@font-face {
+  font-family: 'BM HANNA Air';
+  src: url('BMHANNAAir_ttf.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

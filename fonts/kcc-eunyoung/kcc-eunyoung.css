@@ -1,0 +1,8 @@
+/* KCC-eunyoung — https://maker-ssam.github.io/korean-ofl-fonts/fonts/kcc-eunyoung/kcc-eunyoung.css */
+@font-face {
+  font-family: 'KCC-eunyoung';
+  src: url('kcc-eunyoung-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

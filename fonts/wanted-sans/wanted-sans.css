@@ -1,0 +1,64 @@
+/* Wanted Sans — https://maker-ssam.github.io/korean-ofl-fonts/fonts/wanted-sans/wanted-sans.css */
+@font-face {
+  font-family: 'Wanted Sans';
+  src: url('WantedSans-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Wanted Sans';
+  src: url('WantedSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Wanted Sans ExtraBlack';
+  src: url('WantedSans-ExtraBlack.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Wanted Sans';
+  src: url('WantedSans-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Wanted Sans';
+  src: url('WantedSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Wanted Sans';
+  src: url('WantedSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Wanted Sans';
+  src: url('WantedSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Wanted Sans Variable';
+  src: url('WantedSansVariable.woff2') format('woff2');
+  font-weight: 400 1000;
+  font-style: normal;
+  font-display: swap;
+}

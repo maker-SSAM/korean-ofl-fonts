@@ -1,0 +1,8 @@
+/* 전기칩 한글 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/jeongichip-hangeul/jeongichip-hangeul.css */
+@font-face {
+  font-family: '전기칩 한글';
+  src: url('x10y12pxDenkiChipHangul.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

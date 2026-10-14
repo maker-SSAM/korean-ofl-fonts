@@ -1,0 +1,8 @@
+/* Hakgyoansim Eunhasu — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-eunhasu/hakgyoansim-eunhasu.css */
+@font-face {
+  font-family: 'Hakgyoansim Eunhasu';
+  src: url('HakgyoansimEunhasuR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

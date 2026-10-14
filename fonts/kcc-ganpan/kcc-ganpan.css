@@ -1,0 +1,8 @@
+/* KCC-Ganpan — https://maker-ssam.github.io/korean-ofl-fonts/fonts/kcc-ganpan/kcc-ganpan.css */
+@font-face {
+  font-family: 'KCC-Ganpan';
+  src: url('KCC-Ganpan.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

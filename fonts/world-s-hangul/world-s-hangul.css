@@ -1,0 +1,8 @@
+/* 세계적인 한글 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/world-s-hangul/world-s-hangul.css */
+@font-face {
+  font-family: '세계적인 한글';
+  src: url('Global_Hangul.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

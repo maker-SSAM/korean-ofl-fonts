@@ -1,0 +1,32 @@
+/* 나눔스퀘어 네오 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/nanum-square-neo/nanum-square-neo.css */
+@font-face {
+  font-family: '나눔스퀘어 네오';
+  src: url('NanumSquareNeoTTF-aLt.woff2') format('woff2');
+  font-weight: 350;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '나눔스퀘어 네오';
+  src: url('NanumSquareNeoTTF-cBd.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '나눔스퀘어 네오';
+  src: url('NanumSquareNeoTTF-dEb.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '나눔스퀘어 네오';
+  src: url('NanumSquareNeoTTF-eHv.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

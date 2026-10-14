@@ -1,0 +1,8 @@
+/* 맛있는체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/masitneun/masitneun.css */
+@font-face {
+  font-family: '맛있는체';
+  src: url('Yammy.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

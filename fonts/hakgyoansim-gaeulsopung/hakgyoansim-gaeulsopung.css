@@ -1,0 +1,16 @@
+/* Hakgyoansim Gaeulsopung — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-gaeulsopung/hakgyoansim-gaeulsopung.css */
+@font-face {
+  font-family: 'Hakgyoansim Gaeulsopung';
+  src: url('HakgyoansimGaeulsopungB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Gaeulsopung';
+  src: url('HakgyoansimGaeulsopungL.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

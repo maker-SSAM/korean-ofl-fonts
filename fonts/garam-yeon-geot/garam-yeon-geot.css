@@ -1,0 +1,8 @@
+/* 가람연꽃 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/garam-yeon-geot/garam-yeon-geot.css */
+@font-face {
+  font-family: '가람연꽃';
+  src: url('Garam.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

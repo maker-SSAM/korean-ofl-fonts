@@ -1,0 +1,16 @@
+/* Cafe24 Moyamoya — https://maker-ssam.github.io/korean-ofl-fonts/fonts/cafe24-moyamoya/cafe24-moyamoya.css */
+@font-face {
+  font-family: 'Cafe24 Moyamoya';
+  src: url('Cafe24Moyamoya-Face-v1.0.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cafe24 Moyamoya v1.0';
+  src: url('Cafe24Moyamoya-Regular-v1.0.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

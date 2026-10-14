@@ -1,0 +1,16 @@
+/* Cafe24 Supermagic — https://maker-ssam.github.io/korean-ofl-fonts/fonts/cafe24-supermagic/cafe24-supermagic.css */
+@font-face {
+  font-family: 'Cafe24 Supermagic';
+  src: url('Cafe24Supermagic-Bold-v1.0.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cafe24 Supermagic';
+  src: url('Cafe24Supermagic-Regular-v1.0.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

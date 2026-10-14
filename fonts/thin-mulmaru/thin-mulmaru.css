@@ -1,0 +1,16 @@
+/* 얇은물마루 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/thin-mulmaru/thin-mulmaru.css */
+@font-face {
+  font-family: '얇은물마루';
+  src: url('ThinMulmaru.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '얇은물마루 Mono';
+  src: url('ThinMulmaru-Mono.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

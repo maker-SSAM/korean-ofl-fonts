@@ -1,0 +1,16 @@
+/* Hakgyoansim Chulseokbu TTF — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-chulseokbu/hakgyoansim-chulseokbu.css */
+@font-face {
+  font-family: 'Hakgyoansim Chulseokbu TTF';
+  src: url('Hakgyoansim-Chulseokbu-TTF-B.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Chulseokbu TTF';
+  src: url('Hakgyoansim-Chulseokbu-TTF-L.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

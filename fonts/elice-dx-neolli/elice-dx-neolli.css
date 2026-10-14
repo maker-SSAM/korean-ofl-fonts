@@ -1,0 +1,24 @@
+/* Elice DX Neolli — https://maker-ssam.github.io/korean-ofl-fonts/fonts/elice-dx-neolli/elice-dx-neolli.css */
+@font-face {
+  font-family: 'Elice DX Neolli';
+  src: url('EliceDXNeolli-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Elice DX Neolli';
+  src: url('EliceDXNeolli-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Elice DX Neolli';
+  src: url('EliceDXNeolli-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

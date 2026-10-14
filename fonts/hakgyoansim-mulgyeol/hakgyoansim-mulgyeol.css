@@ -1,0 +1,16 @@
+/* Hakgyoansim Mulgyeol — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-mulgyeol/hakgyoansim-mulgyeol.css */
+@font-face {
+  font-family: 'Hakgyoansim Mulgyeol';
+  src: url('HakgyoansimMulgyeolB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Mulgyeol';
+  src: url('HakgyoansimMulgyeolR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,8 @@
+/* 따악단단 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/ttaakdandan/ttaakdandan.css */
+@font-face {
+  font-family: '따악단단';
+  src: url('Ddakdandan.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

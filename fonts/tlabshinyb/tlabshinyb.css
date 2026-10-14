@@ -1,0 +1,8 @@
+/* TlabShinYB — https://maker-ssam.github.io/korean-ofl-fonts/fonts/tlabshinyb/tlabshinyb.css */
+@font-face {
+  font-family: 'TlabShinYB';
+  src: url('tlabshinyb-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

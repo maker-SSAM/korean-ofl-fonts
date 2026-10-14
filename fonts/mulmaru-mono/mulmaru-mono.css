@@ -1,0 +1,8 @@
+/* 물마루 Mono — https://maker-ssam.github.io/korean-ofl-fonts/fonts/mulmaru-mono/mulmaru-mono.css */
+@font-face {
+  font-family: '물마루 Mono';
+  src: url('MulmaruMono.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

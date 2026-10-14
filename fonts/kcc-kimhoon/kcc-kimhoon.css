@@ -1,0 +1,8 @@
+/* KCC-Kimhoon — https://maker-ssam.github.io/korean-ofl-fonts/fonts/kcc-kimhoon/kcc-kimhoon.css */
+@font-face {
+  font-family: 'KCC-Kimhoon';
+  src: url('kcc-kimhoon-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

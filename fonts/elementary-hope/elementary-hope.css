@@ -1,0 +1,8 @@
+/* 초딩희망 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/elementary-hope/elementary-hope.css */
+@font-face {
+  font-family: '초딩희망';
+  src: url('Choding_hope.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

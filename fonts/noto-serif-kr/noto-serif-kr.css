@@ -1,0 +1,56 @@
+/* Noto Serif KR — https://maker-ssam.github.io/korean-ofl-fonts/fonts/noto-serif-kr/noto-serif-kr.css */
+@font-face {
+  font-family: 'Noto Serif KR';
+  src: url('NotoSerifKR-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Serif KR';
+  src: url('NotoSerifKR-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Serif KR';
+  src: url('NotoSerifKR-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Serif KR Light';
+  src: url('NotoSerifKR-Light.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Serif KR';
+  src: url('NotoSerifKR-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Serif KR';
+  src: url('NotoSerifKR-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Serif KR';
+  src: url('NotoSerifKR-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

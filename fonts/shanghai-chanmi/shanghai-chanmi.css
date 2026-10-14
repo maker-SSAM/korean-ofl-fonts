@@ -1,0 +1,8 @@
+/* 상해찬미체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/shanghai-chanmi/shanghai-chanmi.css */
+@font-face {
+  font-family: '상해찬미체';
+  src: url('Sanghea_chanmi.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

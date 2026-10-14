@@ -1,0 +1,8 @@
+/* 윈도한글 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/windows-korean/windows-korean.css */
+@font-face {
+  font-family: '윈도한글';
+  src: url('WinKor.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

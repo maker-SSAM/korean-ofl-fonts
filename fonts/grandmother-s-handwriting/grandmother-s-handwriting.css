@@ -1,0 +1,8 @@
+/* 외할머니글씨 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/grandmother-s-handwriting/grandmother-s-handwriting.css */
+@font-face {
+  font-family: '외할머니글씨';
+  src: url('Grandma_wring.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

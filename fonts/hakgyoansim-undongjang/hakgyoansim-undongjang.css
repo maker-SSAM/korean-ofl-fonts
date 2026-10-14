@@ -1,0 +1,8 @@
+/* Hakgyoansim Undongjang — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-undongjang/hakgyoansim-undongjang.css */
+@font-face {
+  font-family: 'Hakgyoansim Undongjang';
+  src: url('HakgyoansimUndongjangL.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

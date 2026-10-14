@@ -1,0 +1,8 @@
+/* 고운돋움 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/gowoon-dodum/gowoon-dodum.css */
+@font-face {
+  font-family: '고운돋움';
+  src: url('GowunDodum-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

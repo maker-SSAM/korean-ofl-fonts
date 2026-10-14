@@ -1,0 +1,8 @@
+/* 따뜻한 작별 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/warm-farewell/warm-farewell.css */
+@font-face {
+  font-family: '따뜻한 작별';
+  src: url('Warm_farewell.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

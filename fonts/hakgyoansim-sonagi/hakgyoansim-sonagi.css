@@ -1,0 +1,8 @@
+/* Hakgyoansim Sonagi — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-sonagi/hakgyoansim-sonagi.css */
+@font-face {
+  font-family: 'Hakgyoansim Sonagi';
+  src: url('HakgyoansimSonagiR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

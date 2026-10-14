@@ -1,0 +1,8 @@
+/* 갈무리7 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/galmuri7/galmuri7.css */
+@font-face {
+  font-family: '갈무리7';
+  src: url('Galmuri7.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

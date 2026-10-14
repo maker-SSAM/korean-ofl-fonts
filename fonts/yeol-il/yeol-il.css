@@ -1,0 +1,8 @@
+/* 열일체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/yeol-il/yeol-il.css */
+@font-face {
+  font-family: '열일체';
+  src: url('Hardworking.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

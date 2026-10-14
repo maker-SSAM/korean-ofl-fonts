@@ -1,0 +1,8 @@
+/* BM kkubulim TTF — https://maker-ssam.github.io/korean-ofl-fonts/fonts/bm-kkubulim/bm-kkubulim.css */
+@font-face {
+  font-family: 'BM kkubulim TTF';
+  src: url('BMKkubulimTTF.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

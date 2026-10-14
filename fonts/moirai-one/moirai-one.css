@@ -1,0 +1,8 @@
+/* Moirai One — https://maker-ssam.github.io/korean-ofl-fonts/fonts/moirai-one/moirai-one.css */
+@font-face {
+  font-family: 'Moirai One';
+  src: url('MoiraiOne-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

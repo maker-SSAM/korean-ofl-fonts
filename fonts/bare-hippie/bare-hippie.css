@@ -1,0 +1,8 @@
+/* 바른히피 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/bare-hippie/bare-hippie.css */
+@font-face {
+  font-family: '바른히피';
+  src: url('Bareun_hipi.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

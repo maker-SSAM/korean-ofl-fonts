@@ -1,0 +1,8 @@
+/* Gasoek One — https://maker-ssam.github.io/korean-ofl-fonts/fonts/gasoek-one/gasoek-one.css */
+@font-face {
+  font-family: 'Gasoek One';
+  src: url('GasoekOne-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

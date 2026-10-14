@@ -1,0 +1,24 @@
+/* Kim jung chul Script — https://maker-ssam.github.io/korean-ofl-fonts/fonts/kim-jung-chul-script/kim-jung-chul-script.css */
+@font-face {
+  font-family: 'Kim jung chul Script';
+  src: url('KimjungchulScript-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kim jung chul Script';
+  src: url('KimjungchulScript-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kim jung chul Script';
+  src: url('KimjungchulScript-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

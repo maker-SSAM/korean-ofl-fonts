@@ -1,0 +1,8 @@
+/* 와일드 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/wild/wild.css */
+@font-face {
+  font-family: '와일드';
+  src: url('Wild.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

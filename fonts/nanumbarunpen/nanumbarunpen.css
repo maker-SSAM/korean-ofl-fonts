@@ -1,0 +1,16 @@
+/* NanumBarunpen — https://maker-ssam.github.io/korean-ofl-fonts/fonts/nanumbarunpen/nanumbarunpen.css */
+@font-face {
+  font-family: 'NanumBarunpen';
+  src: url('NanumBarunpenB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NanumBarunpen';
+  src: url('NanumBarunpenR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

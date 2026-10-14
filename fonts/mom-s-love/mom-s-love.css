@@ -1,0 +1,8 @@
+/* 엄마사랑 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/mom-s-love/mom-s-love.css */
+@font-face {
+  font-family: '엄마사랑';
+  src: url('Love_mom.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

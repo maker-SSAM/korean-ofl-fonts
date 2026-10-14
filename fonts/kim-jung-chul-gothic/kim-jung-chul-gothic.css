@@ -1,0 +1,24 @@
+/* Kim jung chul Gothic — https://maker-ssam.github.io/korean-ofl-fonts/fonts/kim-jung-chul-gothic/kim-jung-chul-gothic.css */
+@font-face {
+  font-family: 'Kim jung chul Gothic';
+  src: url('KimjungchulGothic-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kim jung chul Gothic';
+  src: url('KimjungchulGothic-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kim jung chul Gothic';
+  src: url('KimjungchulGothic-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

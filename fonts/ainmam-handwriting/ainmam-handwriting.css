@@ -1,0 +1,8 @@
+/* 아인맘 손글씨 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/ainmam-handwriting/ainmam-handwriting.css */
+@font-face {
+  font-family: '아인맘 손글씨';
+  src: url('Ainmom.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,24 @@
+/* NanumGothic Eco — https://maker-ssam.github.io/korean-ofl-fonts/fonts/nanumgothic-eco/nanumgothic-eco.css */
+@font-face {
+  font-family: 'NanumGothic Eco';
+  src: url('NanumGothicEco.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NanumGothic Eco';
+  src: url('NanumGothicEcoBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NanumGothic Eco';
+  src: url('NanumGothicEcoExtraBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

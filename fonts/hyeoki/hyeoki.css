@@ -1,0 +1,8 @@
+/* 혁이체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hyeoki/hyeoki.css */
+@font-face {
+  font-family: '혁이체';
+  src: url('Hyukee.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

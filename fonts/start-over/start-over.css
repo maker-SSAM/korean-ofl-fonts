@@ -1,0 +1,8 @@
+/* 다시 시작해 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/start-over/start-over.css */
+@font-face {
+  font-family: '다시 시작해';
+  src: url('Restart.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

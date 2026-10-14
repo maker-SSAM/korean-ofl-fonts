@@ -1,0 +1,8 @@
+/* 마고체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/mago/mago.css */
+@font-face {
+  font-family: '마고체';
+  src: url('Mago.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

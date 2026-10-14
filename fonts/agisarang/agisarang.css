@@ -1,0 +1,8 @@
+/* 아기사랑체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/agisarang/agisarang.css */
+@font-face {
+  font-family: '아기사랑체';
+  src: url('Baby_love.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

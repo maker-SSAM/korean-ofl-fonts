@@ -1,0 +1,8 @@
+/* 강인한 위로 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/strong-comfort/strong-comfort.css */
+@font-face {
+  font-family: '강인한 위로';
+  src: url('Kanginhan.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,8 @@
+/* Hakgyoansim Rikodeo — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-rikodeo/hakgyoansim-rikodeo.css */
+@font-face {
+  font-family: 'Hakgyoansim Rikodeo';
+  src: url('HakgyoansimRikodeoR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

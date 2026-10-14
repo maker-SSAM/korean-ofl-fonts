@@ -1,0 +1,16 @@
+/* Hakgyoansim Allimjang TTF — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-allimjang/hakgyoansim-allimjang.css */
+@font-face {
+  font-family: 'Hakgyoansim Allimjang TTF';
+  src: url('Hakgyoansim-Allimjang-TTF-B.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Allimjang TTF';
+  src: url('Hakgyoansim-Allimjang-TTF-R.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

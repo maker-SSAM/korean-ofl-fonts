@@ -1,0 +1,8 @@
+/* 예쁜 민경체 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/pretty-minkyung/pretty-minkyung.css */
+@font-face {
+  font-family: '예쁜 민경체';
+  src: url('Mingyung.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

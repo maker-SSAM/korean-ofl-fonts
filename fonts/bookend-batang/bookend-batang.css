@@ -1,0 +1,16 @@
+/* Bookend Batang — https://maker-ssam.github.io/korean-ofl-fonts/fonts/bookend-batang/bookend-batang.css */
+@font-face {
+  font-family: 'Bookend Batang';
+  src: url('bookend-batang-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bookend Batang';
+  src: url('bookend-batang-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

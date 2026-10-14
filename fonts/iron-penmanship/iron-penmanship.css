@@ -1,0 +1,8 @@
+/* 철필글씨 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/iron-penmanship/iron-penmanship.css */
+@font-face {
+  font-family: '철필글씨';
+  src: url('Chulpil_writing.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

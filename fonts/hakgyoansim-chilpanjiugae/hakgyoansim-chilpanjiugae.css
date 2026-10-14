@@ -1,0 +1,16 @@
+/* Hakgyoansim Chilpanjiugae TTF — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-chilpanjiugae/hakgyoansim-chilpanjiugae.css */
+@font-face {
+  font-family: 'Hakgyoansim Chilpanjiugae TTF';
+  src: url('Hakgyoansim-Chilpanjiugae-TTF-B.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Chilpanjiugae TTF';
+  src: url('Hakgyoansim-Chilpanjiugae-TTF-L.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

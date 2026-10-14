@@ -1,0 +1,8 @@
+/* 770Balsa — https://maker-ssam.github.io/korean-ofl-fonts/fonts/770balsa/770balsa.css */
+@font-face {
+  font-family: '770Balsa';
+  src: url('770Balsa-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

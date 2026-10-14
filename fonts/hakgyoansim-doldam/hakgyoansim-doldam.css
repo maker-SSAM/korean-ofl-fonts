@@ -1,0 +1,24 @@
+/* Hakgyoansim Doldam — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-doldam/hakgyoansim-doldam.css */
+@font-face {
+  font-family: 'Hakgyoansim Doldam';
+  src: url('HakgyoansimDoldamB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Doldam';
+  src: url('HakgyoansimDoldamL.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Doldam';
+  src: url('HakgyoansimDoldamM.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,8 @@
+/* 고려글꼴 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/goryeo-font/goryeo-font.css */
+@font-face {
+  font-family: '고려글꼴';
+  src: url('Koreageulggol.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

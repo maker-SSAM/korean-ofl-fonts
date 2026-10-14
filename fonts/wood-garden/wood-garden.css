@@ -1,0 +1,8 @@
+/* 나무정원 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/wood-garden/wood-garden.css */
+@font-face {
+  font-family: '나무정원';
+  src: url('Treegarden.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

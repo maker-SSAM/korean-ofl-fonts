@@ -1,0 +1,8 @@
+/* 고서구 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/goseogu-regular/goseogu-regular.css */
+@font-face {
+  font-family: '고서구';
+  src: url('Goseogu-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,8 @@
+/* Hakgyoansim Gureum — https://maker-ssam.github.io/korean-ofl-fonts/fonts/hakgyoansim-gureum/hakgyoansim-gureum.css */
+@font-face {
+  font-family: 'Hakgyoansim Gureum';
+  src: url('HakgyoansimGureumR.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

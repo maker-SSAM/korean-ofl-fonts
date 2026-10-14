@@ -1,0 +1,8 @@
+/* 아빠글씨 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/appa-gilssi/appa-gilssi.css */
+@font-face {
+  font-family: '아빠글씨';
+  src: url('Father_handwriting.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

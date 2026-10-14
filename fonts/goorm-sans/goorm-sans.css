@@ -1,0 +1,24 @@
+/* goorm Sans — https://maker-ssam.github.io/korean-ofl-fonts/fonts/goorm-sans/goorm-sans.css */
+@font-face {
+  font-family: 'goorm Sans';
+  src: url('goorm-sans-bold.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'goorm Sans medium';
+  src: url('goorm-sans-medium.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'goorm Sans regular';
+  src: url('goorm-sans-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,8 @@
+/* Mona8x12 — https://maker-ssam.github.io/korean-ofl-fonts/fonts/mona8x12/mona8x12.css */
+@font-face {
+  font-family: 'Mona8x12';
+  src: url('Mona8x12.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

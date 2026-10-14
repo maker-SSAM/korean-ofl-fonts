@@ -1,0 +1,8 @@
+/* SLEI Gothic TTF — https://maker-ssam.github.io/korean-ofl-fonts/fonts/slei-gothic/slei-gothic.css */
+@font-face {
+  font-family: 'SLEI Gothic TTF';
+  src: url('SLEIGothicTTF.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

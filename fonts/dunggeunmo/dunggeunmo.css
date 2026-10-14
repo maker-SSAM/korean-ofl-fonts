@@ -1,0 +1,8 @@
+/* DungGeunMo — https://maker-ssam.github.io/korean-ofl-fonts/fonts/dunggeunmo/dunggeunmo.css */
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('DungGeunMo.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
