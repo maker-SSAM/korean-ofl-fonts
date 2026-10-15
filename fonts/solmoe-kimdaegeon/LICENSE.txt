@@ -1,0 +1,12 @@
+Solmoe KimDaeGeon (솔뫼 김대건OTF)
+========================================
+라이선스 근거: 솔뫼 김대건체 자체 규정: 자유롭게 수정·변경해 영리·비영리 사용 가능, 폰트 파일 유상 판매 금지. 무료 재배포 문구는 없음(공식 사이트 인증서 만료로 원문은 다시 확인 못 함). 파일은 이 PC에 설치된 OTF
+공식 배포처: http://www.kimdaegeon.com/design/node/?menu=n050500
+예외: 선생님 판단(2026-10-15): 재배포 문구는 없지만 개성이 있고 꼭 필요해서 예외로 포함. SIL Open Font License가 아니므로 위 제작사 규정을 따르세요.
+받은 곳: https://maker-ssam.github.io/korean-ofl-fonts/ (korean-ofl-fonts)
+
+[폰트 파일 안 저작권 문구]
+COPYRIGHT (C) SUMMITDESIGN ALL RIGHT RESERVED.
+
+[제작사 라이선스 안내]
+솔뫼 김대건 글꼴은 자유롭게 수정·변경하여 영리적·비영리적 목적으로 개인 및 기업 사용자가 모두 사용하실 수 있으나, 다만, 글꼴 폰트 파일(otf/ttf)자체를 유상으로 판매하는 것은 금지하고 있으니 유의 부탁드립니다.

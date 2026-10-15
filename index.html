@@ -37,7 +37,7 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
 <body>
 <header>
   <h1>한글 OFL 폰트 창고</h1>
-  <p class="lead">누구나 자유롭게 쓰고 다시 나눌 수 있는 한글 폰트 <b id="total">…</b>종. 폰트마다 재배포 근거를 확인했습니다.
+  <p class="lead">누구나 자유롭게 쓰고 다시 나눌 수 있는 한글 폰트 <b id="total">…</b>종. 폰트마다 재배포 근거를 확인했습니다(<b>예외</b> 표시가 붙은 2종은 재배포 문구가 없어 운영자 판단으로 넣은 것 — 라이선스를 꼭 보세요).
     웹폰트 CSS · 설치용 zip · 라이선스를 바로 쓸 수 있고, 목록은 <a href="fonts.json">fonts.json</a>에 있습니다. 사용법은 <a id="repo" href="https://github.com/maker-SSAM/korean-ofl-fonts">저장소 안내</a>.</p>
   <div class="bar">
     <input id="q" type="search" placeholder="폰트 이름 찾기 (한글·영문)" aria-label="폰트 이름 찾기">
@@ -72,6 +72,7 @@ function card(f) {
   const c = E('article', 'card'), top = E('div', 'top'), l = E('div');
   l.append(E('div', 'nm', f.name_ko || f.name), E('div', 'en', [f.name, f.facts.weights > 1 ? `굵기 ${f.facts.weights}` : '', f.facts.variable ? '가변' : ''].filter(Boolean).join(' · ')));
   top.append(l, E('span', 'grp', f.group || ''));
+  if (f.license.exception) { const x = E('span', 'grp', '예외'); x.title = f.license.exception; l.append(x); }  // 2개 폰트는 예외처리(fonts.json license.exception)
   const pv = E('div', 'pv', SAMPLE); pv._f = f; io.observe(pv);
   const links = E('div', 'links');
   const css = E('button', '', 'CSS 주소 복사'); css.onclick = () => navigator.clipboard?.writeText(D.base + f.css).then(() => { css.textContent = '복사했어요'; setTimeout(() => css.textContent = 'CSS 주소 복사', 1500); });

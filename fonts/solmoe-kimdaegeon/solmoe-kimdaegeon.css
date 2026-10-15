@@ -1,0 +1,16 @@
+/* Solmoe KimDaeGeon — https://maker-ssam.github.io/korean-ofl-fonts/fonts/solmoe-kimdaegeon/solmoe-kimdaegeon.css */
+@font-face {
+  font-family: 'Solmoe KimDaeGeon';
+  src: url('solmoe-kimdaegeon-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Solmoe KimDaeGeon Medium';
+  src: url('solmoe-kimdaegeon-400-2.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

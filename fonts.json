@@ -2,7 +2,7 @@
  "name": "korean-ofl-fonts",
  "version": "1.0.0",
  "updated": "2026-10-15",
- "count": 341,
+ "count": 343,
  "base": "https://maker-ssam.github.io/korean-ofl-fonts/",
  "release": "https://github.com/maker-SSAM/korean-ofl-fonts/releases/download/v1.0.0/",
  "repo": "https://github.com/maker-SSAM/korean-ofl-fonts",
@@ -4603,6 +4603,68 @@
      "WantedSans-Regular.ttf",
      "WantedSans-SemiBold.ttf",
      "WantedSansVariable.ttf"
+    ]
+   }
+  },
+  {
+   "id": "ghanachocolate",
+   "name": "Ghanachocolate",
+   "name_ko": "가나초콜릿",
+   "name_en": "Ghanachocolate",
+   "group": "디지털",
+   "tags": {
+    "쓰임": "제목용",
+    "굵기": "굵다",
+    "바탕 계열": "명조 계열",
+    "글자틀": "네모",
+    "장식 방식": "고대비",
+    "모서리": "각진",
+    "시대감": "레트로",
+    "격식": "보통"
+   },
+   "facts": {
+    "hangul": 11172,
+    "hangul_level": "전체",
+    "latin": true,
+    "weights": 1,
+    "variable": false,
+    "italic": false,
+    "weight_range": [
+     "아주 굵다",
+     "아주 굵다"
+    ],
+    "size_feel": "크게 보임",
+    "install": "TTF"
+   },
+   "license": {
+    "basis": "롯데웰푸드(구 롯데제과) 자체 규정: 누구나 무료 사용, 폰트 자체의 유료 양도·판매 금지. 무료 재배포·수정에 대한 문구는 없음",
+    "official": "https://www.lottewellfood.com/prcenter/gana",
+    "noonnu": "https://noonnu.cc/font_page/408",
+    "source": "KERIS",
+    "rfn": false,
+    "no_modify": false,
+    "file": "fonts/ghanachocolate/LICENSE.txt",
+    "exception": "선생님 판단(2026-10-15): 재배포 문구는 없지만 개성이 있고 꼭 필요해서 예외로 포함"
+   },
+   "css": "fonts/ghanachocolate/ghanachocolate.css",
+   "preview": "preview/ghanachocolate.woff2",
+   "files": [
+    {
+     "file": "fonts/ghanachocolate/Ghanachocolate.woff2",
+     "format": "woff2",
+     "weight": 400,
+     "style": "normal",
+     "variable": false,
+     "bytes": 283180,
+     "source": "Ghanachocolate",
+     "family": "Ghanachocolate"
+    }
+   ],
+   "download": {
+    "file": "ghanachocolate.zip",
+    "bytes": 485597,
+    "install_files": [
+     "Ghanachocolate.ttf"
     ]
    }
   },
@@ -16187,6 +16249,80 @@
     "bytes": 3765431,
     "install_files": [
      "SeguSegu-Regular.ttf"
+    ]
+   }
+  },
+  {
+   "id": "solmoe-kimdaegeon",
+   "name": "Solmoe KimDaeGeon",
+   "name_ko": "솔뫼 김대건OTF",
+   "name_en": "Solmoe KimDaeGeon",
+   "group": "손글씨",
+   "tags": {
+    "쓰임": "범용",
+    "굵기": "중간",
+    "바탕 계열": "명조 계열",
+    "글자틀": "네모",
+    "글씨 인상": "흘림",
+    "도구": "붓",
+    "아이 느낌": "해당없음",
+    "시대감": "고전",
+    "격식": "격식"
+   },
+   "facts": {
+    "hangul": 11172,
+    "hangul_level": "전체",
+    "latin": true,
+    "weights": 1,
+    "variable": false,
+    "italic": false,
+    "weight_range": [
+     "중간",
+     "중간"
+    ],
+    "size_feel": "크게 보임",
+    "install": "OTF"
+   },
+   "license": {
+    "basis": "솔뫼 김대건체 자체 규정: 자유롭게 수정·변경해 영리·비영리 사용 가능, 폰트 파일 유상 판매 금지. 무료 재배포 문구는 없음(공식 사이트 인증서 만료로 원문은 다시 확인 못 함). 파일은 이 PC에 설치된 OTF",
+    "official": "http://www.kimdaegeon.com/design/node/?menu=n050500",
+    "noonnu": "https://noonnu.cc/font_page/506",
+    "source": "설치본",
+    "rfn": false,
+    "no_modify": false,
+    "file": "fonts/solmoe-kimdaegeon/LICENSE.txt",
+    "exception": "선생님 판단(2026-10-15): 재배포 문구는 없지만 개성이 있고 꼭 필요해서 예외로 포함"
+   },
+   "css": "fonts/solmoe-kimdaegeon/solmoe-kimdaegeon.css",
+   "preview": "preview/solmoe-kimdaegeon.woff2",
+   "files": [
+    {
+     "file": "fonts/solmoe-kimdaegeon/solmoe-kimdaegeon-400.woff2",
+     "format": "woff2",
+     "weight": 400,
+     "style": "normal",
+     "variable": false,
+     "bytes": 254192,
+     "source": "솔뫼 김대건OTF Light",
+     "family": "Solmoe KimDaeGeon"
+    },
+    {
+     "file": "fonts/solmoe-kimdaegeon/solmoe-kimdaegeon-400-2.woff2",
+     "format": "woff2",
+     "weight": 400,
+     "style": "normal",
+     "variable": false,
+     "bytes": 254072,
+     "source": "솔뫼 김대건OTF Medium",
+     "family": "Solmoe KimDaeGeon Medium"
+    }
+   ],
+   "download": {
+    "file": "solmoe-kimdaegeon.zip",
+    "bytes": 808224,
+    "install_files": [
+     "솔뫼 김대건OTF Light.otf",
+     "솔뫼 김대건OTF Medium.otf"
     ]
    }
   },
