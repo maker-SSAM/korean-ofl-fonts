@@ -31,6 +31,21 @@ input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9
 .pv.ok { opacity: 1; }
 .links { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 13px; }
 .links a, .links button { color: var(--accent); background: none; border: 0; padding: 0; font: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.card.sel { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.pick { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; cursor: pointer; }
+.pick input { width: 17px; height: 17px; accent-color: var(--accent); }
+.btn { border: 0; background: var(--accent); color: var(--bg); border-radius: 8px; padding: 7px 14px; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; text-decoration: none; }
+.btn.ghost { background: var(--chip); color: var(--ink); border: 1px solid var(--line); }
+.links .btn { color: var(--bg); text-decoration: none; }
+details.adv { margin-bottom: 14px; }
+details.adv summary { cursor: pointer; color: var(--accent); font-size: 13px; }
+.sels { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.sels label { font-size: 12px; color: var(--sub); display: flex; flex-direction: column; gap: 2px; }
+.sels select { padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--ink); font: inherit; font-size: 13px; }
+#tray { position: sticky; bottom: 0; z-index: 5; background: var(--card); border-top: 1px solid var(--line); box-shadow: 0 -4px 16px rgba(0,0,0,.08); padding: 10px 16px; }
+#tray .in { max-width: 1120px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
+#tray .msg { flex: 1 1 200px; font-size: 13px; }
+#tray small { color: var(--sub); display: block; }
 footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px 32px; }
 </style>
 </head>
@@ -44,18 +59,38 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
     <input id="sample" type="text" placeholder="미리보기 문장 바꾸기 (글자를 모두 불러오므로 조금 느려요)" aria-label="미리보기 문장">
   </div>
   <div class="chips" id="groups"></div>
+  <details class="adv"><summary>세부 조건으로 좁히기 (쓰임·굵기·모서리 …)</summary><div class="sels" id="sels"></div></details>
 </header>
 <main>
   <p class="count" id="count"></p>
   <div class="grid" id="grid"></div>
 </main>
+<div id="tray" hidden><div class="in">
+  <div class="msg"><b id="tn">0</b>종 선택 · 약 <span id="tsz"></span><small>내려받기를 누르면 파일이 차례로 저장됩니다. 브라우저가 "여러 파일 다운로드 허용?"을 물으면 허용해 주세요. 받은 zip을 풀고 폰트 파일(ttf/otf)을 더블클릭 → 설치.</small></div>
+  <button class="btn" id="tdl">선택한 폰트 내려받기</button>
+  <button class="btn ghost" id="tcss">웹폰트 CSS 복사</button>
+  <button class="btn ghost" id="tclr">선택 해제</button>
+</div></div>
 <footer>폰트 파일은 각 폰트의 라이선스를 따릅니다(대부분 SIL OFL 1.1, 폰트 자체 판매 금지). 네이버 나눔 계열은 출처 표기를 권장합니다. 분류 정보(fonts.json)는 CC BY 4.0입니다.</footer>
 <script>
 'use strict';
 const $ = s => document.querySelector(s);
 const E = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
 const SAMPLE = '다람쥐 헌 쳇바퀴에 타고파';
-let D, groups = new Set(), full = new Set();
+let D, groups = new Set(), full = new Set(), chosen = new Set(), tagSel = {};
+const mb = b => b >= 1e6 ? (b / 1e6).toFixed(1) + 'MB' : Math.max(1, Math.round(b / 1e3)) + 'KB';
+const byId = id => D.fonts.find(f => f.id === id);
+function tray() {
+  const fs = [...chosen].map(byId); $('#tray').hidden = !fs.length;
+  $('#tn').textContent = fs.length; $('#tsz').textContent = mb(fs.reduce((a, f) => a + f.download.bytes, 0));
+}
+$('#tdl').onclick = async () => {
+  const b = $('#tdl'); b.disabled = true;
+  for (const f of [...chosen].map(byId)) { const a = document.createElement('a'); a.href = D.release + f.download.file; a.download = f.download.file; document.body.append(a); a.click(); a.remove(); await new Promise(r => setTimeout(r, 900)); }
+  b.disabled = false;
+};
+$('#tcss').onclick = () => { const t = [...chosen].map(id => `<link rel="stylesheet" href="${D.base + byId(id).css}">`).join('\n'); navigator.clipboard?.writeText(t).then(() => { $('#tcss').textContent = '복사했어요'; setTimeout(() => $('#tcss').textContent = '웹폰트 CSS 복사', 1500); }); };
+$('#tclr').onclick = () => { chosen.clear(); for (const c of $('#grid').children) { c.classList.remove('sel'); c.querySelector('.pick input').checked = false; } tray(); };
 const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { io.unobserve(e.target); load(e.target); } }), { rootMargin: '400px' });
 function load(pv) {  // 화면에 가까워진 카드만 미리보기 파일을 불러온다
   const f = pv._f, fam = 'kofp-' + f.id;
@@ -71,23 +106,26 @@ function useFull(f, pv) {  // 직접 입력한 문장은 웹폰트 전체(대표
 function card(f) {
   const c = E('article', 'card'), top = E('div', 'top'), l = E('div');
   l.append(E('div', 'nm', f.name_ko || f.name), E('div', 'en', [f.name, f.facts.weights > 1 ? `굵기 ${f.facts.weights}` : '', f.facts.variable ? '가변' : ''].filter(Boolean).join(' · ')));
+  const pk = E('label', 'pick'), cb = E('input'); cb.type = 'checkbox'; cb.checked = chosen.has(f.id);
+  cb.onchange = () => { cb.checked ? chosen.add(f.id) : chosen.delete(f.id); c.classList.toggle('sel', cb.checked); tray(); };
+  pk.append(cb, '담기');
   top.append(l, E('span', 'grp', f.group || ''));
   if (f.license.exception) { const x = E('span', 'grp', '예외'); x.title = f.license.exception; l.append(x); }  // 2개 폰트는 예외처리(fonts.json license.exception)
   const pv = E('div', 'pv', SAMPLE); pv._f = f; io.observe(pv);
   const links = E('div', 'links');
   const css = E('button', '', 'CSS 주소 복사'); css.onclick = () => navigator.clipboard?.writeText(D.base + f.css).then(() => { css.textContent = '복사했어요'; setTimeout(() => css.textContent = 'CSS 주소 복사', 1500); });
-  const dl = E('a', '', '설치용 내려받기'); dl.href = D.release + f.download.file;
+  const dl = E('a', 'btn', `내려받기 ${mb(f.download.bytes)}`); dl.href = D.release + f.download.file;
   const lic = E('a', '', '라이선스'); lic.href = f.license.file;
   const of = E('a', '', '공식 배포처'); if (f.license.official) { of.href = f.license.official; of.rel = 'noopener'; of.target = '_blank'; }
-  links.append(css, dl, lic); if (f.license.official) links.append(of);
-  c.append(top, pv, links); c._f = f; c._pv = pv; return c;
+  links.append(dl, pk, css, lic); if (f.license.official) links.append(of);
+  c.classList.toggle('sel', chosen.has(f.id)); c.append(top, pv, links); c._f = f; c._pv = pv; return c;
 }
 function run() {
   const q = $('#q').value.trim().toLowerCase(), s = $('#sample').value;
   let n = 0;
   for (const c of $('#grid').children) {
     const f = c._f, hay = [f.name, f.name_ko, f.name_en, f.id].join(' ').toLowerCase();
-    const show = (!q || hay.includes(q)) && (!groups.size || groups.has(f.group));
+    const show = (!q || hay.includes(q)) && (!groups.size || groups.has(f.group)) && Object.entries(tagSel).every(([k, v]) => f.tags[k] === v);
     c.hidden = !show; if (!show) continue; n++;
     if (s) { c._pv.textContent = s; useFull(f, c._pv); } else if (c._pv.textContent !== SAMPLE) { c._pv.textContent = SAMPLE; c._pv.style.fontFamily = c._pv.classList.contains('ok') ? `'kofp-${f.id}', sans-serif` : ''; }
   }
@@ -99,6 +137,13 @@ fetch('fonts.json').then(r => r.json()).then(d => {
     const k = d.fonts.filter(f => f.group === g).length; if (!k) continue;
     const b = E('button', 'chip', `${g} ${k}`); b.onclick = () => { groups.has(g) ? groups.delete(g) : groups.add(g); b.classList.toggle('on'); run(); };
     $('#groups').append(b);
+  }
+  for (const [k, t] of Object.entries(d.tags)) {
+    if (!d.fonts.some(f => f.tags[k])) continue;
+    const lb = E('label', '', t.label || k), sl = E('select'); sl.title = t.help || '';
+    sl.append(new Option('전체', ''), ...t.values.map(v => new Option(v, v)));
+    sl.onchange = () => { sl.value ? tagSel[k] = sl.value : delete tagSel[k]; run(); };
+    lb.append(sl); $('#sels').append(lb);
   }
   $('#grid').append(...d.fonts.map(card)); run();
 });
