@@ -46,6 +46,11 @@ details.adv summary { cursor: pointer; color: var(--accent); font-size: 13px; }
 #tray .in { max-width: 1120px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
 #tray .msg { flex: 1 1 200px; font-size: 13px; }
 #tray small { color: var(--sub); display: block; }
+.pickbadge { font-size: 11px; background: var(--accent); color: var(--bg); border-radius: 4px; padding: 0 6px; margin-left: 6px; vertical-align: 1px; }
+.lbl { font-size: 12px; color: var(--sub); margin: 0 0 6px; }
+.guide { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 4px 16px; margin-bottom: 14px; font-size: 14px; }
+.guide summary { cursor: pointer; padding: 8px 0; font-weight: 600; }
+.guide ol { margin: 4px 0 12px; padding-left: 20px; } .guide h4 { margin: 10px 0 2px; font-size: 13px; color: var(--accent); }
 footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px 32px; }
 </style>
 </head>
@@ -58,38 +63,71 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
     <input id="q" type="search" placeholder="폰트 이름 찾기 (한글·영문)" aria-label="폰트 이름 찾기">
     <input id="sample" type="text" placeholder="미리보기 문장 바꾸기 (글자를 모두 불러오므로 조금 느려요)" aria-label="미리보기 문장">
   </div>
+  <p class="lbl">어떤 글씨를 찾으세요? (바로 골라 보기)</p>
+  <div class="chips" id="presets"></div>
+  <p class="lbl">갈래로 좁히기</p>
   <div class="chips" id="groups"></div>
   <details class="adv"><summary>세부 조건으로 좁히기 (쓰임·굵기·모서리 …)</summary><div class="sels" id="sels"></div></details>
 </header>
 <main>
-  <p class="count" id="count"></p>
+  <details class="guide"><summary>받은 폰트 설치하는 방법</summary>
+    <h4>윈도우</h4><ol><li>받은 zip을 오른쪽 클릭 → <b>모두 압축 풀기</b></li><li>폴더 안의 폰트 파일(.ttf/.otf)을 모두 선택 → 오른쪽 클릭 → <b>설치</b> (모든 사용자용은 "모든 사용자용으로 설치")</li><li>한글·PPT·워드를 껐다가 다시 켜면 폰트 목록에 나타납니다.</li></ol>
+    <h4>맥</h4><ol><li>zip을 더블클릭해 압축을 풉니다.</li><li>폰트 파일(.ttf/.otf)을 더블클릭 → <b>서체 설치</b> 버튼.</li><li>프로그램을 다시 켜면 목록에 나타납니다.</li></ol>
+    <h4>웹페이지·슬라이드(HTML)에 쓸 때</h4><ol><li>카드의 <b>CSS 주소 복사</b>를 누르고, 페이지의 <code>&lt;link rel="stylesheet" href="…"&gt;</code>에 붙여 넣습니다.</li><li>CSS 안의 font-family 이름으로 글꼴을 지정합니다.</li></ol>
+    <h4>꼭 알아둘 것</h4><ol><li>폰트 파일을 그대로 파는 것은 안 됩니다. 수업자료·문서·인쇄물·영상에 쓰는 것은 괜찮습니다.</li><li>나눔 계열 등은 출처 표기를 권장하며, <b>예외</b> 표시 폰트는 카드의 라이선스를 꼭 읽어 주세요.</li></ol>
+  </details>
+  <p class="count"><span id="count"></span> <button class="chip" id="addall">지금 보이는 폰트 모두 담기</button></p>
   <div class="grid" id="grid"></div>
 </main>
 <div id="tray" hidden><div class="in">
-  <div class="msg"><b id="tn">0</b>종 선택 · 약 <span id="tsz"></span><small>내려받기를 누르면 파일이 차례로 저장됩니다. 브라우저가 "여러 파일 다운로드 허용?"을 물으면 허용해 주세요. 받은 zip을 풀고 폰트 파일(ttf/otf)을 더블클릭 → 설치.</small></div>
-  <button class="btn" id="tdl">선택한 폰트 내려받기</button>
+  <div class="msg"><b id="tn">0</b>종 선택 · 약 <span id="tsz"></span><small id="tst">zip 하나로 묶어 저장합니다(폰트마다 폴더, 100종쯤이면 2~3분 걸려요). 풀고 폰트 파일(ttf/otf)을 더블클릭 → 설치.</small></div>
+  <button class="btn" id="tdl">선택한 폰트 zip 하나로 받기</button>
+  <button class="btn ghost" id="tsep">따로따로 받기</button>
   <button class="btn ghost" id="tcss">웹폰트 CSS 복사</button>
   <button class="btn ghost" id="tclr">선택 해제</button>
 </div></div>
 <footer>폰트 파일은 각 폰트의 라이선스를 따릅니다(대부분 SIL OFL 1.1, 폰트 자체 판매 금지). 네이버 나눔 계열은 출처 표기를 권장합니다. 분류 정보(fonts.json)는 CC BY 4.0입니다.</footer>
+<script src="https://cdn.jsdelivr.net/npm/fflate@0.8.2/umd/index.js"></script>
 <script>
 'use strict';
 const $ = s => document.querySelector(s);
 const E = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
+const PROXY = 'https://kofonts.erebus921.workers.dev/';   // 중계 서버(worker/proxy.js) — GitHub Releases zip을 브라우저가 읽을 수 있게 해 줌
 const SAMPLE = '다람쥐 헌 쳇바퀴에 타고파';
-let D, groups = new Set(), full = new Set(), chosen = new Set(), tagSel = {};
+let D, pickOnly = false, usage = new Set(), preset = '', groups = new Set(), full = new Set(), chosen = new Set(), tagSel = {};
 const mb = b => b >= 1e6 ? (b / 1e6).toFixed(1) + 'MB' : Math.max(1, Math.round(b / 1e3)) + 'KB';
 const byId = id => D.fonts.find(f => f.id === id);
 function tray() {
   const fs = [...chosen].map(byId); $('#tray').hidden = !fs.length;
   $('#tn').textContent = fs.length; $('#tsz').textContent = mb(fs.reduce((a, f) => a + f.download.bytes, 0));
 }
-$('#tdl').onclick = async () => {
-  const b = $('#tdl'); b.disabled = true;
+$('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받아 브라우저 안에서 zip 하나로 묶는다(폰트마다 폴더)
+  const b = $('#tdl'), st = $('#tst'), fs = [...chosen].map(byId), msg0 = st.textContent, chunks = [];
+  b.disabled = true;
+  try {
+    const z = new fflate.Zip((err, c, fin) => { if (err) throw err; chunks.push(c); });
+    const used = new Set();
+    for (let i = 0; i < fs.length; i++) {
+      const f = fs[i]; st.textContent = `${i + 1}/${fs.length} 받는 중… ${f.name_ko || f.name}`;
+      const r = await fetch(PROXY + '?f=' + f.download.file); if (!r.ok) throw new Error(f.download.file + ' ' + r.status);
+      const files = fflate.unzipSync(new Uint8Array(await r.arrayBuffer()));
+      let dir = (f.name_ko || f.name).replace(/[\\/:*?"<>|]/g, '_').trim() || f.id; while (used.has(dir)) dir += '_'; used.add(dir);
+      const inFolder = Object.keys(files).every(n => n.includes('/'));   // 받은 zip 안에 이미 폰트 폴더가 있으면 그대로 쓴다
+      for (const [n, data] of Object.entries(files)) { const e = new fflate.ZipDeflate(inFolder ? n : `${dir}/${n}`, { level: 3 }); z.add(e); e.push(data, true); }
+    }
+    z.end();
+    await new Promise(r => setTimeout(r, 50));
+    const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob(chunks, { type: 'application/zip' }));
+    a.download = `한글폰트-${fs.length}종.zip`; document.body.append(a); a.click(); a.remove();
+    st.textContent = `완료! ${fs.length}종을 zip 하나로 저장했어요.`;
+  } catch (e) { st.textContent = '묶는 데 실패했어요(' + e.message + '). "따로따로 받기"를 써 보세요.'; }
+  b.disabled = false; setTimeout(() => { st.textContent = msg0; }, 6000);
+};
+$('#tsep').onclick = async () => {  // 예비: 파일을 차례로 따로 저장
   for (const f of [...chosen].map(byId)) { const a = document.createElement('a'); a.href = D.release + f.download.file; a.download = f.download.file; document.body.append(a); a.click(); a.remove(); await new Promise(r => setTimeout(r, 900)); }
-  b.disabled = false;
 };
 $('#tcss').onclick = () => { const t = [...chosen].map(id => `<link rel="stylesheet" href="${D.base + byId(id).css}">`).join('\n'); navigator.clipboard?.writeText(t).then(() => { $('#tcss').textContent = '복사했어요'; setTimeout(() => $('#tcss').textContent = '웹폰트 CSS 복사', 1500); }); };
+$('#addall').onclick = () => { for (const c of $('#grid').children) if (!c.hidden) { chosen.add(c._f.id); c.classList.add('sel'); c.querySelector('.pick input').checked = true; } tray(); };
 $('#tclr').onclick = () => { chosen.clear(); for (const c of $('#grid').children) { c.classList.remove('sel'); c.querySelector('.pick input').checked = false; } tray(); };
 const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { io.unobserve(e.target); load(e.target); } }), { rootMargin: '400px' });
 function load(pv) {  // 화면에 가까워진 카드만 미리보기 파일을 불러온다
@@ -109,6 +147,7 @@ function card(f) {
   const pk = E('label', 'pick'), cb = E('input'); cb.type = 'checkbox'; cb.checked = chosen.has(f.id);
   cb.onchange = () => { cb.checked ? chosen.add(f.id) : chosen.delete(f.id); c.classList.toggle('sel', cb.checked); tray(); };
   pk.append(cb, '담기');
+  if (f.pick) l.firstChild.append(E('span', 'pickbadge', '추천'));
   top.append(l, E('span', 'grp', f.group || ''));
   if (f.license.exception) { const x = E('span', 'grp', '예외'); x.title = f.license.exception; l.append(x); }  // 2개 폰트는 예외처리(fonts.json license.exception)
   const pv = E('div', 'pv', SAMPLE); pv._f = f; io.observe(pv);
@@ -125,7 +164,7 @@ function run() {
   let n = 0;
   for (const c of $('#grid').children) {
     const f = c._f, hay = [f.name, f.name_ko, f.name_en, f.id].join(' ').toLowerCase();
-    const show = (!q || hay.includes(q)) && (!groups.size || groups.has(f.group)) && Object.entries(tagSel).every(([k, v]) => f.tags[k] === v);
+    const show = (!q || hay.includes(q)) && (!groups.size || groups.has(f.group)) && (!pickOnly || f.pick) && (!usage.size || usage.has(f.tags['쓰임'])) && Object.entries(tagSel).every(([k, v]) => f.tags[k] === v);
     c.hidden = !show; if (!show) continue; n++;
     if (s) { c._pv.textContent = s; useFull(f, c._pv); } else if (c._pv.textContent !== SAMPLE) { c._pv.textContent = SAMPLE; c._pv.style.fontFamily = c._pv.classList.contains('ok') ? `'kofp-${f.id}', sans-serif` : ''; }
   }
@@ -145,7 +184,31 @@ fetch('fonts.json').then(r => r.json()).then(d => {
     sl.onchange = () => { sl.value ? tagSel[k] = sl.value : delete tagSel[k]; run(); };
     lb.append(sl); $('#sels').append(lb);
   }
-  $('#grid').append(...d.fonts.map(card)); run();
+  $('#grid').append(...d.fonts.map(card));
+  const n = fn => d.fonts.filter(fn).length;
+  const PRE = [  // 목적별 바로 고르기 (추천 폰트 안에서)
+    ['추천 폰트', '직접 고른 추천 폰트', { pick: true }],
+    ['본문 읽기', '작은 글씨로 긴 글을 읽기 편한 폰트', { pick: true, use: ['본문용', '범용'] }],
+    ['제목·표지', '큰 글씨 제목에 어울리는 폰트', { pick: true, use: ['제목용'] }],
+    ['손글씨 느낌', '손으로 쓴 듯한 폰트', { pick: true, g: ['손글씨'] }],
+    ['또박또박 고딕', '깔끔한 고딕·반고딕', { pick: true, g: ['고딕', '반고딕'] }],
+    ['명조(바탕)', '삐침 있는 명조체', { pick: true, g: ['명조'] }],
+    ['전체 보기', '모든 폰트', {}]];
+  const pb = [];
+  const apply = (name, o) => {
+    preset = name; pickOnly = !!o.pick; usage = new Set(o.use || []); groups = new Set(o.g || []); tagSel = {};
+    $('#sels').querySelectorAll('select').forEach(x => x.value = '');
+    pb.forEach(([b, nm]) => b.classList.toggle('on', nm === name));
+    $('#groups').querySelectorAll('.chip').forEach(b => b.classList.toggle('on', groups.has(b._g)));
+    run();
+  };
+  for (const [nm, tip, o] of PRE) {
+    const k = n(f => (!o.pick || f.pick) && (!o.use || o.use.includes(f.tags['쓰임'])) && (!o.g || o.g.includes(f.group)));
+    const b = E('button', 'chip', `${nm} ${k}`); b.title = tip; b.onclick = () => apply(nm, o); pb.push([b, nm]); $('#presets').append(b);
+  }
+  $('#groups').querySelectorAll('.chip').forEach(b => { const o = b.onclick; b._g = b.textContent.replace(/ \d+$/, ''); b.onclick = () => { o(); preset = ''; pb.forEach(([x]) => x.classList.remove('on')); }; });
+  $('#sels').querySelectorAll('select').forEach(x => { const o = x.onchange; x.onchange = () => { o(); pb.forEach(([y]) => y.classList.remove('on')); }; });
+  apply(PRE[0][0], PRE[0][2]);
 });
 let t; $('#q').oninput = run; $('#sample').oninput = () => { clearTimeout(t); t = setTimeout(run, 400); };
 </script>

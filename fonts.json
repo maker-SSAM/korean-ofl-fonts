@@ -1,7 +1,7 @@
 {
  "name": "korean-ofl-fonts",
  "version": "1.0.0",
- "updated": "2026-10-15",
+ "updated": "2026-10-16",
  "count": 343,
  "base": "https://maker-ssam.github.io/korean-ofl-fonts/",
  "release": "https://github.com/maker-SSAM/korean-ofl-fonts/releases/download/v1.0.0/",
@@ -324,7 +324,8 @@
      "1984대화나눔_본문체_Light.ttf",
      "1984대화나눔_본문체_Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "daehwa-nanum-sharing2023-10-font",
@@ -407,7 +408,8 @@
      "1984대화나눔_속닥속닥.ttf",
      "1984대화나눔_웅성웅성.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "asta-sans",
@@ -523,7 +525,8 @@
      "AstaSans-Regular.ttf",
      "AstaSans-SemiBold.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "bagel-fat-one",
@@ -584,7 +587,8 @@
     "install_files": [
      "BagelFatOne-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "cafe24-pro-slim",
@@ -667,7 +671,8 @@
      "Cafe24PROSlim-Bold.ttf",
      "Cafe24PROSlim-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "cafe24-pro-up",
@@ -728,7 +733,8 @@
     "install_files": [
      "Cafe24PROUP.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "d2coding",
@@ -797,7 +803,8 @@
      "D2Coding-Ver1.3.2-20180524.ttf",
      "D2CodingBold-Ver1.3.2-20180524.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "diphylleia",
@@ -858,7 +865,8 @@
     "install_files": [
      "Diphylleia-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "dongle",
@@ -941,7 +949,8 @@
      "Dongle-Light.ttf",
      "Dongle-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "gasoek-one",
@@ -1002,7 +1011,8 @@
     "install_files": [
      "GasoekOne-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "gothic-a1",
@@ -1151,7 +1161,8 @@
      "GothicA1-SemiBold.ttf",
      "GothicA1-Thin.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "grandiflora-one",
@@ -1212,7 +1223,8 @@
     "install_files": [
      "GrandifloraOne-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hi-melody",
@@ -1274,7 +1286,8 @@
     "install_files": [
      "HiMelody-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hshwalkongserif-regular",
@@ -1335,7 +1348,8 @@
     "install_files": [
      "HSHwalkongSerif-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "ibm-plex-sans",
@@ -1451,7 +1465,8 @@
      "IBMPlexSansKR-SemiBold.ttf",
      "IBMPlexSansKR-Text.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "interop",
@@ -1589,7 +1604,8 @@
      "Interop-SemiBold.ttf",
      "Interop-Thin.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "jgaegujaengyi",
@@ -1673,7 +1689,8 @@
      "J개구쟁이-Light.ttf",
      "J개구쟁이-Medium.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "jhaebaragi",
@@ -1756,7 +1773,8 @@
      "J해바라기-Light.ttf",
      "J해바라기-Medium.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "jsongmyung-regular-ko",
@@ -1817,7 +1835,8 @@
     "install_files": [
      "J송명-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kcc-ganpan",
@@ -1878,7 +1897,8 @@
     "install_files": [
      "KCC-Ganpan.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "kcc-kimhoon",
@@ -1940,7 +1960,8 @@
     "install_files": [
      "KCC김훈체.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kcc-sonkeechung",
@@ -2002,7 +2023,8 @@
     "install_files": [
      "KCC-Sonkeechung.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kcc-ahnchangho",
@@ -2064,7 +2086,8 @@
     "install_files": [
      "KCC-Ahnchangho.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kcc-eunyoung",
@@ -2126,7 +2149,8 @@
     "install_files": [
      "KCC은영체.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "kcc-hanbit",
@@ -2187,7 +2211,8 @@
     "install_files": [
      "KCC-Hanbit.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "kcc-kimhwanki",
@@ -2249,7 +2274,8 @@
     "install_files": [
      "KCC-Kimhwanki.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kccdodamdodam",
@@ -2310,7 +2336,8 @@
     "install_files": [
      "KCCDodamdodam.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kccmurukmuruk",
@@ -2371,7 +2398,8 @@
     "install_files": [
      "KCCMurukmuruk.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "kccbangjeonghwan",
@@ -2433,7 +2461,8 @@
     "install_files": [
      "KCCBangJeonghwanTTF.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kccahnjunggeun",
@@ -2495,7 +2524,8 @@
     "install_files": [
      "KCCAhnjunggeun.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kccimkwontaek",
@@ -2557,7 +2587,8 @@
     "install_files": [
      "KCCImkwontaek.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kcc-jeongbeom",
@@ -2619,7 +2650,8 @@
     "install_files": [
      "KCC-Jeongbeom.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kccchassam",
@@ -2681,7 +2713,8 @@
     "install_files": [
      "KCCChassam.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kcchyerim",
@@ -2743,7 +2776,8 @@
     "install_files": [
      "KCCHyerimTTF.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kim-jung-chul-gothic",
@@ -2826,7 +2860,8 @@
      "KimjungchulGothic-Light.ttf",
      "KimjungchulGothic-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kim-jung-chul-myungjo",
@@ -2909,7 +2944,8 @@
      "KimjungchulMyungjo-Light.ttf",
      "KimjungchulMyungjo-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "kim-jung-chul-script",
@@ -2993,7 +3029,8 @@
      "KimjungchulScript-Light.ttf",
      "KimjungchulScript-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "line-seed",
@@ -3076,7 +3113,8 @@
      "LINESeedKR-Rg.ttf",
      "LINESeedKR-Th.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "lxgw-wenkai-kr",
@@ -3160,7 +3198,8 @@
      "LXGWWenKaiKR-Medium.ttf",
      "LXGWWenKaiKR-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "lxgw-wenkai-mono-kr",
@@ -3240,7 +3279,8 @@
      "LXGWWenKaiMonoKR-Medium.ttf",
      "LXGWWenKaiMonoKR-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "min-sans",
@@ -3403,7 +3443,8 @@
      "MinSans-Thin.ttf",
      "MinSansVF.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "moirai-one",
@@ -3464,7 +3505,8 @@
     "install_files": [
      "MoiraiOne-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "neo-donggeunmo",
@@ -3522,7 +3564,8 @@
     "install_files": [
      "NeoDunggeunmo.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "neo-dunggeun-gothic-pro",
@@ -3580,7 +3623,8 @@
     "install_files": [
      "NeoDunggeunmoPro-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "netmarble",
@@ -3663,7 +3707,8 @@
      "netmarbleL.ttf",
      "netmarbleM.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "noto-sans-kr",
@@ -3812,7 +3857,8 @@
      "NotoSansKR-SemiBold.ttf",
      "NotoSansKR-Thin.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "noto-serif-kr",
@@ -3939,7 +3985,8 @@
      "NotoSerifKR-Regular.ttf",
      "NotoSerifKR-SemiBold.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "orbit",
@@ -3997,7 +4044,8 @@
     "install_files": [
      "Orbit-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "pyeojin-gothic",
@@ -4080,7 +4128,8 @@
      "PyeojinGothic-Light.ttf",
      "PyeojinGothic-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "sandoll-samlip-hobbang-basic",
@@ -4141,7 +4190,8 @@
     "install_files": [
      "SDSamliphopangche_Basic.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "sandoll-samlip-hobbang-outline",
@@ -4202,7 +4252,8 @@
     "install_files": [
      "SDSamliphopangche_Outline.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "spoqa-han-sans-neo",
@@ -4307,7 +4358,8 @@
      "SpoqaHanSansNeo-Regular.ttf",
      "SpoqaHanSansNeo-Thin.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "spoqahansans",
@@ -4401,7 +4453,8 @@
      "Spoqa Han Sans Regular.ttf",
      "Spoqa Han Sans Thin.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "tlabshinyb",
@@ -4463,7 +4516,8 @@
     "install_files": [
      "Tlab신영복체.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "wanted-sans",
@@ -4604,7 +4658,8 @@
      "WantedSans-SemiBold.ttf",
      "WantedSansVariable.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "ghanachocolate",
@@ -4666,7 +4721,8 @@
     "install_files": [
      "Ghanachocolate.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "galmuri11",
@@ -4724,7 +4780,8 @@
     "install_files": [
      "Galmuri11-Bold.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "galmuri11-condensed",
@@ -4782,7 +4839,8 @@
     "install_files": [
      "Galmuri11-Condensed.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "galmuri14",
@@ -4840,7 +4898,8 @@
     "install_files": [
      "Galmuri14.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "galmuri7",
@@ -4898,7 +4957,8 @@
     "install_files": [
      "Galmuri7.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "galmuri9",
@@ -4956,7 +5016,8 @@
     "install_files": [
      "Galmuri9.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "yoon-gamja-kkot",
@@ -5018,7 +5079,8 @@
     "install_files": [
      "GamjaFlower-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "black-gothic",
@@ -5079,7 +5141,8 @@
     "install_files": [
      "BlackHanSans-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "goseogu-regular",
@@ -5141,7 +5204,8 @@
     "install_files": [
      "Goseogu-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "goshingothic",
@@ -5235,7 +5299,8 @@
      "GoshinGothic-Regular.ttf",
      "GoshinGothic-SemiBold.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "gowoon-dodum",
@@ -5297,7 +5362,8 @@
     "install_files": [
      "GowunDodum-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "goun-batang",
@@ -5369,7 +5435,8 @@
      "GowunBatang-Bold.ttf",
      "GowunBatang-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "goorm-sans",
@@ -5452,7 +5519,8 @@
      "goorm-sans-medium.ttf",
      "goorm-sans-regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "goorm-sans-code",
@@ -5510,7 +5578,8 @@
     "install_files": [
      "goorm_Sans_Code_400.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "griun-kimjungwon",
@@ -5572,7 +5641,8 @@
     "install_files": [
      "그리운김정원체.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "climate-crisis-korean",
@@ -5721,7 +5791,8 @@
      "ClimateCrisisKR-2050.otf",
      "ClimateCrisisKRVF.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "nanumgothic",
@@ -5815,7 +5886,8 @@
      "NanumGothicExtraBold.ttf",
      "NanumGothicLight.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "nanumgothic-eco",
@@ -5898,7 +5970,8 @@
      "NanumGothicEcoBold.ttf",
      "NanumGothicEcoExtraBold.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "nanum-gothic-coding",
@@ -5967,7 +6040,8 @@
      "NanumGothicCoding-Bold.ttf",
      "NanumGothicCoding-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "nanummyeongjo",
@@ -6061,7 +6135,8 @@
      "NanumMyeongjoBold.ttf",
      "NanumMyeongjoExtraBold.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "nanummyeongjo-eco",
@@ -6144,7 +6219,8 @@
      "NanumMyeongjoEcoBold.ttf",
      "NanumMyeongjoEcoExtraBold.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "nanumbarungothic",
@@ -6249,7 +6325,8 @@
      "NanumBarunGothicLight.ttf",
      "NanumBarunGothicUltraLight.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "nanumbarunpen",
@@ -6321,7 +6398,8 @@
      "NanumBarunpenB.ttf",
      "NanumBarunpenR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "garam-yeon-geot",
@@ -6383,7 +6461,8 @@
     "install_files": [
      "Garam.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "galmat",
@@ -6445,7 +6524,8 @@
     "install_files": [
      "Galmetgol.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "gang-bujang-nim",
@@ -6507,7 +6587,8 @@
     "install_files": [
      "Kangbujang.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "strong-comfort",
@@ -6569,7 +6650,8 @@
     "install_files": [
      "Kanginhan.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "not-gothic-but-goding",
@@ -6631,7 +6713,8 @@
     "install_files": [
      "Gothic_Goding.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "goryeo-font",
@@ -6693,7 +6776,8 @@
     "install_files": [
      "Koreageulggol.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "gomsin",
@@ -6755,7 +6839,8 @@
     "install_files": [
      "Gomsin.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kyuri-s-diary",
@@ -6817,7 +6902,8 @@
     "install_files": [
      "Kyuri_diary.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "gold-silver-and-jewels",
@@ -6879,7 +6965,8 @@
     "install_files": [
      "Geumeunbohwa.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "joy-brightness",
@@ -6941,7 +7028,8 @@
     "install_files": [
      "GibbemBalgeum.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kim-yui",
@@ -7003,7 +7091,8 @@
     "install_files": [
      "Kimyooyee.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "flower-scent",
@@ -7065,7 +7154,8 @@
     "install_files": [
      "Gootneaeum.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "edge",
@@ -7126,7 +7216,8 @@
     "install_files": [
      "Ggeuteumuri.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "i-will-overcome",
@@ -7188,7 +7279,8 @@
     "install_files": [
      "I_survive.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "wood-garden",
@@ -7250,7 +7342,8 @@
     "install_files": [
      "Treegarden.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "my-wife-s-handwriting",
@@ -7312,7 +7405,8 @@
     "install_files": [
      "My_wife_writing.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "donghee-who-is-trying-hard",
@@ -7374,7 +7468,8 @@
     "install_files": [
      "Hardworking_donghee.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "neuri-neuri",
@@ -7436,7 +7531,8 @@
     "install_files": [
      "SlowSlow.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "start-over",
@@ -7498,7 +7594,8 @@
     "install_files": [
      "Restart.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "dazin",
@@ -7560,7 +7657,8 @@
     "install_files": [
      "Dajin.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "dachaesarang",
@@ -7622,7 +7720,8 @@
     "install_files": [
      "Dache_love.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "dahaeng",
@@ -7684,7 +7783,8 @@
     "install_files": [
      "Daheng.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "lunar-orbit",
@@ -7746,7 +7846,8 @@
     "install_files": [
      "Orbit_of_moon.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "daegwang-yuri",
@@ -7808,7 +7909,8 @@
     "install_files": [
      "Deagwang_mirror.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "daehan-minguk-yeolsa",
@@ -7870,7 +7972,8 @@
     "install_files": [
      "Korea_hero.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "dongwha-ttobbok",
@@ -7932,7 +8035,8 @@
     "install_files": [
      "Fairytale_ddobak.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "round-relationship",
@@ -7994,7 +8098,8 @@
     "install_files": [
      "Round_destiny.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "warm-farewell",
@@ -8056,7 +8161,8 @@
     "install_files": [
      "Warm_farewell.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "ttaakdandan",
@@ -8118,7 +8224,8 @@
     "install_files": [
      "Ddakdandan.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "mom-to-her-daughter",
@@ -8180,7 +8287,8 @@
     "install_files": [
      "mom_to_daughter.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "ttobakttobaki",
@@ -8242,7 +8350,8 @@
     "install_files": [
      "Ddobakddobak.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "mago",
@@ -8304,7 +8413,8 @@
     "install_files": [
      "Mago.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "masitneun",
@@ -8366,7 +8476,8 @@
     "install_files": [
      "Yammy.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "mongdol",
@@ -8428,7 +8539,8 @@
     "install_files": [
      "Mongdol.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "mugunghwa",
@@ -8490,7 +8602,8 @@
     "install_files": [
      "Mugunghwa.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "muzinjang",
@@ -8552,7 +8665,8 @@
     "install_files": [
      "Mujinjang.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "mini-handwriting",
@@ -8614,7 +8728,8 @@
     "install_files": [
      "Mini_handwriting.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "miraena-mu",
@@ -8676,7 +8791,8 @@
     "install_files": [
      "Future_tree.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "right-mind",
@@ -8738,7 +8854,8 @@
     "install_files": [
      "Bareun_mental.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "bare-hippie",
@@ -8800,7 +8917,8 @@
     "install_files": [
      "Bareun_hipi.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "twinkle-twinkle-star",
@@ -8862,7 +8980,8 @@
     "install_files": [
      "Shining_star.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "bae-eunhye",
@@ -8924,7 +9043,8 @@
     "install_files": [
      "Beeunhye.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "angel-in-white",
@@ -8986,7 +9106,8 @@
     "install_files": [
      "White_angel.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "willow",
@@ -9048,7 +9169,8 @@
     "install_files": [
      "Bud_tree.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "beomsom",
@@ -9110,7 +9232,8 @@
     "install_files": [
      "Bumsom.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "bujangnim-nunchi",
@@ -9172,7 +9295,8 @@
     "install_files": [
      "Bujangnim_nunchi.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "polaris",
@@ -9234,7 +9358,8 @@
     "install_files": [
      "Polar_Star.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "nanum-brush-script",
@@ -9296,7 +9421,8 @@
     "install_files": [
      "나눔손글씨붓.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "bisang",
@@ -9358,7 +9484,8 @@
     "install_files": [
      "Bisang.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "panguni-mom-handwriting",
@@ -9420,7 +9547,8 @@
     "install_files": [
      "Bbang_gunimom.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "i-love-you-son",
@@ -9482,7 +9610,8 @@
     "install_files": [
      "Love_son.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "shanghai-chanmi",
@@ -9544,7 +9673,8 @@
     "install_files": [
      "Sanghea_chanmi.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "sungsil",
@@ -9606,7 +9736,8 @@
     "install_files": [
      "Sungsil.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "world-s-hangul",
@@ -9668,7 +9799,8 @@
     "install_files": [
      "Global_Hangul.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "sea",
@@ -9730,7 +9862,8 @@
     "install_files": [
      "Se-a.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "sehwa",
@@ -9792,7 +9925,8 @@
     "install_files": [
      "Se-hwa.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "somi",
@@ -9854,7 +9988,8 @@
     "install_files": [
      "Somi.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "the-firefighter-s-prayer",
@@ -9916,7 +10051,8 @@
     "install_files": [
      "Firefighter_prayer.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "sonpyeonji",
@@ -9978,7 +10114,8 @@
     "install_files": [
      "Handletter.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "shy-college-student",
@@ -10040,7 +10177,8 @@
     "install_files": [
      "Shy_college_student.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "siwoo-is-cute",
@@ -10102,7 +10240,8 @@
     "install_files": [
      "Cut_siu.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "newlywed-couple",
@@ -10164,7 +10303,8 @@
     "install_files": [
      "Newly_married.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "agisarang",
@@ -10226,7 +10366,8 @@
     "install_files": [
      "Baby_love.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "areumdri-flower-tree",
@@ -10288,7 +10429,8 @@
     "install_files": [
      "Flower_tree.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "appa-gilssi",
@@ -10350,7 +10492,8 @@
     "install_files": [
      "Father_handwriting.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "dad-s-love-letter",
@@ -10412,7 +10555,8 @@
     "install_files": [
      "Father_loveletter.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "ainmam-handwriting",
@@ -10474,7 +10618,8 @@
     "install_files": [
      "Ainmom.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "auntie-freedom",
@@ -10536,7 +10681,8 @@
     "install_files": [
      "Jayoo.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "anssang",
@@ -10598,7 +10744,8 @@
     "install_files": [
      "Anssang.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "amsterdam",
@@ -10660,7 +10807,8 @@
     "install_files": [
      "Amsterdam.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "overtime-kim-joo-im",
@@ -10722,7 +10870,8 @@
     "install_files": [
      "Kimjuim.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "baek-geum-rye-the-vegetable-vendor",
@@ -10784,7 +10933,8 @@
     "install_files": [
      "Beakeumrye.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "mom-s-love",
@@ -10846,7 +10996,8 @@
     "install_files": [
      "Love_mom.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "eonggeongkwi",
@@ -10908,7 +11059,8 @@
     "install_files": [
      "Unggungqui.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "summer-font",
@@ -10970,7 +11122,8 @@
     "install_files": [
      "Summer_letter.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "yeonji",
@@ -11032,7 +11185,8 @@
     "install_files": [
      "Yunji.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "sparkling-at-nineteen",
@@ -11094,7 +11248,8 @@
     "install_files": [
      "Syning_19.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "yeol-il",
@@ -11156,7 +11311,8 @@
     "install_files": [
      "Hardworking.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "yedang",
@@ -11218,7 +11374,8 @@
     "install_files": [
      "Yedang.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "pretty-minkyung",
@@ -11280,7 +11437,8 @@
     "install_files": [
      "Mingyung.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "okbi",
@@ -11342,7 +11500,8 @@
     "install_files": [
      "Okbi.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "wild",
@@ -11404,7 +11563,8 @@
     "install_files": [
      "Wild.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "grandmother-s-handwriting",
@@ -11466,7 +11626,8 @@
     "install_files": [
      "Grandma_wring.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "left-handed-people-are-beautiful-too",
@@ -11528,7 +11689,8 @@
     "install_files": [
      "Pretty_Left_handed.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "my-daughter-s-handwriting",
@@ -11590,7 +11752,8 @@
     "install_files": [
      "Daughter_handwriting.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "uni-thingdangdingdang",
@@ -11652,7 +11815,8 @@
     "install_files": [
      "Yuni_ddingddang.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "meaningful-korean",
@@ -11714,7 +11878,8 @@
     "install_files": [
      "Meaningful_hanguel.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "jabosimjiu",
@@ -11776,7 +11941,8 @@
     "install_files": [
      "Pride_jiu.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "you-are-doing-great",
@@ -11838,7 +12004,8 @@
     "install_files": [
      "Doing_well.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "jangmi",
@@ -11900,7 +12067,8 @@
     "install_files": [
      "Rose.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "dotted",
@@ -11961,7 +12129,8 @@
     "install_files": [
      "Dot_font.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "jeong-eun",
@@ -12023,7 +12192,8 @@
     "install_files": [
      "Jungeun.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "middle-school-student",
@@ -12085,7 +12255,8 @@
     "install_files": [
      "Middleschool_student.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "jinju-park-kyeong-a",
@@ -12147,7 +12318,8 @@
     "install_files": [
      "Parkgyunga.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "iron-penmanship",
@@ -12209,7 +12381,8 @@
     "install_files": [
      "Chulpil_writing.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "elementary-hope",
@@ -12271,7 +12444,8 @@
     "install_files": [
      "Choding_hope.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kalguksu",
@@ -12333,7 +12507,8 @@
     "install_files": [
      "Kalguksu.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "coco",
@@ -12395,7 +12570,8 @@
     "install_files": [
      "Coco.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "nanum-pen-script",
@@ -12457,7 +12633,8 @@
     "install_files": [
      "NanumPen.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "handwriting-as-one",
@@ -12519,7 +12696,8 @@
     "install_files": [
      "Become_one.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hana-handwriting",
@@ -12581,7 +12759,8 @@
     "install_files": [
      "Hana_handwriting.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "haram",
@@ -12643,7 +12822,8 @@
     "install_files": [
      "Haram.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hanyun",
@@ -12705,7 +12885,8 @@
     "install_files": [
      "Hanyoon.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "grandpa-s-sharing",
@@ -12767,7 +12948,8 @@
     "install_files": [
      "Grandpa_sharing.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "happy-dobi",
@@ -12829,7 +13011,8 @@
     "install_files": [
      "Happy_dobi.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hyeoki",
@@ -12891,7 +13074,8 @@
     "install_files": [
      "Hyukee.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hyejun",
@@ -12953,7 +13137,8 @@
     "install_files": [
      "Hyejun.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hyo-nam-always-fighting",
@@ -13015,7 +13200,8 @@
     "install_files": [
      "Fighting_hyonam.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hope-nuri",
@@ -13077,7 +13263,8 @@
     "install_files": [
      "Hope_nuri.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "more-than-just-saying-hang-in-there",
@@ -13139,7 +13326,8 @@
     "install_files": [
      "Saying_tobe_strong.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "nanumsquare",
@@ -13233,7 +13421,8 @@
      "NanumSquareL.ttf",
      "NanumSquareR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "nanum-square-neo",
@@ -13327,7 +13516,8 @@
      "NanumSquareNeoTTF-dEb.ttf",
      "NanumSquareNeoTTF-eHv.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "nanumsquare-ac",
@@ -13421,7 +13611,8 @@
      "NanumSquare_acL.ttf",
      "NanumSquare_acR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "nanumsquareround",
@@ -13515,7 +13706,8 @@
      "NanumSquareRoundL.ttf",
      "NanumSquareRoundR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "nanumhuman",
@@ -13631,7 +13823,8 @@
      "NanumHumanLight.ttf",
      "NanumHumanRegular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "noonnubasicgothicregular",
@@ -13693,7 +13886,8 @@
     "install_files": [
      "NoonnuBasicGothicRegular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "delta-glass",
@@ -13751,7 +13945,8 @@
     "install_files": [
      "DeltaGlassKR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "delta-dotum",
@@ -13809,7 +14004,8 @@
     "install_files": [
      "DeltaDotumKR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "dunggeunmo",
@@ -13867,7 +14063,8 @@
     "install_files": [
      "DungGeunMo.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "dream-heumul",
@@ -13925,7 +14122,8 @@
     "install_files": [
      "DreamHeumulKR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "maru-buri",
@@ -14030,7 +14228,8 @@
      "MaruBuri-Regular.ttf",
      "MaruBuri-SemiBold.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "maruminya-hangeul",
@@ -14088,7 +14287,8 @@
     "install_files": [
      "x12y12pxMaruMinyaHangul.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "mona10",
@@ -14157,7 +14357,8 @@
      "Mona10.ttf",
      "Mona10-Bold.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "mona10x12",
@@ -14226,7 +14427,8 @@
      "Mona10x12.ttf",
      "Mona10x12-Bold.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "mona12",
@@ -14317,7 +14519,8 @@
      "Mona12TextKR.ttf",
      "Mona12TextKR-Bold.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "mona8x12",
@@ -14375,7 +14578,8 @@
     "install_files": [
      "Mona8x12.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "monoplexkr",
@@ -14598,7 +14802,8 @@
      "MonoplexKR-Thin.ttf",
      "MonoplexKR-ThinItalic.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "monoplex-nerd",
@@ -14821,7 +15026,8 @@
      "MonoplexKRNerd-Thin.ttf",
      "MonoplexKRNerd-ThinItalic.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "monoplex-wide",
@@ -15044,7 +15250,8 @@
      "MonoplexKRWide-Thin.ttf",
      "MonoplexKRWide-ThinItalic.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "monoplex-wide-nerd",
@@ -15267,7 +15474,8 @@
      "MonoplexKRWideNerd-Thin.ttf",
      "MonoplexKRWideNerd-ThinItalic.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "mulmaru",
@@ -15325,7 +15533,8 @@
     "install_files": [
      "Mulmaru.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "mulmaru-mono",
@@ -15383,7 +15592,8 @@
     "install_files": [
      "MulmaruMono.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "bm-kiranghaerang",
@@ -15444,7 +15654,8 @@
     "install_files": [
      "BMKIRANGHAERANG-TTF.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "bm-kkubulim",
@@ -15506,7 +15717,8 @@
     "install_files": [
      "BMKkubulimTTF.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "bm-dohyeon",
@@ -15567,7 +15779,8 @@
     "install_files": [
      "BMDOHYEON_ttf.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "bm-yeonsung",
@@ -15628,7 +15841,8 @@
     "install_files": [
      "BMYEONSUNG_ttf.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "euljiro-oraeo-rae",
@@ -15689,7 +15903,8 @@
     "install_files": [
      "BMEuljirooraeorae.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "bm-euljiro",
@@ -15750,7 +15965,8 @@
     "install_files": [
      "BMEULJIROTTF.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "bm-jua",
@@ -15811,7 +16027,8 @@
     "install_files": [
      "BMJUA_ttf.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "bm-hanna-11yrs-old",
@@ -15872,7 +16089,8 @@
     "install_files": [
      "BMHANNA_11yrs_ttf.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "bm-hanna-air",
@@ -15933,7 +16151,8 @@
     "install_files": [
      "BMHANNAAir_ttf.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "bm-hanna-pro",
@@ -15994,7 +16213,8 @@
     "install_files": [
      "BMHANNAPro.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "euljiro-10-years-later",
@@ -16055,7 +16275,8 @@
     "install_files": [
      "BMEuljiro10yearslater.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "bookend-batang",
@@ -16127,7 +16348,8 @@
      "북엔드 바탕 Regular.ttf",
      "북엔드 바탕 SemiBold.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "slei-gothic",
@@ -16188,7 +16410,8 @@
     "install_files": [
      "SLEIGothicTTF.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "segusegu-regular",
@@ -16250,7 +16473,8 @@
     "install_files": [
      "SeguSegu-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "solmoe-kimdaegeon",
@@ -16324,7 +16548,8 @@
      "솔뫼 김대건OTF Light.otf",
      "솔뫼 김대건OTF Medium.otf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "ttf",
@@ -16386,7 +16611,8 @@
     "install_files": [
      "송암 이형식.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "suit",
@@ -16535,7 +16761,8 @@
      "SUIT-SemiBold.ttf",
      "SUIT-Thin.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "sweet",
@@ -16662,7 +16889,8 @@
      "SUITE-Regular.ttf",
      "SUITE-SemiBold.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "dx-one-day",
@@ -16723,7 +16951,8 @@
     "install_files": [
      "SingleDay-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "foureyes",
@@ -16784,7 +17013,8 @@
     "install_files": [
      "FOUREYES.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "yanolja-yache",
@@ -16856,7 +17086,8 @@
      "야놀자 야체 Bold.ttf",
      "야놀자 야체 Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "thin-mulmaru",
@@ -16925,7 +17156,8 @@
      "ThinMulmaru.ttf",
      "ThinMulmaru Mono.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "a2z",
@@ -17074,7 +17306,8 @@
      "에이투지체-8ExtraBold.ttf",
      "에이투지체-9Black.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "elice-dx-neolli",
@@ -17157,7 +17390,8 @@
      "EliceDXNeolli-Light.ttf",
      "EliceDXNeolli-Medium.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "elice-digitalbaeum",
@@ -17229,7 +17463,8 @@
      "EliceDigitalBaeum_Bold.ttf",
      "EliceDigitalBaeum_Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "elice-digitalcoding-ver-h",
@@ -17298,7 +17533,8 @@
      "EliceDigitalCodingverH_Bold.ttf",
      "EliceDigitalCodingverH_Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "ownglyph-2022-uwy-da-gyeong",
@@ -17360,7 +17596,8 @@
     "install_files": [
      "Ownglyph_2022_UWY_Da_Gyeong-Rg.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "ownglyph-2022-uwy-si-woo",
@@ -17422,7 +17659,8 @@
     "install_files": [
      "Ownglyph_2022_UWY_Si_Woo-Rg.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "ownglyph-2022-uwy-yoon-yeong",
@@ -17484,7 +17722,8 @@
     "install_files": [
      "Ownglyph_2022_UWY_Yoon_Yeong-Rg.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "ownglyph-2022-uwy-jae-seon",
@@ -17546,7 +17785,8 @@
     "install_files": [
      "Ownglyph_2022_UWY_Jae_Seon-Rg.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "ownglyph-2022-uwy-joo-bin",
@@ -17608,7 +17848,8 @@
     "install_files": [
      "Ownglyph_2022_UWY_Joo_Bin-Rg.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "graceserif-bold",
@@ -17680,7 +17921,8 @@
      "GraceSerif-Bold.ttf",
      "GraceSerif-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "wonju",
@@ -17752,7 +17994,8 @@
      "원주체TTF Bold.ttf",
      "원주체TTF Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "windows-korean",
@@ -17810,7 +18053,8 @@
     "install_files": [
      "WinKor.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "unpeople-gothic-ks",
@@ -17871,7 +18115,8 @@
     "install_files": [
      "유앤피플 고딕 KS.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "unpeople-gothic-uni",
@@ -17932,7 +18177,8 @@
     "install_files": [
      "유앤피플 고딕 UNI.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "iropge-batang",
@@ -17993,7 +18239,8 @@
     "install_files": [
      "IropkeBatangM.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "jayeon-sans",
@@ -18065,7 +18312,8 @@
      "JayeonSans-Medium.ttf",
      "JayeonSans-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "jeongichip-hangeul",
@@ -18123,7 +18371,8 @@
     "install_files": [
      "x10y12pxDenkiChipHangul.otf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "770balsa",
@@ -18184,7 +18433,8 @@
     "install_files": [
      "770Balsa-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "kakao-small-sans",
@@ -18267,7 +18517,8 @@
      "KakaoSmallSans-Light.ttf",
      "KakaoSmallSans-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "kakao-big-sans",
@@ -18350,7 +18601,8 @@
      "KakaoBigSans-ExtraBold.ttf",
      "KakaoBigSans-Regular.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "cafe24-oneprettynight",
@@ -18411,7 +18663,8 @@
     "install_files": [
      "Cafe24Oneprettynight-v2.0.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "cafe24-danjunghae",
@@ -18472,7 +18725,8 @@
     "install_files": [
      "Cafe24Danjunghae-v2.0.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "cafe24-dangdanghae",
@@ -18533,7 +18787,8 @@
     "install_files": [
      "Cafe24Dangdanghae-v2.0.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "cafe24-dongdong",
@@ -18605,7 +18860,8 @@
      "Cafe24Dongdong-v2.0.ttf",
      "Cafe24DongdongLight.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "cafe24-moyamoya",
@@ -18677,7 +18933,8 @@
      "Cafe24Moyamoya-Face-v1.0.ttf",
      "Cafe24Moyamoya-Regular-v1.0.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "cafe24-shiningstar",
@@ -18739,7 +18996,8 @@
     "install_files": [
      "Cafe24Shiningstar-v2.0.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "cafe24-syongsyong",
@@ -18801,7 +19059,8 @@
     "install_files": [
      "Cafe24Syongsyong-v2.0.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "cafe24-supermagic",
@@ -18874,7 +19133,8 @@
      "Cafe24Supermagic-Bold-v1.0.ttf",
      "Cafe24Supermagic-Regular-v1.0.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "cafe24-simplehae",
@@ -18936,7 +19196,8 @@
     "install_files": [
      "Cafe24Simplehae-v2.0.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "cafe24-ssurround",
@@ -19008,7 +19269,8 @@
      "Cafe24Ssurround-v2.0.ttf",
      "Cafe24SsurroundAir-v1.1.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "cafe24-ssukssuk",
@@ -19080,7 +19342,8 @@
      "Cafe24Ssukssuk-v2.0.ttf",
      "Cafe24SsukssukLight.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "cafe24-ohsquare",
@@ -19152,7 +19415,8 @@
      "Cafe24Ohsquare-v2.0.ttf",
      "Cafe24OhsquareAir-v2.0.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "cafe24-classictype",
@@ -19213,7 +19477,8 @@
     "install_files": [
      "Cafe24Classictype-v1.1.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "keris-baeum",
@@ -19307,7 +19572,8 @@
      "KERISBAEUM_L.ttf",
      "KERISBAEUM_R.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "keris-kedu",
@@ -19390,7 +19656,8 @@
      "KERISKEDU_Line.ttf",
      "KERISKEDU_R.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "paperlogy",
@@ -19539,7 +19806,8 @@
      "Paperlogy-8ExtraBold.ttf",
      "Paperlogy-9Black.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "freesentation",
@@ -19688,7 +19956,8 @@
      "Freesentation-8ExtraBold.ttf",
      "Freesentation-9Black.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "pretendard",
@@ -19837,7 +20106,8 @@
      "Pretendard-SemiBold.ttf",
      "Pretendard-Thin.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-gaeulsopung",
@@ -19910,7 +20180,8 @@
      "HakgyoansimGaeulsopungB.ttf",
      "HakgyoansimGaeulsopungL.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-godeunjemok",
@@ -19982,7 +20253,8 @@
      "HakgyoansimGodeunjemokB.ttf",
      "HakgyoansimGodeunjemokM.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-gongryongal-r",
@@ -20043,7 +20315,8 @@
     "install_files": [
      "Hakgyoansim_GongryongalR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-gureum",
@@ -20104,7 +20377,8 @@
     "install_files": [
      "HakgyoansimGureumR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-geurimilgi",
@@ -20166,7 +20440,8 @@
     "install_files": [
      "Hakgyoansim Geurimilgi TTF R.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-kkokkoma",
@@ -20228,7 +20503,8 @@
     "install_files": [
      "HakgyoansimKkokkomaR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-kkwabaegi",
@@ -20289,7 +20565,8 @@
     "install_files": [
      "HakgyoansimKkwabaegiR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-ggooreogi",
@@ -20351,7 +20628,8 @@
     "install_files": [
      "HakgyoansimGgooreogiR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-nadeuri",
@@ -20423,7 +20701,8 @@
      "Hakgyoansim Nadeuri TTF B.ttf",
      "Hakgyoansim Nadeuri TTF L.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-namu",
@@ -20495,7 +20774,8 @@
      "HakgyoansimNamuL.ttf",
      "HakgyoansimNamuR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-nalgae-r",
@@ -20556,7 +20836,8 @@
     "install_files": [
      "Hakgyoansim_NalgaeR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-dotbogi",
@@ -20617,7 +20898,8 @@
     "install_files": [
      "HakgyoansimDotbogiR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-doldam",
@@ -20701,7 +20983,8 @@
      "HakgyoansimDoldamL.ttf",
      "HakgyoansimDoldamM.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-dunggeunmiso",
@@ -20773,7 +21056,8 @@
      "Hakgyoansim Dunggeunmiso TTF B.ttf",
      "Hakgyoansim Dunggeunmiso TTF R.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-tteokbokki-b",
@@ -20834,7 +21118,8 @@
     "install_files": [
      "Hakgyoansim_TteokbokkiB.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-ttwimteul",
@@ -20895,7 +21180,8 @@
     "install_files": [
      "HakgyoansimTtwimteulR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-rikodeo",
@@ -20956,7 +21242,8 @@
     "install_files": [
      "HakgyoansimRikodeoR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-manito-r",
@@ -21017,7 +21304,8 @@
     "install_files": [
      "Hakgyoansim_ManitoR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-mabeopsa",
@@ -21078,7 +21366,8 @@
     "install_files": [
      "HakgyoansimMabeopsaR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-malgeunnal",
@@ -21150,7 +21439,8 @@
      "HakgyoansimMalgeunnalB.ttf",
      "HakgyoansimMalgeunnalM.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-moheomga",
@@ -21222,7 +21512,8 @@
      "HakgyoansimMoheomgaB.ttf",
      "HakgyoansimMoheomgaR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-monggeulmonggeul",
@@ -21283,7 +21574,8 @@
     "install_files": [
      "HakgyoansimMonggeulmonggeulR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-mondangbunfil-r",
@@ -21345,7 +21637,8 @@
     "install_files": [
      "Hakgyoansim_MondangbunfilR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-mulgyeol",
@@ -21417,7 +21710,8 @@
      "HakgyoansimMulgyeolB.ttf",
      "HakgyoansimMulgyeolR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-mindeulleholssi-r",
@@ -21479,7 +21773,8 @@
     "install_files": [
      "Hakgyoansim_MindeulleholssiR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-bareondotum",
@@ -21551,7 +21846,8 @@
      "HakgyoansimBareondotumB.ttf",
      "HakgyoansimBareondotumR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-bareonbatang",
@@ -21623,7 +21919,8 @@
      "HakgyoansimBareonbatangB.ttf",
      "HakgyoansimBareonbatangR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-bandal-l",
@@ -21684,7 +21981,8 @@
     "install_files": [
      "Hakgyoansim_BandalL.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-badasseugi",
@@ -21757,7 +22055,8 @@
      "Hakgyoansim Badasseugi TTF B.ttf",
      "Hakgyoansim Badasseugi TTF L.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-byeolbichhaneul",
@@ -21829,7 +22128,8 @@
      "Hakgyoansim Byeolbichhaneul TTF B.ttf",
      "Hakgyoansim Byeolbichhaneul TTF L.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-byeoljari",
@@ -21901,7 +22201,8 @@
      "Hakgyoansim Byeoljari TTF B.ttf",
      "Hakgyoansim Byeoljari TTF L.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-boadmarker-r",
@@ -21962,7 +22263,8 @@
     "install_files": [
      "Hakgyoansim_BoardmarkerR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-bombanghak",
@@ -22023,7 +22325,8 @@
     "install_files": [
      "HakgyoansimBombanghakR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-bunpil",
@@ -22084,7 +22387,8 @@
     "install_files": [
      "HakgyoansimBunpilR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-butpen",
@@ -22167,7 +22471,8 @@
      "HakgyoansimButpenL.ttf",
      "HakgyoansimButpenM.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-samulham",
@@ -22228,7 +22533,8 @@
     "install_files": [
      "HakgyoansimSamulhamR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-santteutdotumthic",
@@ -22300,7 +22606,8 @@
      "HakgyoansimSantteutdotumL.ttf",
      "HakgyoansimSantteutdotumM.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-santteutbatang",
@@ -22372,7 +22679,8 @@
      "HakgyoansimSantteutbatangL.ttf",
      "HakgyoansimSantteutbatangM.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-sangjang-r",
@@ -22433,7 +22741,8 @@
     "install_files": [
      "Hakgyoansim_SangjangR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-saekyeonpil-r",
@@ -22495,7 +22804,8 @@
     "install_files": [
      "Hakgyoansim_SaekyeonpilR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-sonagi",
@@ -22556,7 +22866,8 @@
     "install_files": [
      "HakgyoansimSonagiR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-susukkang-l",
@@ -22617,7 +22928,8 @@
     "install_files": [
      "Hakgyoansim_SusukkangL.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-sketchbook-r",
@@ -22678,7 +22990,8 @@
     "install_files": [
      "Hakgyoansim_SketchbookR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-siganpyo-r",
@@ -22739,7 +23052,8 @@
     "install_files": [
      "Hakgyoansim_SiganpyoR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-allimjang",
@@ -22811,7 +23125,8 @@
      "Hakgyoansim Allimjang TTF B.ttf",
      "Hakgyoansim Allimjang TTF R.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-eohangkkumigi-b",
@@ -22872,7 +23187,8 @@
     "install_files": [
      "Hakgyoansim_EohangkkumigiB.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-yeohaeng",
@@ -22933,7 +23249,8 @@
     "install_files": [
      "HakgyoansimYeohaengR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-ocarina-r",
@@ -22994,7 +23311,8 @@
     "install_files": [
      "Hakgyoansim_OcarinaR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-usan",
@@ -23056,7 +23374,8 @@
     "install_files": [
      "HakgyoansimUsanR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-wooju",
@@ -23117,7 +23436,8 @@
     "install_files": [
      "HakgyoansimWoojuR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-undongjang",
@@ -23178,7 +23498,8 @@
     "install_files": [
      "HakgyoansimUndongjangL.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-eunhasu",
@@ -23239,7 +23560,8 @@
     "install_files": [
      "HakgyoansimEunhasuR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-yieodalligi-l",
@@ -23300,7 +23622,8 @@
     "install_files": [
      "Hakgyoansim_YieodalligiL.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-jayeon-r",
@@ -23361,7 +23684,8 @@
     "install_files": [
      "Hakgyoansim_JayeonR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-jayusigan-r",
@@ -23422,7 +23746,8 @@
     "install_files": [
      "Hakgyoansim_JayusiganR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-jeomsimsigan",
@@ -23483,7 +23808,8 @@
     "install_files": [
      "HakgyoansimJeomsimsiganB.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-jiugae",
@@ -23544,7 +23870,8 @@
     "install_files": [
      "HakgyoansimJiugaeR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-chaekgalpi-r",
@@ -23606,7 +23933,8 @@
     "install_files": [
      "Hakgyoansim_ChaekgalpiR.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-chulseokbu",
@@ -23678,7 +24006,8 @@
      "Hakgyoansim Chulseokbu TTF B.ttf",
      "Hakgyoansim Chulseokbu TTF L.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-chilpanjiugae",
@@ -23751,7 +24080,8 @@
      "Hakgyoansim Chilpanjiugae TTF B.ttf",
      "Hakgyoansim Chilpanjiugae TTF L.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hakgyoansim-kossuyeom",
@@ -23812,7 +24142,8 @@
     "install_files": [
      "HakgyoansimKossuyeomR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-kidaripungseon-l",
@@ -23873,7 +24204,8 @@
     "install_files": [
      "Hakgyoansim_KidaripungseonL.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-tuho",
@@ -23934,7 +24266,8 @@
     "install_files": [
      "HakgyoansimTuhoR.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-puzzle",
@@ -24006,7 +24339,8 @@
      "Hakgyoansim Puzzle TTF Black.ttf",
      "Hakgyoansim Puzzle TTF Outline.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hakgyoansim-poster-b",
@@ -24067,7 +24401,8 @@
     "install_files": [
      "Hakgyoansim_PosterB.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hufs",
@@ -24150,7 +24485,8 @@
      "한국외대체L.ttf",
      "한국외대체M.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "jaemin",
@@ -24211,7 +24547,8 @@
     "install_files": [
      "Jaemin.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "jaemin2-0",
@@ -24272,7 +24609,8 @@
     "install_files": [
      "Jaemin_v2.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "jaemin3-0",
@@ -24333,7 +24671,8 @@
     "install_files": [
      "Jaemin3-Regular.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "hangeuljaemin6-0",
@@ -24394,7 +24733,8 @@
     "install_files": [
      "Hangeuljaemin6_TTF.ttf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "hahmlet",
@@ -24544,7 +24884,8 @@
      "Hahmlet-SemiBold.ttf",
      "Hahmlet-Thin.ttf"
     ]
-   }
+   },
+   "pick": true
   },
   {
    "id": "happiness-sans",
@@ -24627,7 +24968,8 @@
      "Happiness-Sans-Regular.otf",
      "Happiness-Sans-Title.otf"
     ]
-   }
+   },
+   "pick": false
   },
   {
    "id": "white-tailed-eagle",
@@ -24689,7 +25031,8 @@
     "install_files": [
      "White_kkorisuri.ttf"
     ]
-   }
+   },
+   "pick": false
   }
  ]
 }
