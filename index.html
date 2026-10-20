@@ -79,16 +79,6 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
     <option value="wt-down">굵기: 굵은 것부터</option>
     <option value="size-up">글자 크기: 작게 보이는 것부터</option>
     <option value="size-down">글자 크기: 크게 보이는 것부터</option>
-    <option value="width-up">글자 폭: 좁은 것부터</option>
-    <option value="width-down">글자 폭: 넓은 것부터</option>
-    <option value="ink-up">글씨 진하기: 옅은 것부터</option>
-    <option value="ink-down">글씨 진하기: 진한 것부터</option>
-    <option value="counter-up">속공간(ㅇ 안쪽): 좁은 것부터</option>
-    <option value="counter-down">속공간(ㅇ 안쪽): 넓은 것부터</option>
-    <option value="contrast-down">획 굵기 대비: 큰 것(명조 느낌)부터</option>
-    <option value="fill-down">네모틀 채움: 꽉 찬 것부터</option>
-    <option value="hangul">한글 글자 수 많은 순</option>
-    <option value="bytes">파일 용량 작은 순</option>
   </select></label>
   <p class="lbl">갈래로 좁히기</p>
   <div class="chips" id="groups"></div>
@@ -225,11 +215,6 @@ const SORTS = {   // [기준 값, 방향] — 같으면 원래 순서(갈래순)
   name: [c => (c._f.name_ko || c._f.name), 1],
   'wt-up': [c => M('wt')(c) + (c._v ? c._v[3] / 1e7 : 0), 1], 'wt-down': [c => M('wt')(c) + (c._v ? c._v[3] / 1e7 : 0), -1],
   'size-up': [M('emh'), 1], 'size-down': [M('emh'), -1],
-  'width-up': [M('width'), 1], 'width-down': [M('width'), -1],
-  'ink-up': [M('ink'), 1], 'ink-down': [M('ink'), -1],
-  'counter-up': [M('counter'), 1], 'counter-down': [M('counter'), -1],
-  'contrast-down': [M('contrast'), -1], 'fill-down': [M('fill'), -1],
-  hangul: [c => c._f.facts.hangul, -1], bytes: [c => c._f.download.bytes, 1],
 };
 function sortGrid() {
   const g = $('#grid'), s = SORTS[$('#sort').value], cs = [...g.children];
