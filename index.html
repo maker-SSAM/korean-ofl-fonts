@@ -121,9 +121,14 @@ $('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받�
       const f = fs[i]; st.textContent = `${i + 1}/${fs.length} 받는 중… ${f.name_ko || f.name}`;
       const r = await fetch(PROXY + '?f=' + f.download.file); if (!r.ok) throw new Error(f.download.file + ' ' + r.status);
       const files = fflate.unzipSync(new Uint8Array(await r.arrayBuffer()));
-      let dir = (f.name_ko || f.name).replace(/[\\/:*?"<>|]/g, '_').trim() || f.id; while (used.has(dir)) dir += '_'; used.add(dir);
-      const inFolder = Object.keys(files).every(n => n.includes('/'));   // 받은 zip 안에 이미 폰트 폴더가 있으면 그대로 쓴다
-      for (const [n, data] of Object.entries(files)) { const e = new fflate.ZipDeflate(inFolder ? n : `${dir}/${n}`, { level: 3 }); z.add(e); e.push(data, true); }
+      const safe = s => (s || '').replace(/[\\/:*?"<>|]/g, '_').trim();
+      let dir = safe(f.name_ko) || safe(f.name) || f.id;   // 폴더 이름 = 카드 제목(한글 이름, 없으면 영문 이름)
+      if (used.has(dir)) dir = safe(f.name) || f.id;        // 한글 이름이 같은 폰트(삼립호빵체 Basic·Outline)는 원래 이름으로 나눈다
+      while (used.has(dir)) dir += '_'; used.add(dir);
+      for (const [n, data] of Object.entries(files)) {     // 배포 zip은 모두 '원래 폴더 이름/파일'(publish.py) — 맨 앞 폴더만 위 이름으로 바꾼다
+        const rel = n.slice(n.indexOf('/') + 1); if (!rel || rel.endsWith('/')) continue;
+        const e = new fflate.ZipDeflate(`${dir}/${rel}`, { level: 3 }); z.add(e); e.push(data, true);
+      }
     }
     z.end();
     await new Promise(r => setTimeout(r, 50));
