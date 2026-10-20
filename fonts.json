@@ -1,7 +1,7 @@
 {
  "name": "korean-ofl-fonts",
  "version": "1.0.0",
- "updated": "2026-10-16",
+ "updated": "2026-10-20",
  "count": 343,
  "base": "https://maker-ssam.github.io/korean-ofl-fonts/",
  "release": "https://github.com/maker-SSAM/korean-ofl-fonts/releases/download/v1.0.0/",
@@ -3877,10 +3877,10 @@
     "격식": "격식"
    },
    "facts": {
-    "hangul": 2574,
-    "hangul_level": "KS 완성형",
+    "hangul": 11172,
+    "hangul_level": "전체",
     "latin": true,
-    "weights": 6,
+    "weights": 7,
     "variable": false,
     "italic": false,
     "weight_range": [
@@ -3891,8 +3891,8 @@
     "install": "TTF"
    },
    "license": {
-    "basis": "Noto(본명조): SIL OFL",
-    "official": "https://www.google.com/get/noto/#sans-kore",
+    "basis": "Noto(본명조): SIL OFL — 2026-10-20 구글 폰트 공식 저장소의 전체 판(한글 11,172자, 파일 안 OFL)으로 바꿈",
+    "official": "https://github.com/google/fonts/tree/main/ofl/notoserifkr",
     "noonnu": "https://noonnu.cc/font_page/35",
     "source": "KERIS",
     "rfn": false,
@@ -3908,7 +3908,7 @@
      "weight": 900,
      "style": "normal",
      "variable": false,
-     "bytes": 234948,
+     "bytes": 2561428,
      "source": "NotoSerifKR-Black",
      "family": "Noto Serif KR"
     },
@@ -3918,7 +3918,7 @@
      "weight": 700,
      "style": "normal",
      "variable": false,
-     "bytes": 334760,
+     "bytes": 3231664,
      "source": "NotoSerifKR-Bold",
      "family": "Noto Serif KR"
     },
@@ -3928,19 +3928,19 @@
      "weight": 200,
      "style": "normal",
      "variable": false,
-     "bytes": 216240,
+     "bytes": 2419648,
      "source": "NotoSerifKR-ExtraLight",
      "family": "Noto Serif KR"
     },
     {
      "file": "fonts/noto-serif-kr/NotoSerifKR-Light.woff2",
      "format": "woff2",
-     "weight": 200,
+     "weight": 300,
      "style": "normal",
      "variable": false,
-     "bytes": 310692,
+     "bytes": 3063424,
      "source": "NotoSerifKR-Light",
-     "family": "Noto Serif KR Light"
+     "family": "Noto Serif KR"
     },
     {
      "file": "fonts/noto-serif-kr/NotoSerifKR-Medium.woff2",
@@ -3948,7 +3948,7 @@
      "weight": 500,
      "style": "normal",
      "variable": false,
-     "bytes": 328392,
+     "bytes": 3184992,
      "source": "NotoSerifKR-Medium",
      "family": "Noto Serif KR"
     },
@@ -3958,7 +3958,7 @@
      "weight": 400,
      "style": "normal",
      "variable": false,
-     "bytes": 323592,
+     "bytes": 3107224,
      "source": "NotoSerifKR-Regular",
      "family": "Noto Serif KR"
     },
@@ -3968,14 +3968,14 @@
      "weight": 600,
      "style": "normal",
      "variable": false,
-     "bytes": 311488,
+     "bytes": 3121076,
      "source": "NotoSerifKR-SemiBold",
      "family": "Noto Serif KR"
     }
    ],
    "download": {
     "file": "noto-serif-kr.zip",
-    "bytes": 3270291,
+    "bytes": 37009632,
     "install_files": [
      "NotoSerifKR-Black.ttf",
      "NotoSerifKR-Bold.ttf",

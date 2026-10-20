@@ -1,8 +1,14 @@
 Noto Serif KR
 ========================================
-라이선스 근거: Noto(본명조): SIL OFL
-공식 배포처: https://www.google.com/get/noto/#sans-kore
+라이선스 근거: Noto(본명조): SIL OFL — 2026-10-20 구글 폰트 공식 저장소의 전체 판(한글 11,172자, 파일 안 OFL)으로 바꿈
+공식 배포처: https://github.com/google/fonts/tree/main/ofl/notoserifkr
 받은 곳: https://maker-ssam.github.io/korean-ofl-fonts/ (korean-ofl-fonts)
+
+[폰트 파일 안 저작권 문구]
+(c) 2017-2024 Adobe (http://www.adobe.com/).
+
+[폰트 파일 안 라이선스 문구]
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org
 
 [제작사 라이선스 안내]
 본 폰트 소프트웨어는 SIL 오픈 폰트 라이선스 버전 1.1에 따라 라이선스 취득을 하였습니다.
@@ -47,6 +53,7 @@ SIL 오픈 폰트 라이선스
 
 [SIL Open Font License 1.1]
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
+(c) 2017-2024 Adobe (http://www.adobe.com/).
 
 -----------------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007

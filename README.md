@@ -54,4 +54,4 @@ data.fonts.filter(f => f.group === '손글씨' && f.tags['격식'] === '친근')
 - **분류 정보**(`fonts.json`의 갈래·태그 등)는 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ko)입니다. 출처(이 저장소)를 밝히면 자유롭게 쓰고 고칠 수 있습니다.
 - 라이선스가 바뀌었거나 잘못된 정보가 있으면 Issues로 알려 주세요.
 
-버전 1.0.0 · 갱신 2026-10-16
+버전 1.0.0 · 갱신 2026-10-20
