@@ -33,7 +33,8 @@ input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9
 .links { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; font-size: 13px; }   /* 위 2개·아래 2개 */
 .pickrow { display: flex; justify-content: center; margin-top: auto; }
 .links a, .links button { color: var(--accent); background: none; border: 1.5px solid var(--accent); border-radius: 8px; padding: 6px 8px; font: inherit; font-weight: 600; text-align: center; cursor: pointer; text-decoration: none; }
-.links a:hover, .links button:hover { background: var(--chip); }
+.links a, .links button { opacity: .8; }
+.links a:hover, .links button:hover { background: var(--chip); opacity: 1; }
 .card[hidden] { display: none; }
 .card.sel { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
 .pick { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; cursor: pointer; }
