@@ -13,7 +13,8 @@ body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.6 syste
 header, main { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
 header { padding-top: 32px; }
 h1 { font-size: 26px; margin: 0 0 6px; }
-.lead { color: var(--sub); margin: 0 0 18px; }
+.lead { color: var(--sub); margin: 0 0 18px; padding-left: 20px; }
+.lead li { margin: 2px 0; }
 .lead a { color: var(--accent); }
 .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
 input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--ink); font: inherit; }
@@ -61,8 +62,10 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
 <body>
 <header>
   <h1>한글 OFL 폰트 창고</h1>
-  <p class="lead">누구나 자유롭게 쓰고 다시 나눌 수 있는 한글 폰트 <b id="total">…</b>종. 폰트마다 재배포 근거를 확인했습니다(<b>예외</b> 표시가 붙은 2종은 재배포 문구가 없어 운영자 판단으로 넣은 것 — 라이선스를 꼭 보세요).
-    웹폰트 CSS · 설치용 zip · 라이선스를 바로 쓸 수 있고, 목록은 <a href="fonts.json">fonts.json</a>에 있습니다. 사용법은 <a id="repo" href="https://github.com/maker-SSAM/korean-ofl-fonts">저장소 안내</a>.</p>
+  <ul class="lead">
+    <li><b>OFL 폰트란?</b> 누구나 무료로 쓰고, 고치고, 다시 나눌 수 있게 허락한 오픈 폰트 라이선스(SIL Open Font License)를 따르는 폰트예요(폰트 파일 자체를 파는 것만 안 돼요).</li>
+    <li>한글 OFL 폰트 <b id="total">…</b>종(2종 예외)을 모두 모았습니다. 선택하여 필요한 폰트를 바로 다운로드 하세요.</li>
+  </ul>
   <div class="bar">
     <input id="q" type="search" placeholder="폰트 이름 찾기 (한글·영문)" aria-label="폰트 이름 찾기">
     <input id="sample" type="text" placeholder="미리보기 문장 바꾸기 (글자를 모두 불러오므로 조금 느려요)" aria-label="미리보기 문장">
@@ -181,7 +184,7 @@ function run() {
   $('#count').textContent = `${n}종`; tray();
 }
 fetch('fonts.json').then(r => r.json()).then(d => {
-  D = d; $('#total').textContent = d.count; $('#repo').href = d.repo;
+  D = d; $('#total').textContent = d.count;
   for (const g of d.groups) {
     const k = d.fonts.filter(f => f.group === g).length; if (!k) continue;
     const b = E('button', 'chip', `${g} ${k}`); b.onclick = () => { groups.has(g) ? groups.delete(g) : groups.add(g); b.classList.toggle('on'); run(); };
