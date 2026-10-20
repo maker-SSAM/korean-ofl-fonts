@@ -61,6 +61,7 @@ input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9
   #tray { padding: 8px 12px; } #tray small { display: none; } #tray .msg { flex-basis: 100%; }
   #tray .btn { padding: 6px 10px; font-size: 12px; }
 }
+#empty { text-align: center; color: var(--sub); padding: 32px 0 64px; }
 .pickbadge { font-size: 11px; background: var(--accent); color: var(--bg); border-radius: 4px; padding: 0 6px; margin-left: 6px; vertical-align: 1px; }
 .lbl { font-size: 12px; color: var(--sub); margin: 0 0 6px; }
 .guide { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 4px 16px; margin-bottom: 14px; font-size: 14px; }
@@ -103,6 +104,7 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
     <h4>꼭 알아둘 것</h4><ol><li>폰트 파일을 그대로 파는 것은 안 됩니다. 수업자료·문서·인쇄물·영상에 쓰는 것은 괜찮습니다.</li><li>나눔 계열 등은 출처 표기를 권장하며, <b>예외</b> 표시 폰트는 카드의 라이선스를 꼭 읽어 주세요.</li></ol>
   </details>
   <p class="count"><span id="count"></span> <button class="btn ghost" id="addall">모두선택</button></p>
+  <div id="empty" hidden><p>조건에 맞는 폰트가 없어요.</p><button class="btn" id="reset">조건 모두 풀기</button></div>
   <div class="grid" id="grid"></div>
 </main>
 <div id="tray" hidden><div class="in">
@@ -249,6 +251,7 @@ function run() {
     if (c._v) c._pv.textContent = s || SAMPLE;   // 굵기별 칸은 이미 그 굵기의 전체 웹폰트
     else if (s) { c._pv.textContent = s; useFull(f, c._pv); } else if (c._pv.textContent !== SAMPLE) { c._pv.textContent = SAMPLE; c._pv.style.fontFamily = c._pv.classList.contains('ok') ? `'kofp-${f.id}', sans-serif` : ''; }
   }
+  $('#empty').hidden = n > 0;
   const nt = Object.keys(tagSel).length; $('#ssum').textContent = '세부조건 선택' + (nt ? ` · ${nt}개 적용 중` : '');
   $('#count').textContent = expand ?`${ids.size}종 · ${n}칸` : `${n}종`; tray();
 }
@@ -287,6 +290,10 @@ fetch('fonts.json').then(r => r.json()).then(d => {
 const mq = matchMedia('(max-width: 700px)');   // 넓은 화면은 세부조건을 항상 펼치고, 휴대폰은 접어 둔다
 const setSbox = () => { $('#sbox').open = !mq.matches; }; setSbox(); mq.onchange = setSbox;
 $('#ssum').onclick = e => { if (!mq.matches) e.preventDefault(); };
+$('#reset').onclick = () => {   // 검색어·갈래·세부조건을 모두 풀어 전체 보기로
+  $('#q').value = ''; groups.clear(); $('#groups').querySelectorAll('.chip').forEach(x => x.classList.remove('on'));
+  tagSel = {}; refreshSels(); run();
+};
 let t; $('#sort').onchange = sortGrid; $('#q').oninput = run; $('#expand').onchange = e => { expand = e.target.checked; buildGrid(); };
 $('#sample').oninput = () => { clearTimeout(t); t = setTimeout(run, 400); };
 </script>
