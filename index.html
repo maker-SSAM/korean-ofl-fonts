@@ -52,6 +52,15 @@ input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9
 #tray .in { max-width: 1120px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
 #tray .msg { flex: 1 1 200px; font-size: 13px; }
 #tray small { color: var(--sub); display: block; }
+.sbox summary { list-style: none; font-size: 12px; color: var(--sub); margin: 0 0 6px; cursor: default; }
+.sbox summary::-webkit-details-marker { display: none; }
+@media (max-width: 700px) {   /* 휴대폰: 세부조건은 접어 두고(눌러서 펼침), 담기 막대는 작게 */
+  .sbox summary { cursor: pointer; font-size: 14px; color: var(--ink); background: var(--chip); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; }
+  .sbox summary::before { content: '▸ '; } .sbox[open] summary::before { content: '▾ '; }
+  .opt { flex-wrap: wrap; } .opt small { flex-basis: 100%; }
+  #tray { padding: 8px 12px; } #tray small { display: none; } #tray .msg { flex-basis: 100%; }
+  #tray .btn { padding: 6px 10px; font-size: 12px; }
+}
 .pickbadge { font-size: 11px; background: var(--accent); color: var(--bg); border-radius: 4px; padding: 0 6px; margin-left: 6px; vertical-align: 1px; }
 .lbl { font-size: 12px; color: var(--sub); margin: 0 0 6px; }
 .guide { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 4px 16px; margin-bottom: 14px; font-size: 14px; }
@@ -69,7 +78,7 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
   </ul>
   <div class="bar">
     <input id="q" type="search" placeholder="폰트 이름 찾기 (한글·영문)" aria-label="폰트 이름 찾기">
-    <input id="sample" type="text" placeholder="미리보기 문장 바꾸기 (글자를 모두 불러오므로 조금 느려요)" aria-label="미리보기 문장">
+    <input id="sample" type="text" placeholder="미리보기 문장 바꾸기 (조금 느려요)" aria-label="미리보기 문장">
   </div>
   <label class="opt"><input type="checkbox" id="expand"> 굵기별로 펼쳐서 보기 <small style="color:var(--sub)">(굵기가 여러 개인 폰트를 굵기마다 다른 칸에 · 담기·내려받기는 폰트 전체 기준)</small></label>
   <label class="opt">정렬 <select id="sort" aria-label="정렬 방법">
@@ -82,8 +91,9 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
   </select></label>
   <p class="lbl">갈래로 좁히기</p>
   <div class="chips" id="groups"></div>
-  <p class="lbl">세부조건 선택</p>
-  <div class="sels" id="sels"></div>
+  <details class="sbox" id="sbox"><summary id="ssum">세부조건 선택</summary>
+    <div class="sels" id="sels"></div>
+  </details>
 </header>
 <main>
   <details class="guide"><summary>받은 폰트 설치하는 방법</summary>
@@ -239,7 +249,8 @@ function run() {
     if (c._v) c._pv.textContent = s || SAMPLE;   // 굵기별 칸은 이미 그 굵기의 전체 웹폰트
     else if (s) { c._pv.textContent = s; useFull(f, c._pv); } else if (c._pv.textContent !== SAMPLE) { c._pv.textContent = SAMPLE; c._pv.style.fontFamily = c._pv.classList.contains('ok') ? `'kofp-${f.id}', sans-serif` : ''; }
   }
-  $('#count').textContent = expand ? `${ids.size}종 · ${n}칸` : `${n}종`; tray();
+  const nt = Object.keys(tagSel).length; $('#ssum').textContent = '세부조건 선택' + (nt ? ` · ${nt}개 적용 중` : '');
+  $('#count').textContent = expand ?`${ids.size}종 · ${n}칸` : `${n}종`; tray();
 }
 fetch('fonts.json').then(r => r.json()).then(d => {
   D = d; $('#total').textContent = d.count;
@@ -273,6 +284,9 @@ fetch('fonts.json').then(r => r.json()).then(d => {
   buildGrid();
   run();
 });
+const mq = matchMedia('(max-width: 700px)');   // 넓은 화면은 세부조건을 항상 펼치고, 휴대폰은 접어 둔다
+const setSbox = () => { $('#sbox').open = !mq.matches; }; setSbox(); mq.onchange = setSbox;
+$('#ssum').onclick = e => { if (!mq.matches) e.preventDefault(); };
 let t; $('#sort').onchange = sortGrid; $('#q').oninput = run; $('#expand').onchange = e => { expand = e.target.checked; buildGrid(); };
 $('#sample').oninput = () => { clearTimeout(t); t = setTimeout(run, 400); };
 </script>
