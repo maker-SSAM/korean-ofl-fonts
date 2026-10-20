@@ -77,7 +77,7 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
     <h4>웹페이지·슬라이드(HTML)에 쓸 때</h4><ol><li>카드의 <b>CSS 주소 복사</b>를 누르고, 페이지의 <code>&lt;link rel="stylesheet" href="…"&gt;</code>에 붙여 넣습니다.</li><li>CSS 안의 font-family 이름으로 글꼴을 지정합니다.</li></ol>
     <h4>꼭 알아둘 것</h4><ol><li>폰트 파일을 그대로 파는 것은 안 됩니다. 수업자료·문서·인쇄물·영상에 쓰는 것은 괜찮습니다.</li><li>나눔 계열 등은 출처 표기를 권장하며, <b>예외</b> 표시 폰트는 카드의 라이선스를 꼭 읽어 주세요.</li></ol>
   </details>
-  <p class="count"><span id="count"></span> <button class="chip" id="addall">지금 보이는 폰트 모두 담기</button></p>
+  <p class="count"><span id="count"></span> <button class="btn ghost" id="addall">모두선택</button></p>
   <div class="grid" id="grid"></div>
 </main>
 <div id="tray" hidden><div class="in">
@@ -101,6 +101,8 @@ const byId = id => D.fonts.find(f => f.id === id);
 function tray() {
   const fs = [...chosen].map(byId); $('#tray').hidden = !fs.length;
   $('#tn').textContent = fs.length; $('#tsz').textContent = mb(fs.reduce((a, f) => a + f.download.bytes, 0));
+  const vis = [...$('#grid').children].filter(c => !c.hidden), on = vis.length > 0 && vis.every(c => chosen.has(c._f.id));  // 보이는 폰트가 모두 담겼으면 초록색
+  $('#addall').classList.toggle('ghost', !on);
 }
 $('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받아 브라우저 안에서 zip 하나로 묶는다(폰트마다 폴더)
   const b = $('#tdl'), st = $('#tst'), fs = [...chosen].map(byId), msg0 = st.textContent, chunks = [];
@@ -128,7 +130,11 @@ $('#tsep').onclick = async () => {  // 예비: 파일을 차례로 따로 저장
   for (const f of [...chosen].map(byId)) { const a = document.createElement('a'); a.href = D.release + f.download.file; a.download = f.download.file; document.body.append(a); a.click(); a.remove(); await new Promise(r => setTimeout(r, 900)); }
 };
 $('#tcss').onclick = () => { const t = [...chosen].map(id => `<link rel="stylesheet" href="${D.base + byId(id).css}">`).join('\n'); navigator.clipboard?.writeText(t).then(() => { $('#tcss').textContent = '복사했어요'; setTimeout(() => $('#tcss').textContent = '웹폰트 CSS 복사', 1500); }); };
-$('#addall').onclick = () => { for (const c of $('#grid').children) if (!c.hidden) { chosen.add(c._f.id); c.classList.add('sel'); c.querySelector('.pick input').checked = true; } tray(); };
+$('#addall').onclick = () => {  // 보이는 폰트 모두 선택 ↔ 모두 해제
+  const vis = [...$('#grid').children].filter(c => !c.hidden), on = vis.length > 0 && vis.every(c => chosen.has(c._f.id));
+  for (const c of vis) { on ? chosen.delete(c._f.id) : chosen.add(c._f.id); c.classList.toggle('sel', !on); c.querySelector('.pick input').checked = !on; }
+  tray();
+};
 $('#tclr').onclick = () => { chosen.clear(); for (const c of $('#grid').children) { c.classList.remove('sel'); c.querySelector('.pick input').checked = false; } tray(); };
 const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { io.unobserve(e.target); load(e.target); } }), { rootMargin: '400px' });
 function load(pv) {  // 화면에 가까워진 카드만 미리보기 파일을 불러온다
@@ -169,7 +175,7 @@ function run() {
     c.hidden = !show; if (!show) continue; n++;
     if (s) { c._pv.textContent = s; useFull(f, c._pv); } else if (c._pv.textContent !== SAMPLE) { c._pv.textContent = SAMPLE; c._pv.style.fontFamily = c._pv.classList.contains('ok') ? `'kofp-${f.id}', sans-serif` : ''; }
   }
-  $('#count').textContent = `${n}종`;
+  $('#count').textContent = `${n}종`; tray();
 }
 fetch('fonts.json').then(r => r.json()).then(d => {
   D = d; $('#total').textContent = d.count; $('#repo').href = d.repo;
