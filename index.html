@@ -207,7 +207,7 @@ fetch('fonts.json').then(r => r.json()).then(d => {
     const b = E('button', 'chip', `${nm} ${k}`); b.title = tip; b.onclick = () => apply(nm, o); pb.push([b, nm]); $('#presets').append(b);
   }
   $('#groups').querySelectorAll('.chip').forEach(b => { const o = b.onclick; b._g = b.textContent.replace(/ \d+$/, ''); b.onclick = () => { o(); preset = ''; pb.forEach(([x]) => x.classList.remove('on')); }; });
-  $('#sels').querySelectorAll('select').forEach(x => { const o = x.onchange; x.onchange = () => { o(); pb.forEach(([y]) => y.classList.remove('on')); }; });
+  $('#sels').querySelectorAll('select').forEach(x => { const o = x.onchange; x.onchange = () => { pickOnly = false; usage = new Set(); preset = ''; pb.forEach(([y]) => y.classList.remove('on')); o(); }; });  // 세부 태그를 고르면 바로 고르기(추천·쓰임) 제한을 풀고 전체에서 찾는다
   apply(PRE[0][0], PRE[0][2]);
 });
 let t; $('#q').oninput = run; $('#sample').oninput = () => { clearTimeout(t); t = setTimeout(run, 400); };
