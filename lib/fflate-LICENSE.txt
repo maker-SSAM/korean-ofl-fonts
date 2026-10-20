@@ -1,0 +1,2 @@
+﻿fflate 0.8.2 — https://github.com/101arrowz/fflate (MIT License, Copyright (c) 2023 Arjun Barrett)
+다운로드 페이지가 zip을 묶을 때 쓰는 라이브러리입니다. 외부 주소(jsdelivr)가 막힌 곳에서도 되도록 파일을 그대로 가져다 두었습니다(내용은 수정하지 않음).
