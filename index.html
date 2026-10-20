@@ -187,14 +187,14 @@ fetch('fonts.json').then(r => r.json()).then(d => {
   }
   $('#grid').append(...d.fonts.map(card));
   const n = fn => d.fonts.filter(fn).length;
-  const PRE = [  // 목적별 바로 고르기 (추천 폰트 안에서)
+  const PRE = [  // 목적별 바로 고르기 (전체 보기가 기본, 나머지는 추천 폰트 안에서)
+    ['전체 보기', '모든 폰트', {}],
     ['추천 폰트', '직접 고른 추천 폰트', { pick: true }],
     ['본문 읽기', '작은 글씨로 긴 글을 읽기 편한 폰트', { pick: true, use: ['본문용', '범용'] }],
     ['제목·표지', '큰 글씨 제목에 어울리는 폰트', { pick: true, use: ['제목용'] }],
     ['손글씨 느낌', '손으로 쓴 듯한 폰트', { pick: true, g: ['손글씨'] }],
     ['또박또박 고딕', '깔끔한 고딕·반고딕', { pick: true, g: ['고딕', '반고딕'] }],
-    ['명조(바탕)', '삐침 있는 명조체', { pick: true, g: ['명조'] }],
-    ['전체 보기', '모든 폰트', {}]];
+    ['명조(바탕)', '삐침 있는 명조체', { pick: true, g: ['명조'] }]];
   const pb = [];
   const apply = (name, o) => {
     preset = name; pickOnly = !!o.pick; usage = new Set(o.use || []); groups = new Set(o.g || []); tagSel = {};
