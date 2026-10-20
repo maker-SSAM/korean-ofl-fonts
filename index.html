@@ -29,7 +29,9 @@ input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9
 .grp { font-size: 12px; color: var(--accent); white-space: nowrap; }
 .pv { font-size: 30px; line-height: 1.35; min-height: 82px; overflow-wrap: anywhere; color: var(--ink); opacity: .25; transition: opacity .2s; }
 .pv.ok { opacity: 1; }
-.links { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 13px; }
+.card { cursor: pointer; }   /* 카드 빈 곳 어디를 눌러도 '담기' 토글 (링크·버튼은 따로 동작) */
+.links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 12px; font-size: 13px; }
+.pickrow { display: flex; justify-content: center; margin-top: auto; }
 .links a, .links button { color: var(--accent); background: none; border: 0; padding: 0; font: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
 .card[hidden] { display: none; }
 .card.sel { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
@@ -37,7 +39,7 @@ input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9
 .pick input { width: 17px; height: 17px; accent-color: var(--accent); }
 .btn { border: 0; background: var(--accent); color: var(--bg); border-radius: 8px; padding: 7px 14px; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; text-decoration: none; }
 .btn.ghost { background: var(--chip); color: var(--ink); border: 1px solid var(--line); }
-.links .btn { color: var(--bg); text-decoration: none; }
+.links a.btn { color: var(--bg); background: var(--accent); padding: 3px 10px; border-radius: 6px; text-decoration: none; }
 details.adv { margin-bottom: 14px; }
 details.adv summary { cursor: pointer; color: var(--accent); font-size: 13px; }
 .sels { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
@@ -163,8 +165,10 @@ function card(f) {
   const dl = E('a', 'btn', `내려받기 ${mb(f.download.bytes)}`); dl.href = D.release + f.download.file;
   const lic = E('a', '', '라이선스'); lic.href = f.license.file;
   const of = E('a', '', '공식 배포처'); if (f.license.official) { of.href = f.license.official; of.rel = 'noopener'; of.target = '_blank'; }
-  links.append(dl, pk, css, lic); if (f.license.official) links.append(of);
-  c.classList.toggle('sel', chosen.has(f.id)); c.append(top, pv, links); c._f = f; c._pv = pv; return c;
+  links.append(dl, css, lic); if (f.license.official) links.append(of);
+  c.classList.toggle('sel', chosen.has(f.id)); const pr = E('div', 'pickrow'); pr.append(pk);
+  c.onclick = e => { if (!e.target.closest('a, button, .pick')) cb.click(); };
+  c.append(top, pv, pr, links); c._f = f; c._pv = pv; return c;
 }
 function run() {
   const q = $('#q').value.trim().toLowerCase(), s = $('#sample').value;
