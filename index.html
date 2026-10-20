@@ -221,6 +221,7 @@ function card(f, v) {   // v가 있으면 굵기별 칸(v = wlines 한 항목)
 }
 const M = k => c => c._f.facts.measure[k] ?? 0;   // 측정값(fonts.json facts.measure — 대표 굵기 파일을 잰 값)
 const SORTS = {   // [기준 값, 방향] — 같으면 원래 순서(갈래순)를 유지한다. 굵기별 칸은 같은 폰트 안에서 그 칸의 굵기(숫자)로 한 번 더 가른다
+  '': [c => D.groups.indexOf(c._f.group), 1],   // 기본 = 갈래순(명조·반고딕·고딕… 위쪽 갈래 버튼 순서)
   name: [c => (c._f.name_ko || c._f.name), 1],
   'wt-up': [c => M('wt')(c) + (c._v ? c._v[3] / 1e7 : 0), 1], 'wt-down': [c => M('wt')(c) + (c._v ? c._v[3] / 1e7 : 0), -1],
   'size-up': [M('emh'), 1], 'size-down': [M('emh'), -1],
@@ -233,7 +234,6 @@ const SORTS = {   // [기준 값, 방향] — 같으면 원래 순서(갈래순)
 function sortGrid() {
   const g = $('#grid'), s = SORTS[$('#sort').value], cs = [...g.children];
   cs.sort((a, b) => {
-    if (!s) return a._i - b._i;
     const x = s[0](a), y = s[0](b), d = typeof x === 'string' ? x.localeCompare(y, 'ko') : x - y;
     return d * s[1] || a._i - b._i;
   });
