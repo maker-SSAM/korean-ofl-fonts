@@ -43,7 +43,8 @@ input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9
 .btn { border: 0; background: var(--accent); color: var(--bg); border-radius: 8px; padding: 7px 14px; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; text-decoration: none; }
 .btn.ghost { background: var(--chip); color: var(--ink); border: 1px solid var(--line); }
 details.adv { margin-bottom: 14px; }
-details.adv summary { cursor: pointer; color: var(--accent); font-size: 13px; }
+details.adv summary { cursor: pointer; color: var(--accent); font-size: 13px; list-style: none; }
+details.adv summary::-webkit-details-marker { display: none; }
 .sels { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
 .sels label { font-size: 12px; color: var(--sub); display: flex; flex-direction: column; gap: 2px; }
 .sels select { padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--ink); font: inherit; font-size: 13px; }
@@ -72,7 +73,7 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
   </div>
   <p class="lbl">갈래로 좁히기</p>
   <div class="chips" id="groups"></div>
-  <details class="adv"><summary>세부 조건으로 좁히기 (쓰임·굵기·모서리 …)</summary><div class="sels" id="sels"></div></details>
+  <details class="adv"><summary>세부조건 선택</summary><div class="sels" id="sels"></div></details>
 </header>
 <main>
   <details class="guide"><summary>받은 폰트 설치하는 방법</summary>
@@ -99,7 +100,7 @@ const $ = s => document.querySelector(s);
 const E = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
 const PROXY = 'https://kofonts.erebus921.workers.dev/';   // 중계 서버(worker/proxy.js) — GitHub Releases zip을 브라우저가 읽을 수 있게 해 줌
 const SAMPLE = '다람쥐 헌 쳇바퀴에 타고파';
-let D, groups = new Set(), full = new Set(), chosen = new Set(), tagSel = {};
+let refreshSels = () => {}, D, groups = new Set(), full = new Set(), chosen = new Set(), tagSel = {};
 const mb = b => b >= 1e6 ? (b / 1e6).toFixed(1) + 'MB' : Math.max(1, Math.round(b / 1e3)) + 'KB';
 const byId = id => D.fonts.find(f => f.id === id);
 function tray() {
@@ -187,16 +188,27 @@ fetch('fonts.json').then(r => r.json()).then(d => {
   D = d; $('#total').textContent = d.count;
   for (const g of d.groups) {
     const k = d.fonts.filter(f => f.group === g).length; if (!k) continue;
-    const b = E('button', 'chip', `${g} ${k}`); b.onclick = () => { groups.has(g) ? groups.delete(g) : groups.add(g); b.classList.toggle('on'); run(); };
+    const b = E('button', 'chip', `${g} ${k}`); b.onclick = () => { groups.has(g) ? groups.delete(g) : groups.add(g); b.classList.toggle('on'); refreshSels(); run(); };
     $('#groups').append(b);
   }
+  const selUI = [];   // 세부조건 고르개: 지금 고른 갈래에 있는 조건·값만 보여 준다(갈래를 안 골랐으면 전체 폰트 기준)
   for (const [k, t] of Object.entries(d.tags)) {
     if (!d.fonts.some(f => f.tags[k])) continue;
     const lb = E('label', '', t.label || k), sl = E('select'); sl.title = t.help || '';
-    sl.append(new Option('전체', ''), ...t.values.map(v => new Option(v, v)));
     sl.onchange = () => { sl.value ? tagSel[k] = sl.value : delete tagSel[k]; run(); };
-    lb.append(sl); $('#sels').append(lb);
+    lb.append(sl); $('#sels').append(lb); selUI.push([k, t, lb, sl]);
   }
+  refreshSels = () => {
+    const base = d.fonts.filter(f => !groups.size || groups.has(f.group));
+    for (const [k, t, lb, sl] of selUI) {
+      const vals = t.values.filter(v => base.some(f => f.tags[k] === v));
+      lb.hidden = !vals.length;
+      if (tagSel[k] && !vals.includes(tagSel[k])) delete tagSel[k];
+      sl.replaceChildren(new Option('전체', ''), ...vals.map(v => new Option(v, v)));
+      sl.value = tagSel[k] || '';
+    }
+  };
+  refreshSels();
   $('#grid').append(...d.fonts.map(card));
   run();
 });
