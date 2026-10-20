@@ -271,7 +271,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0839,
+     "width": 0.961,
+     "emh": 0.886,
+     "ink": 0.423,
+     "counter": 0.279,
+     "contrast": 1.385,
+     "fill": 0.734,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "대화제약 공식 페이지: SIL 라이선스, 유료 배포 말고는 모든 이용 가능",
@@ -355,7 +365,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0751,
+     "width": 1.117,
+     "emh": 0.8,
+     "ink": 0.312,
+     "counter": 0.342,
+     "contrast": 2.571,
+     "fill": 0.734,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "대화제약 공식 페이지: SIL 라이선스, 유료 배포 말고는 모든 이용 가능",
@@ -439,7 +459,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0622,
+     "width": 0.923,
+     "emh": 0.856,
+     "ink": 0.32,
+     "counter": 0.337,
+     "contrast": 1.2,
+     "fill": 0.726,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -556,7 +586,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1327,
+     "width": 1.004,
+     "emh": 0.863,
+     "ink": 0.618,
+     "counter": 0.058,
+     "contrast": 1.032,
+     "fill": 0.737,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -618,7 +658,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0684,
+     "width": 0.716,
+     "emh": 0.902,
+     "ink": 0.369,
+     "counter": 0.307,
+     "contrast": 1.182,
+     "fill": 0.919,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "카페24 라이선스: 수정·재배포 가능, 수정본도 OFL",
@@ -702,7 +752,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.166,
+     "width": 1.044,
+     "emh": 0.844,
+     "ink": 0.674,
+     "counter": 0.069,
+     "contrast": 1.241,
+     "fill": 0.922,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "카페24 라이선스: 수정·재배포 가능, 수정본도 OFL",
@@ -761,7 +821,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.072,
+     "width": 0.942,
+     "emh": 0.913,
+     "ink": 0.34,
+     "counter": 0.291,
+     "contrast": 1.167,
+     "fill": 0.701,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -834,7 +904,17 @@
      "가늘다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0459,
+     "width": 0.969,
+     "emh": 0.916,
+     "ink": 0.215,
+     "counter": 0.088,
+     "contrast": 1.429,
+     "fill": 0.55,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -896,7 +976,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0553,
+     "width": 1.365,
+     "emh": 0.366,
+     "ink": 0.381,
+     "counter": 0.151,
+     "contrast": 1.1,
+     "fill": 0.616,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -980,7 +1070,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.2052,
+     "width": 1.007,
+     "emh": 0.864,
+     "ink": 0.832,
+     "counter": 0.022,
+     "contrast": 1.1,
+     "fill": 0.961,
+     "slant": 8.5
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -1042,7 +1142,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0634,
+     "width": 0.961,
+     "emh": 0.891,
+     "ink": 0.309,
+     "counter": 0.342,
+     "contrast": 1.091,
+     "fill": 0.755,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -1192,7 +1302,17 @@
      "아주 가늘다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0167,
+     "width": 0.973,
+     "emh": 0.922,
+     "ink": 0.091,
+     "counter": 0.431,
+     "contrast": 1.0,
+     "fill": 0.515,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -1255,7 +1375,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0468,
+     "width": 1.568,
+     "emh": 0.465,
+     "ink": 0.236,
+     "counter": 0.109,
+     "contrast": 1.111,
+     "fill": 0.548,
+     "slant": 1.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -1317,7 +1447,17 @@
      "가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.043,
+     "width": 0.914,
+     "emh": 0.839,
+     "ink": 0.223,
+     "counter": 0.238,
+     "contrast": 1.0,
+     "fill": 0.451,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "무료, 자유롭게 수정·재배포 가능",
@@ -1379,7 +1519,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.062,
+     "width": 0.95,
+     "emh": 0.868,
+     "ink": 0.294,
+     "counter": 0.337,
+     "contrast": 1.2,
+     "fill": 0.7,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -1496,7 +1646,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0672,
+     "width": 0.926,
+     "emh": 0.843,
+     "ink": 0.353,
+     "counter": 0.294,
+     "contrast": 1.182,
+     "fill": 0.732,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -1636,7 +1796,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0544,
+     "width": 1.595,
+     "emh": 0.466,
+     "ink": 0.25,
+     "counter": 0.203,
+     "contrast": 1.1,
+     "fill": 0.512,
+     "slant": -0.2
+    }
    },
    "license": {
     "basis": "OFL 본문(눈누)",
@@ -1720,7 +1890,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0869,
+     "width": 1.026,
+     "emh": 0.732,
+     "ink": 0.368,
+     "counter": 0.22,
+     "contrast": 1.067,
+     "fill": 0.683,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "OFL 본문(눈누)",
@@ -1804,7 +1984,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0645,
+     "width": 1.007,
+     "emh": 0.86,
+     "ink": 0.297,
+     "counter": 0.183,
+     "contrast": 3.0,
+     "fill": 0.606,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "OFL 본문(눈누)",
@@ -1866,7 +2056,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1152,
+     "width": 1.111,
+     "emh": 0.789,
+     "ink": 0.541,
+     "counter": 0.121,
+     "contrast": 1.087,
+     "fill": 0.671,
+     "slant": -0.5
+    }
    },
    "license": {
     "basis": "한국저작권위원회 공유마당 이용조건 OFL",
@@ -1929,7 +2129,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0423,
+     "width": 1.24,
+     "emh": 0.662,
+     "ink": 0.186,
+     "counter": 0.046,
+     "contrast": 1.111,
+     "fill": 0.549,
+     "slant": 6.1
+    }
    },
    "license": {
     "basis": "한국저작권위원회 공유마당 이용조건 OFL",
@@ -1992,7 +2202,17 @@
      "가늘다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0446,
+     "width": 0.854,
+     "emh": 0.91,
+     "ink": 0.222,
+     "counter": 0.08,
+     "contrast": 1.0,
+     "fill": 0.482,
+     "slant": -0.9
+    }
    },
    "license": {
     "basis": "한국저작권위원회 공유마당 이용조건 OFL",
@@ -2055,7 +2275,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0581,
+     "width": 1.046,
+     "emh": 0.886,
+     "ink": 0.288,
+     "counter": 0.0,
+     "contrast": 1.154,
+     "fill": 0.694,
+     "slant": 6.2
+    }
    },
    "license": {
     "basis": "한국저작권위원회 공유마당 이용조건 OFL",
@@ -2118,7 +2348,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0276,
+     "width": 0.819,
+     "emh": 0.696,
+     "ink": 0.181,
+     "counter": 0.024,
+     "contrast": 1.0,
+     "fill": 0.414,
+     "slant": 6.9
+    }
    },
    "license": {
     "basis": "한국저작권위원회 공유마당 이용조건 OFL",
@@ -2180,7 +2420,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0898,
+     "width": 0.944,
+     "emh": 0.895,
+     "ink": 0.42,
+     "counter": 0.233,
+     "contrast": 1.267,
+     "fill": 0.794,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "한국저작권위원회 공유마당 이용조건 OFL",
@@ -2243,7 +2493,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0492,
+     "width": 1.176,
+     "emh": 0.633,
+     "ink": 0.259,
+     "counter": 0.028,
+     "contrast": 1.0,
+     "fill": 0.5,
+     "slant": 1.2
+    }
    },
    "license": {
     "basis": "한국저작권위원회 공유마당 이용조건 OFL",
@@ -2305,7 +2565,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.065,
+     "width": 1.45,
+     "emh": 0.464,
+     "ink": 0.355,
+     "counter": 0.18,
+     "contrast": 1.0,
+     "fill": 0.625,
+     "slant": -0.9
+    }
    },
    "license": {
     "basis": "한국저작권위원회 공유마당 이용조건 OFL",
@@ -2367,7 +2637,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1127,
+     "width": 1.267,
+     "emh": 0.716,
+     "ink": 0.484,
+     "counter": 0.061,
+     "contrast": 1.182,
+     "fill": 0.59,
+     "slant": 1.9
+    }
    },
    "license": {
     "basis": "한국저작권위원회 공유마당 이용조건 OFL",
@@ -2430,7 +2710,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0528,
+     "width": 0.923,
+     "emh": 0.746,
+     "ink": 0.301,
+     "counter": 0.05,
+     "contrast": 1.2,
+     "fill": 0.514,
+     "slant": -0.9
+    }
    },
    "license": {
     "basis": "한국저작권위원회 공유마당 이용조건 OFL",
@@ -2493,7 +2783,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0514,
+     "width": 1.108,
+     "emh": 0.809,
+     "ink": 0.235,
+     "counter": 0.0,
+     "contrast": 1.2,
+     "fill": 0.625,
+     "slant": 0.5
+    }
    },
    "license": {
     "basis": "한국저작권위원회 공유마당 이용조건 OFL",
@@ -2556,7 +2856,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0579,
+     "width": 0.907,
+     "emh": 0.872,
+     "ink": 0.301,
+     "counter": 0.031,
+     "contrast": 1.0,
+     "fill": 0.497,
+     "slant": 3.2
+    }
    },
    "license": {
     "basis": "한국저작권위원회 공유마당 이용조건 OFL",
@@ -2619,7 +2929,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0631,
+     "width": 1.135,
+     "emh": 0.809,
+     "ink": 0.275,
+     "counter": 0.142,
+     "contrast": 1.091,
+     "fill": 0.524,
+     "slant": -1.5
+    }
    },
    "license": {
     "basis": "한국저작권위원회 공유마당 이용조건 OFL",
@@ -2682,7 +3002,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0648,
+     "width": 1.115,
+     "emh": 0.847,
+     "ink": 0.284,
+     "counter": 0.153,
+     "contrast": 1.077,
+     "fill": 0.457,
+     "slant": -0.1
+    }
    },
    "license": {
     "basis": "한국저작권위원회 공유마당 이용조건 OFL",
@@ -2745,7 +3075,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0437,
+     "width": 1.658,
+     "emh": 0.552,
+     "ink": 0.203,
+     "counter": 0.224,
+     "contrast": 2.0,
+     "fill": 0.595,
+     "slant": 10.2
+    }
    },
    "license": {
     "basis": "한국저작권위원회 공유마당 이용조건 OFL",
@@ -2807,7 +3147,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0668,
+     "width": 0.93,
+     "emh": 0.883,
+     "ink": 0.313,
+     "counter": 0.3,
+     "contrast": 1.091,
+     "fill": 0.631,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "김정철 글꼴: 라이선스 전문을 넣으면 자유롭게 재배포 가능",
@@ -2891,7 +3241,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0593,
+     "width": 0.952,
+     "emh": 0.909,
+     "ink": 0.28,
+     "counter": 0.273,
+     "contrast": 1.2,
+     "fill": 0.544,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "김정철 글꼴: 라이선스 전문을 넣으면 자유롭게 재배포 가능",
@@ -2976,7 +3336,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0521,
+     "width": 0.969,
+     "emh": 0.812,
+     "ink": 0.249,
+     "counter": 0.116,
+     "contrast": 1.2,
+     "fill": 0.474,
+     "slant": 2.1
+    }
    },
    "license": {
     "basis": "김정철 글꼴: 라이선스 전문을 넣으면 자유롭게 재배포 가능",
@@ -3060,7 +3430,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0645,
+     "width": 0.957,
+     "emh": 0.868,
+     "ink": 0.318,
+     "counter": 0.317,
+     "contrast": 1.182,
+     "fill": 0.692,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -3145,7 +3525,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0509,
+     "width": 0.921,
+     "emh": 0.917,
+     "ink": 0.242,
+     "counter": 0.273,
+     "contrast": 1.222,
+     "fill": 0.601,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -3226,7 +3616,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0509,
+     "width": 0.921,
+     "emh": 0.917,
+     "ink": 0.242,
+     "counter": 0.273,
+     "contrast": 1.222,
+     "fill": 0.601,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -3310,7 +3710,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0638,
+     "width": 0.922,
+     "emh": 0.883,
+     "ink": 0.318,
+     "counter": 0.316,
+     "contrast": 1.2,
+     "fill": 0.722,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -3474,7 +3884,16 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0106,
+     "width": 1.028,
+     "emh": 0.885,
+     "ink": 0.059,
+     "counter": 0.532,
+     "contrast": 1.0,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -3533,7 +3952,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0908,
+     "width": 1.154,
+     "emh": 0.812,
+     "ink": 0.379,
+     "counter": 0.346,
+     "contrast": 2.0,
+     "fill": 0.789,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -3592,7 +4021,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0908,
+     "width": 1.154,
+     "emh": 0.812,
+     "ink": 0.379,
+     "counter": 0.346,
+     "contrast": 2.0,
+     "fill": 0.789,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -3654,7 +4093,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.058,
+     "width": 0.878,
+     "emh": 0.919,
+     "ink": 0.263,
+     "counter": 0.319,
+     "contrast": 1.222,
+     "fill": 0.635,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "넷마블체: 자유롭게 재배포 가능. 단 수정·변형 금지 → 원본 파일 그대로만 주고, 미리보기도 원본 그대로나 그림으로",
@@ -3738,7 +4187,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0675,
+     "width": 0.924,
+     "emh": 0.905,
+     "ink": 0.328,
+     "counter": 0.308,
+     "contrast": 1.182,
+     "fill": 0.721,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -3888,7 +4347,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0499,
+     "width": 0.954,
+     "emh": 0.961,
+     "ink": 0.227,
+     "counter": 0.303,
+     "contrast": 1.714,
+     "fill": 0.54,
+     "slant": 0.3
+    }
    },
    "license": {
     "basis": "Noto(본명조): SIL OFL — 2026-10-20 구글 폰트 공식 저장소의 전체 판(한글 11,172자, 파일 안 OFL)으로 바꿈",
@@ -4013,7 +4482,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0614,
+     "width": 0.915,
+     "emh": 0.885,
+     "ink": 0.312,
+     "counter": 0.326,
+     "contrast": 1.1,
+     "fill": 0.72,
+     "slant": 6.8
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -4075,7 +4554,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0624,
+     "width": 0.928,
+     "emh": 0.868,
+     "ink": 0.319,
+     "counter": 0.318,
+     "contrast": 1.2,
+     "fill": 0.72,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -4159,7 +4648,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0981,
+     "width": 0.887,
+     "emh": 0.831,
+     "ink": 0.487,
+     "counter": 0.155,
+     "contrast": 1.111,
+     "fill": 0.676,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -4221,7 +4720,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0981,
+     "width": 0.908,
+     "emh": 0.956,
+     "ink": 0.377,
+     "counter": 0.403,
+     "contrast": 1.077,
+     "fill": 1.0,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -4283,7 +4792,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0653,
+     "width": 0.92,
+     "emh": 0.896,
+     "ink": 0.329,
+     "counter": 0.31,
+     "contrast": 1.182,
+     "fill": 0.726,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -4389,7 +4908,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0653,
+     "width": 0.923,
+     "emh": 0.896,
+     "ink": 0.327,
+     "counter": 0.312,
+     "contrast": 1.182,
+     "fill": 0.723,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -4485,7 +5014,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0546,
+     "width": 1.196,
+     "emh": 0.651,
+     "ink": 0.278,
+     "counter": 0.013,
+     "contrast": 1.083,
+     "fill": 0.551,
+     "slant": 3.2
+    }
    },
    "license": {
     "basis": "공유마당 이용조건 OFL(선생님 결정: 공유마당 라이선스를 따름). 눈누 본문의 \"수정 및 재배포 금지\"는 옛 조건으로 봄",
@@ -4547,7 +5086,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0613,
+     "width": 0.928,
+     "emh": 0.867,
+     "ink": 0.319,
+     "counter": 0.318,
+     "contrast": 1.2,
+     "fill": 0.723,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -4689,7 +5238,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1149,
+     "width": 1.093,
+     "emh": 0.902,
+     "ink": 0.442,
+     "counter": 0.199,
+     "contrast": 3.778,
+     "fill": 0.702,
+     "slant": 3.0
+    }
    },
    "license": {
     "basis": "롯데웰푸드(구 롯데제과) 자체 규정: 누구나 무료 사용, 폰트 자체의 유료 양도·판매 금지. 무료 재배포·수정에 대한 문구는 없음",
@@ -4749,7 +5308,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1465,
+     "width": 1.0,
+     "emh": 0.917,
+     "ink": 0.6,
+     "counter": 0.171,
+     "contrast": 1.0,
+     "fill": 0.867,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -4808,7 +5377,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0761,
+     "width": 0.633,
+     "emh": 0.917,
+     "ink": 0.405,
+     "counter": 0.297,
+     "contrast": 1.0,
+     "fill": 0.671,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -4867,7 +5446,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0643,
+     "width": 1.0,
+     "emh": 0.933,
+     "ink": 0.3,
+     "counter": 0.415,
+     "contrast": 1.0,
+     "fill": 0.752,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -4926,7 +5515,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1118,
+     "width": 1.0,
+     "emh": 0.875,
+     "ink": 0.509,
+     "counter": 0.241,
+     "contrast": 1.0,
+     "fill": 0.643,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -4985,7 +5584,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.092,
+     "width": 1.0,
+     "emh": 0.9,
+     "ink": 0.411,
+     "counter": 0.276,
+     "contrast": 1.0,
+     "fill": 0.723,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -5048,7 +5657,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0584,
+     "width": 1.421,
+     "emh": 0.514,
+     "ink": 0.278,
+     "counter": 0.116,
+     "contrast": 1.091,
+     "fill": 0.517,
+     "slant": 0.5
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -5110,7 +5729,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1374,
+     "width": 1.016,
+     "emh": 0.76,
+     "ink": 0.698,
+     "counter": 0.14,
+     "contrast": 1.25,
+     "fill": 0.911,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -5173,7 +5802,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0548,
+     "width": 1.373,
+     "emh": 0.472,
+     "ink": 0.342,
+     "counter": 0.184,
+     "contrast": 1.0,
+     "fill": 0.606,
+     "slant": -1.7
+    }
    },
    "license": {
     "basis": "나눔글꼴과 같은 라이선스(OFL)",
@@ -5235,7 +5874,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0622,
+     "width": 0.928,
+     "emh": 0.868,
+     "ink": 0.319,
+     "counter": 0.318,
+     "contrast": 1.2,
+     "fill": 0.72,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -5331,7 +5980,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0488,
+     "width": 0.975,
+     "emh": 0.85,
+     "ink": 0.24,
+     "counter": 0.309,
+     "contrast": 1.25,
+     "fill": 0.626,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -5393,7 +6052,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0414,
+     "width": 0.971,
+     "emh": 0.877,
+     "ink": 0.201,
+     "counter": 0.275,
+     "contrast": 1.5,
+     "fill": 0.582,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -5466,7 +6135,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1004,
+     "width": 0.955,
+     "emh": 0.905,
+     "ink": 0.476,
+     "counter": 0.201,
+     "contrast": 1.176,
+     "fill": 0.674,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "구름 산스: 사용·수정·재배포 가능(OFL)",
@@ -5547,7 +6226,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.068,
+     "width": 0.941,
+     "emh": 0.895,
+     "ink": 0.331,
+     "counter": 0.311,
+     "contrast": 1.083,
+     "fill": 0.653,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "구름 산스: 사용·수정·재배포 가능(OFL)",
@@ -5610,7 +6299,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0547,
+     "width": 0.833,
+     "emh": 0.708,
+     "ink": 0.344,
+     "counter": 0.059,
+     "contrast": 0.8,
+     "fill": 0.493,
+     "slant": -0.1
+    }
    },
    "license": {
     "basis": "공유마당 이용조건 OFL",
@@ -5672,7 +6371,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "OTF"
+    "install": "OTF",
+    "measure": {
+     "wt": 0.2229,
+     "width": 1.409,
+     "emh": 0.86,
+     "ink": 0.792,
+     "counter": 0.051,
+     "contrast": 1.475,
+     "fill": 0.923,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -5822,7 +6531,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0572,
+     "width": 0.939,
+     "emh": 0.922,
+     "ink": 0.277,
+     "counter": 0.305,
+     "contrast": 1.1,
+     "fill": 0.7,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL)",
@@ -5917,7 +6636,17 @@
      "아주 가늘다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0173,
+     "width": 0.939,
+     "emh": 0.922,
+     "ink": 0.183,
+     "counter": 0.437,
+     "contrast": 1.0,
+     "fill": 0.704,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL)",
@@ -5998,7 +6727,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0575,
+     "width": 0.932,
+     "emh": 0.922,
+     "ink": 0.277,
+     "counter": 0.307,
+     "contrast": 1.1,
+     "fill": 0.704,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -6071,7 +6810,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0438,
+     "width": 0.947,
+     "emh": 0.945,
+     "ink": 0.208,
+     "counter": 0.293,
+     "contrast": 1.833,
+     "fill": 0.523,
+     "slant": 0.1
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL)",
@@ -6166,7 +6915,17 @@
      "아주 가늘다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0175,
+     "width": 0.947,
+     "emh": 0.945,
+     "ink": 0.154,
+     "counter": 0.364,
+     "contrast": 0.5,
+     "fill": 0.526,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL)",
@@ -6250,7 +7009,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0726,
+     "width": 0.938,
+     "emh": 0.913,
+     "ink": 0.338,
+     "counter": 0.292,
+     "contrast": 1.167,
+     "fill": 0.704,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL)",
@@ -6356,7 +7125,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.053,
+     "width": 0.847,
+     "emh": 0.896,
+     "ink": 0.264,
+     "counter": 0.315,
+     "contrast": 1.111,
+     "fill": 0.666,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL)",
@@ -6430,7 +7209,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0322,
+     "width": 1.074,
+     "emh": 0.644,
+     "ink": 0.181,
+     "counter": 0.328,
+     "contrast": 1.4,
+     "fill": 0.586,
+     "slant": 1.9
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -6493,7 +7282,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0621,
+     "width": 1.317,
+     "emh": 0.612,
+     "ink": 0.284,
+     "counter": 0.128,
+     "contrast": 1.167,
+     "fill": 0.671,
+     "slant": 4.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -6556,7 +7355,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0323,
+     "width": 1.348,
+     "emh": 0.628,
+     "ink": 0.18,
+     "counter": 0.033,
+     "contrast": 1.167,
+     "fill": 0.598,
+     "slant": 5.2
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -6619,7 +7428,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0287,
+     "width": 1.302,
+     "emh": 0.548,
+     "ink": 0.133,
+     "counter": 0.025,
+     "contrast": 1.2,
+     "fill": 0.442,
+     "slant": 1.8
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -6682,7 +7501,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0337,
+     "width": 1.186,
+     "emh": 0.591,
+     "ink": 0.23,
+     "counter": 0.433,
+     "contrast": 1.0,
+     "fill": 0.685,
+     "slant": 5.9
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -6745,7 +7574,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0427,
+     "width": 1.058,
+     "emh": 0.607,
+     "ink": 0.267,
+     "counter": 0.197,
+     "contrast": 1.0,
+     "fill": 0.743,
+     "slant": -24.1
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -6808,7 +7647,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0267,
+     "width": 1.397,
+     "emh": 0.487,
+     "ink": 0.148,
+     "counter": 0.32,
+     "contrast": 0.833,
+     "fill": 0.559,
+     "slant": -3.1
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -6871,7 +7720,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0252,
+     "width": 1.334,
+     "emh": 0.499,
+     "ink": 0.145,
+     "counter": 0.282,
+     "contrast": 1.0,
+     "fill": 0.616,
+     "slant": 0.8
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -6934,7 +7793,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0243,
+     "width": 1.153,
+     "emh": 0.511,
+     "ink": 0.157,
+     "counter": 0.459,
+     "contrast": 1.0,
+     "fill": 0.701,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -6997,7 +7866,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0314,
+     "width": 1.514,
+     "emh": 0.432,
+     "ink": 0.204,
+     "counter": 0.283,
+     "contrast": 1.167,
+     "fill": 0.644,
+     "slant": 1.7
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -7060,7 +7939,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0257,
+     "width": 1.506,
+     "emh": 0.484,
+     "ink": 0.162,
+     "counter": 0.356,
+     "contrast": 1.0,
+     "fill": 0.571,
+     "slant": -1.1
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -7123,7 +8012,17 @@
      "가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0374,
+     "width": 1.165,
+     "emh": 0.722,
+     "ink": 0.207,
+     "counter": 0.363,
+     "contrast": 1.0,
+     "fill": 0.606,
+     "slant": 0.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -7185,7 +8084,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0542,
+     "width": 1.079,
+     "emh": 0.733,
+     "ink": 0.283,
+     "counter": 0.158,
+     "contrast": 1.444,
+     "fill": 0.638,
+     "slant": 0.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -7248,7 +8157,17 @@
      "아주 가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0195,
+     "width": 1.418,
+     "emh": 0.488,
+     "ink": 0.108,
+     "counter": 0.347,
+     "contrast": 1.0,
+     "fill": 0.533,
+     "slant": -3.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -7311,7 +8230,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0228,
+     "width": 0.889,
+     "emh": 0.761,
+     "ink": 0.126,
+     "counter": 0.037,
+     "contrast": 1.0,
+     "fill": 0.518,
+     "slant": 1.6
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -7374,7 +8303,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0283,
+     "width": 1.349,
+     "emh": 0.47,
+     "ink": 0.164,
+     "counter": 0.273,
+     "contrast": 1.0,
+     "fill": 0.564,
+     "slant": -3.8
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -7437,7 +8376,17 @@
      "아주 가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0242,
+     "width": 1.115,
+     "emh": 0.552,
+     "ink": 0.162,
+     "counter": 0.331,
+     "contrast": 0.8,
+     "fill": 0.504,
+     "slant": -3.6
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -7500,7 +8449,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.034,
+     "width": 1.153,
+     "emh": 0.494,
+     "ink": 0.214,
+     "counter": 0.262,
+     "contrast": 0.857,
+     "fill": 0.524,
+     "slant": -1.3
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -7563,7 +8522,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0401,
+     "width": 1.312,
+     "emh": 0.494,
+     "ink": 0.233,
+     "counter": 0.216,
+     "contrast": 1.0,
+     "fill": 0.571,
+     "slant": -0.9
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -7626,7 +8595,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0234,
+     "width": 1.143,
+     "emh": 0.454,
+     "ink": 0.148,
+     "counter": 0.065,
+     "contrast": 1.0,
+     "fill": 0.622,
+     "slant": -8.1
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -7689,7 +8668,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0258,
+     "width": 1.152,
+     "emh": 0.596,
+     "ink": 0.142,
+     "counter": 0.33,
+     "contrast": 1.0,
+     "fill": 0.649,
+     "slant": -0.7
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -7752,7 +8741,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0421,
+     "width": 1.536,
+     "emh": 0.525,
+     "ink": 0.246,
+     "counter": 0.305,
+     "contrast": 1.25,
+     "fill": 0.691,
+     "slant": -1.9
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -7815,7 +8814,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0409,
+     "width": 0.984,
+     "emh": 0.638,
+     "ink": 0.223,
+     "counter": 0.188,
+     "contrast": 1.0,
+     "fill": 0.378,
+     "slant": -4.1
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -7878,7 +8887,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0237,
+     "width": 1.065,
+     "emh": 0.622,
+     "ink": 0.149,
+     "counter": 0.18,
+     "contrast": 1.0,
+     "fill": 0.399,
+     "slant": -0.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -7941,7 +8960,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0422,
+     "width": 1.632,
+     "emh": 0.48,
+     "ink": 0.228,
+     "counter": 0.176,
+     "contrast": 1.0,
+     "fill": 0.607,
+     "slant": 4.1
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8004,7 +9033,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0317,
+     "width": 1.444,
+     "emh": 0.472,
+     "ink": 0.176,
+     "counter": 0.326,
+     "contrast": 1.0,
+     "fill": 0.597,
+     "slant": 2.2
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8067,7 +9106,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0217,
+     "width": 1.156,
+     "emh": 0.498,
+     "ink": 0.144,
+     "counter": 0.454,
+     "contrast": 1.25,
+     "fill": 0.398,
+     "slant": -39.4
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8130,7 +9179,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0284,
+     "width": 1.206,
+     "emh": 0.557,
+     "ink": 0.163,
+     "counter": 0.37,
+     "contrast": 0.833,
+     "fill": 0.641,
+     "slant": -1.9
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8193,7 +9252,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0215,
+     "width": 1.518,
+     "emh": 0.429,
+     "ink": 0.138,
+     "counter": 0.393,
+     "contrast": 1.0,
+     "fill": 0.663,
+     "slant": -1.3
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8256,7 +9325,17 @@
      "아주 가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0244,
+     "width": 1.128,
+     "emh": 0.592,
+     "ink": 0.168,
+     "counter": 0.256,
+     "contrast": 1.0,
+     "fill": 0.595,
+     "slant": -1.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8319,7 +9398,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0267,
+     "width": 1.198,
+     "emh": 0.435,
+     "ink": 0.193,
+     "counter": 0.361,
+     "contrast": 1.0,
+     "fill": 0.625,
+     "slant": -3.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8382,7 +9471,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0197,
+     "width": 1.413,
+     "emh": 0.413,
+     "ink": 0.127,
+     "counter": 0.058,
+     "contrast": 1.25,
+     "fill": 0.598,
+     "slant": 3.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8445,7 +9544,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0343,
+     "width": 1.512,
+     "emh": 0.41,
+     "ink": 0.213,
+     "counter": 0.318,
+     "contrast": 1.0,
+     "fill": 0.614,
+     "slant": -1.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8508,7 +9617,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0246,
+     "width": 1.421,
+     "emh": 0.463,
+     "ink": 0.169,
+     "counter": 0.362,
+     "contrast": 1.0,
+     "fill": 0.73,
+     "slant": 3.6
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8571,7 +9690,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0322,
+     "width": 1.464,
+     "emh": 0.434,
+     "ink": 0.176,
+     "counter": 0.295,
+     "contrast": 1.167,
+     "fill": 0.625,
+     "slant": -0.2
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8634,7 +9763,17 @@
      "아주 가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0213,
+     "width": 1.217,
+     "emh": 0.593,
+     "ink": 0.122,
+     "counter": 0.321,
+     "contrast": 1.25,
+     "fill": 0.553,
+     "slant": -0.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8697,7 +9836,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0366,
+     "width": 1.178,
+     "emh": 0.516,
+     "ink": 0.224,
+     "counter": 0.303,
+     "contrast": 1.0,
+     "fill": 0.64,
+     "slant": -1.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8760,7 +9909,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0398,
+     "width": 0.9,
+     "emh": 0.725,
+     "ink": 0.223,
+     "counter": 0.213,
+     "contrast": 1.0,
+     "fill": 0.478,
+     "slant": -3.3
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8823,7 +9982,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0271,
+     "width": 1.188,
+     "emh": 0.615,
+     "ink": 0.163,
+     "counter": 0.076,
+     "contrast": 0.833,
+     "fill": 0.695,
+     "slant": 0.3
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8886,7 +10055,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0393,
+     "width": 1.148,
+     "emh": 0.569,
+     "ink": 0.236,
+     "counter": 0.376,
+     "contrast": 1.0,
+     "fill": 0.75,
+     "slant": 0.7
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -8949,7 +10128,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0238,
+     "width": 1.587,
+     "emh": 0.43,
+     "ink": 0.128,
+     "counter": 0.39,
+     "contrast": 0.8,
+     "fill": 0.639,
+     "slant": -0.6
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -9012,7 +10201,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0322,
+     "width": 1.164,
+     "emh": 0.483,
+     "ink": 0.215,
+     "counter": 0.326,
+     "contrast": 1.0,
+     "fill": 0.623,
+     "slant": -1.6
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -9075,7 +10274,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0242,
+     "width": 1.289,
+     "emh": 0.512,
+     "ink": 0.147,
+     "counter": 0.398,
+     "contrast": 1.25,
+     "fill": 0.696,
+     "slant": -0.7
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -9138,7 +10347,17 @@
      "가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0282,
+     "width": 0.949,
+     "emh": 0.666,
+     "ink": 0.152,
+     "counter": 0.277,
+     "contrast": 1.2,
+     "fill": 0.421,
+     "slant": -4.3
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -9201,7 +10420,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0259,
+     "width": 1.149,
+     "emh": 0.613,
+     "ink": 0.161,
+     "counter": 0.426,
+     "contrast": 0.833,
+     "fill": 0.645,
+     "slant": 0.4
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -9264,7 +10493,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0367,
+     "width": 1.12,
+     "emh": 0.478,
+     "ink": 0.238,
+     "counter": 0.279,
+     "contrast": 1.143,
+     "fill": 0.65,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -9327,7 +10566,17 @@
      "아주 가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0222,
+     "width": 1.049,
+     "emh": 0.592,
+     "ink": 0.133,
+     "counter": 0.258,
+     "contrast": 1.25,
+     "fill": 0.51,
+     "slant": 0.9
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -9390,7 +10639,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0381,
+     "width": 1.171,
+     "emh": 0.548,
+     "ink": 0.228,
+     "counter": 0.018,
+     "contrast": 0.818,
+     "fill": 0.502,
+     "slant": 1.2
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL)",
@@ -9453,7 +10712,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0359,
+     "width": 1.216,
+     "emh": 0.429,
+     "ink": 0.235,
+     "counter": 0.227,
+     "contrast": 1.0,
+     "fill": 0.574,
+     "slant": -0.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -9516,7 +10785,17 @@
      "아주 가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0231,
+     "width": 1.556,
+     "emh": 0.457,
+     "ink": 0.128,
+     "counter": 0.381,
+     "contrast": 1.0,
+     "fill": 0.573,
+     "slant": -1.4
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -9579,7 +10858,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0232,
+     "width": 0.945,
+     "emh": 0.691,
+     "ink": 0.135,
+     "counter": 0.332,
+     "contrast": 1.25,
+     "fill": 0.495,
+     "slant": 1.1
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -9642,7 +10931,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0459,
+     "width": 1.361,
+     "emh": 0.471,
+     "ink": 0.233,
+     "counter": 0.223,
+     "contrast": 2.0,
+     "fill": 0.49,
+     "slant": 1.8
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -9705,7 +11004,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0456,
+     "width": 0.835,
+     "emh": 0.77,
+     "ink": 0.244,
+     "counter": 0.224,
+     "contrast": 1.125,
+     "fill": 0.465,
+     "slant": 0.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -9768,7 +11077,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0324,
+     "width": 1.225,
+     "emh": 0.459,
+     "ink": 0.22,
+     "counter": 0.316,
+     "contrast": 1.0,
+     "fill": 0.603,
+     "slant": 0.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -9831,7 +11150,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0274,
+     "width": 1.304,
+     "emh": 0.545,
+     "ink": 0.181,
+     "counter": 0.314,
+     "contrast": 1.0,
+     "fill": 0.597,
+     "slant": -2.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -9894,7 +11223,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.038,
+     "width": 1.462,
+     "emh": 0.416,
+     "ink": 0.247,
+     "counter": 0.234,
+     "contrast": 1.143,
+     "fill": 0.571,
+     "slant": 0.1
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -9957,7 +11296,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0587,
+     "width": 1.455,
+     "emh": 0.526,
+     "ink": 0.296,
+     "counter": 0.017,
+     "contrast": 1.0,
+     "fill": 0.561,
+     "slant": 8.9
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10020,7 +11369,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0232,
+     "width": 0.964,
+     "emh": 0.604,
+     "ink": 0.156,
+     "counter": 0.32,
+     "contrast": 1.0,
+     "fill": 0.526,
+     "slant": -0.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10083,7 +11442,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0358,
+     "width": 1.381,
+     "emh": 0.529,
+     "ink": 0.213,
+     "counter": 0.158,
+     "contrast": 1.0,
+     "fill": 0.525,
+     "slant": 12.9
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10146,7 +11515,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0435,
+     "width": 1.214,
+     "emh": 0.48,
+     "ink": 0.256,
+     "counter": 0.17,
+     "contrast": 0.889,
+     "fill": 0.514,
+     "slant": -3.7
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10209,7 +11588,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0245,
+     "width": 1.682,
+     "emh": 0.392,
+     "ink": 0.14,
+     "counter": 0.367,
+     "contrast": 1.0,
+     "fill": 0.339,
+     "slant": -6.4
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10272,7 +11661,17 @@
      "가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0299,
+     "width": 0.95,
+     "emh": 0.632,
+     "ink": 0.175,
+     "counter": 0.337,
+     "contrast": 1.0,
+     "fill": 0.502,
+     "slant": -2.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10335,7 +11734,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0308,
+     "width": 1.491,
+     "emh": 0.506,
+     "ink": 0.177,
+     "counter": 0.281,
+     "contrast": 1.167,
+     "fill": 0.545,
+     "slant": 0.8
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10398,7 +11807,17 @@
      "아주 가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0202,
+     "width": 0.961,
+     "emh": 0.557,
+     "ink": 0.148,
+     "counter": 0.321,
+     "contrast": 0.8,
+     "fill": 0.677,
+     "slant": 0.4
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10461,7 +11880,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0273,
+     "width": 0.981,
+     "emh": 0.674,
+     "ink": 0.155,
+     "counter": 0.289,
+     "contrast": 1.0,
+     "fill": 0.536,
+     "slant": 0.6
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10524,7 +11953,17 @@
      "가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0295,
+     "width": 0.878,
+     "emh": 0.654,
+     "ink": 0.184,
+     "counter": 0.033,
+     "contrast": 1.0,
+     "fill": 0.489,
+     "slant": -0.9
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10587,7 +12026,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0379,
+     "width": 1.398,
+     "emh": 0.503,
+     "ink": 0.23,
+     "counter": 0.302,
+     "contrast": 1.0,
+     "fill": 0.571,
+     "slant": -0.6
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10650,7 +12099,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0524,
+     "width": 1.461,
+     "emh": 0.474,
+     "ink": 0.296,
+     "counter": 0.173,
+     "contrast": 1.0,
+     "fill": 0.697,
+     "slant": 1.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10713,7 +12172,17 @@
      "가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0303,
+     "width": 0.825,
+     "emh": 0.72,
+     "ink": 0.185,
+     "counter": 0.061,
+     "contrast": 1.0,
+     "fill": 0.412,
+     "slant": 1.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10776,7 +12245,17 @@
      "가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0298,
+     "width": 1.019,
+     "emh": 0.65,
+     "ink": 0.155,
+     "counter": 0.118,
+     "contrast": 1.2,
+     "fill": 0.533,
+     "slant": -0.2
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10839,7 +12318,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0365,
+     "width": 1.139,
+     "emh": 0.635,
+     "ink": 0.207,
+     "counter": 0.276,
+     "contrast": 1.0,
+     "fill": 0.575,
+     "slant": -0.2
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10902,7 +12391,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0313,
+     "width": 1.066,
+     "emh": 0.572,
+     "ink": 0.186,
+     "counter": 0.233,
+     "contrast": 1.167,
+     "fill": 0.531,
+     "slant": 4.8
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -10965,7 +12464,17 @@
      "가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0322,
+     "width": 0.806,
+     "emh": 0.673,
+     "ink": 0.19,
+     "counter": 0.276,
+     "contrast": 1.0,
+     "fill": 0.457,
+     "slant": -1.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11028,7 +12537,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0189,
+     "width": 0.979,
+     "emh": 0.652,
+     "ink": 0.109,
+     "counter": 0.242,
+     "contrast": 1.0,
+     "fill": 0.423,
+     "slant": -1.9
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11091,7 +12610,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0234,
+     "width": 0.89,
+     "emh": 0.65,
+     "ink": 0.143,
+     "counter": 0.031,
+     "contrast": 0.8,
+     "fill": 0.472,
+     "slant": -1.9
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11154,7 +12683,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0307,
+     "width": 1.423,
+     "emh": 0.511,
+     "ink": 0.17,
+     "counter": 0.362,
+     "contrast": 1.0,
+     "fill": 0.658,
+     "slant": -2.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11217,7 +12756,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0311,
+     "width": 1.318,
+     "emh": 0.573,
+     "ink": 0.149,
+     "counter": 0.278,
+     "contrast": 1.0,
+     "fill": 0.482,
+     "slant": 0.2
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11280,7 +12829,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0296,
+     "width": 1.064,
+     "emh": 0.505,
+     "ink": 0.207,
+     "counter": 0.015,
+     "contrast": 1.0,
+     "fill": 0.535,
+     "slant": -1.4
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11343,7 +12902,17 @@
      "가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.033,
+     "width": 0.731,
+     "emh": 0.726,
+     "ink": 0.206,
+     "counter": 0.198,
+     "contrast": 1.0,
+     "fill": 0.476,
+     "slant": -2.4
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11406,7 +12975,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0604,
+     "width": 1.574,
+     "emh": 0.474,
+     "ink": 0.306,
+     "counter": 0.189,
+     "contrast": 1.0,
+     "fill": 0.593,
+     "slant": -1.8
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11469,7 +13048,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0367,
+     "width": 1.329,
+     "emh": 0.554,
+     "ink": 0.222,
+     "counter": 0.323,
+     "contrast": 1.0,
+     "fill": 0.643,
+     "slant": 0.7
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11532,7 +13121,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0335,
+     "width": 0.665,
+     "emh": 0.86,
+     "ink": 0.185,
+     "counter": 0.028,
+     "contrast": 1.0,
+     "fill": 0.359,
+     "slant": -0.7
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11595,7 +13194,17 @@
      "아주 가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.021,
+     "width": 1.083,
+     "emh": 0.588,
+     "ink": 0.129,
+     "counter": 0.038,
+     "contrast": 1.25,
+     "fill": 0.529,
+     "slant": 0.6
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11658,7 +13267,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.031,
+     "width": 1.288,
+     "emh": 0.508,
+     "ink": 0.19,
+     "counter": 0.364,
+     "contrast": 1.0,
+     "fill": 0.623,
+     "slant": 0.2
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11721,7 +13340,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0353,
+     "width": 1.354,
+     "emh": 0.571,
+     "ink": 0.19,
+     "counter": 0.01,
+     "contrast": 1.0,
+     "fill": 0.506,
+     "slant": -2.2
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11784,7 +13413,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0262,
+     "width": 1.5,
+     "emh": 0.373,
+     "ink": 0.16,
+     "counter": 0.273,
+     "contrast": 1.0,
+     "fill": 0.57,
+     "slant": -0.3
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11847,7 +13486,17 @@
      "아주 가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.022,
+     "width": 1.484,
+     "emh": 0.471,
+     "ink": 0.127,
+     "counter": 0.459,
+     "contrast": 1.0,
+     "fill": 0.615,
+     "slant": -4.7
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11910,7 +13559,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0256,
+     "width": 1.245,
+     "emh": 0.34,
+     "ink": 0.177,
+     "counter": 0.343,
+     "contrast": 1.2,
+     "fill": 0.72,
+     "slant": -3.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -11973,7 +13632,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0262,
+     "width": 1.445,
+     "emh": 0.437,
+     "ink": 0.174,
+     "counter": 0.379,
+     "contrast": 1.0,
+     "fill": 0.685,
+     "slant": -3.2
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -12036,7 +13705,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0562,
+     "width": 1.453,
+     "emh": 0.469,
+     "ink": 0.324,
+     "counter": 0.205,
+     "contrast": 1.0,
+     "fill": 0.625,
+     "slant": -1.7
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -12098,7 +13777,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0266,
+     "width": 1.339,
+     "emh": 0.626,
+     "ink": 0.147,
+     "counter": 0.351,
+     "contrast": 0.8,
+     "fill": 0.535,
+     "slant": 1.4
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -12161,7 +13850,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0241,
+     "width": 1.384,
+     "emh": 0.525,
+     "ink": 0.137,
+     "counter": 0.393,
+     "contrast": 1.0,
+     "fill": 0.642,
+     "slant": 0.4
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -12224,7 +13923,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0429,
+     "width": 1.475,
+     "emh": 0.452,
+     "ink": 0.277,
+     "counter": 0.291,
+     "contrast": 1.0,
+     "fill": 0.613,
+     "slant": 1.4
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -12287,7 +13996,17 @@
      "가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0292,
+     "width": 0.921,
+     "emh": 0.657,
+     "ink": 0.179,
+     "counter": 0.064,
+     "contrast": 1.0,
+     "fill": 0.445,
+     "slant": -0.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -12350,7 +14069,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0242,
+     "width": 0.962,
+     "emh": 0.672,
+     "ink": 0.151,
+     "counter": 0.307,
+     "contrast": 1.0,
+     "fill": 0.532,
+     "slant": 1.1
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -12413,7 +14142,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0246,
+     "width": 1.277,
+     "emh": 0.483,
+     "ink": 0.155,
+     "counter": 0.371,
+     "contrast": 1.0,
+     "fill": 0.662,
+     "slant": -2.9
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -12476,7 +14215,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0352,
+     "width": 1.135,
+     "emh": 0.634,
+     "ink": 0.209,
+     "counter": 0.257,
+     "contrast": 1.143,
+     "fill": 0.564,
+     "slant": -1.4
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -12539,7 +14288,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0309,
+     "width": 1.526,
+     "emh": 0.361,
+     "ink": 0.197,
+     "counter": 0.263,
+     "contrast": 1.0,
+     "fill": 0.513,
+     "slant": -3.1
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -12602,7 +14361,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0489,
+     "width": 1.327,
+     "emh": 0.508,
+     "ink": 0.291,
+     "counter": 0.016,
+     "contrast": 1.0,
+     "fill": 0.547,
+     "slant": -1.7
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL)",
@@ -12665,7 +14434,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.026,
+     "width": 1.292,
+     "emh": 0.485,
+     "ink": 0.156,
+     "counter": 0.348,
+     "contrast": 1.0,
+     "fill": 0.496,
+     "slant": -2.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -12728,7 +14507,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0566,
+     "width": 1.511,
+     "emh": 0.445,
+     "ink": 0.326,
+     "counter": 0.168,
+     "contrast": 1.3,
+     "fill": 0.638,
+     "slant": -1.6
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -12791,7 +14580,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0207,
+     "width": 1.237,
+     "emh": 0.358,
+     "ink": 0.153,
+     "counter": 0.255,
+     "contrast": 1.0,
+     "fill": 0.637,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -12854,7 +14653,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0285,
+     "width": 1.146,
+     "emh": 0.617,
+     "ink": 0.169,
+     "counter": 0.253,
+     "contrast": 1.167,
+     "fill": 0.51,
+     "slant": 0.7
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -12917,7 +14726,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0504,
+     "width": 0.845,
+     "emh": 0.746,
+     "ink": 0.284,
+     "counter": 0.147,
+     "contrast": 1.0,
+     "fill": 0.503,
+     "slant": 0.2
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -12980,7 +14799,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0224,
+     "width": 1.281,
+     "emh": 0.436,
+     "ink": 0.145,
+     "counter": 0.313,
+     "contrast": 1.25,
+     "fill": 0.588,
+     "slant": -2.8
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -13043,7 +14872,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0246,
+     "width": 0.95,
+     "emh": 0.705,
+     "ink": 0.15,
+     "counter": 0.292,
+     "contrast": 1.0,
+     "fill": 0.602,
+     "slant": -2.2
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -13106,7 +14945,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0269,
+     "width": 1.331,
+     "emh": 0.463,
+     "ink": 0.161,
+     "counter": 0.302,
+     "contrast": 1.0,
+     "fill": 0.598,
+     "slant": -0.2
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -13169,7 +15018,17 @@
      "가늘다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0334,
+     "width": 1.22,
+     "emh": 0.55,
+     "ink": 0.183,
+     "counter": 0.322,
+     "contrast": 0.857,
+     "fill": 0.617,
+     "slant": 1.2
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -13232,7 +15091,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0319,
+     "width": 1.136,
+     "emh": 0.501,
+     "ink": 0.191,
+     "counter": 0.282,
+     "contrast": 1.0,
+     "fill": 0.674,
+     "slant": -1.2
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -13295,7 +15164,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.049,
+     "width": 1.346,
+     "emh": 0.512,
+     "ink": 0.273,
+     "counter": 0.258,
+     "contrast": 1.0,
+     "fill": 0.708,
+     "slant": -2.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -13357,7 +15236,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0605,
+     "width": 0.911,
+     "emh": 0.914,
+     "ink": 0.284,
+     "counter": 0.343,
+     "contrast": 1.1,
+     "fill": 0.67,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL)",
@@ -13452,7 +15341,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0381,
+     "width": 0.939,
+     "emh": 0.917,
+     "ink": 0.183,
+     "counter": 0.458,
+     "contrast": 1.0,
+     "fill": 0.737,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -13547,7 +15446,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0605,
+     "width": 0.911,
+     "emh": 0.914,
+     "ink": 0.284,
+     "counter": 0.343,
+     "contrast": 1.1,
+     "fill": 0.67,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL)",
@@ -13642,7 +15551,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0596,
+     "width": 0.953,
+     "emh": 0.856,
+     "ink": 0.29,
+     "counter": 0.341,
+     "contrast": 1.2,
+     "fill": 0.687,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL)",
@@ -13737,7 +15656,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0719,
+     "width": 0.937,
+     "emh": 0.888,
+     "ink": 0.348,
+     "counter": 0.298,
+     "contrast": 1.167,
+     "fill": 0.71,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL)",
@@ -13855,7 +15784,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0855,
+     "width": 0.948,
+     "emh": 0.883,
+     "ink": 0.394,
+     "counter": 0.232,
+     "contrast": 1.143,
+     "fill": 0.696,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "무료, 자유롭게 수정·재배포 가능",
@@ -13914,7 +15853,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.045,
+     "width": 0.75,
+     "emh": 0.6,
+     "ink": 0.352,
+     "counter": 0.227,
+     "contrast": 1.0,
+     "fill": 0.695,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -13973,7 +15922,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0465,
+     "width": 0.923,
+     "emh": 0.65,
+     "ink": 0.311,
+     "counter": 0.361,
+     "contrast": 1.0,
+     "fill": 0.756,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -14032,7 +15991,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0908,
+     "width": 1.154,
+     "emh": 0.812,
+     "ink": 0.379,
+     "counter": 0.346,
+     "contrast": 2.0,
+     "fill": 0.789,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "둥근모꼴: 퍼블릭 도메인(재배포·수정 자유)",
@@ -14091,7 +16060,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0469,
+     "width": 1.0,
+     "emh": 0.562,
+     "ink": 0.367,
+     "counter": 0.293,
+     "contrast": 1.0,
+     "fill": 0.723,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -14153,7 +16132,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0517,
+     "width": 0.961,
+     "emh": 0.96,
+     "ink": 0.233,
+     "counter": 0.295,
+     "contrast": 1.375,
+     "fill": 0.527,
+     "slant": 0.4
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",
@@ -14256,7 +16245,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0703,
+     "width": 1.0,
+     "emh": 0.917,
+     "ink": 0.322,
+     "counter": 0.366,
+     "contrast": 1.0,
+     "fill": 0.728,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -14315,7 +16314,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0885,
+     "width": 1.0,
+     "emh": 0.9,
+     "ink": 0.401,
+     "counter": 0.276,
+     "contrast": 1.0,
+     "fill": 0.723,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -14385,7 +16394,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0742,
+     "width": 0.816,
+     "emh": 0.917,
+     "ink": 0.37,
+     "counter": 0.336,
+     "contrast": 1.0,
+     "fill": 0.687,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -14455,7 +16474,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0749,
+     "width": 1.007,
+     "emh": 0.917,
+     "ink": 0.35,
+     "counter": 0.395,
+     "contrast": 1.0,
+     "fill": 0.683,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -14547,7 +16576,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0724,
+     "width": 0.637,
+     "emh": 0.917,
+     "ink": 0.398,
+     "counter": 0.314,
+     "contrast": 1.0,
+     "fill": 0.626,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -14606,7 +16645,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0627,
+     "width": 0.946,
+     "emh": 0.868,
+     "ink": 0.298,
+     "counter": 0.336,
+     "contrast": 1.2,
+     "fill": 0.7,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -14830,7 +16879,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0627,
+     "width": 0.946,
+     "emh": 0.868,
+     "ink": 0.298,
+     "counter": 0.336,
+     "contrast": 1.2,
+     "fill": 0.7,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -15054,7 +17113,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0629,
+     "width": 0.942,
+     "emh": 0.868,
+     "ink": 0.297,
+     "counter": 0.34,
+     "contrast": 1.2,
+     "fill": 0.691,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -15278,7 +17347,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0629,
+     "width": 0.942,
+     "emh": 0.868,
+     "ink": 0.297,
+     "counter": 0.34,
+     "contrast": 1.2,
+     "fill": 0.691,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -15502,7 +17581,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1146,
+     "width": 0.911,
+     "emh": 0.917,
+     "ink": 0.456,
+     "counter": 0.217,
+     "contrast": 2.077,
+     "fill": 0.714,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -15561,7 +17650,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1146,
+     "width": 1.0,
+     "emh": 0.917,
+     "ink": 0.436,
+     "counter": 0.219,
+     "contrast": 2.077,
+     "fill": 0.725,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -15623,7 +17722,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0827,
+     "width": 0.704,
+     "emh": 0.85,
+     "ink": 0.478,
+     "counter": 0.058,
+     "contrast": 1.4,
+     "fill": 0.719,
+     "slant": -0.3
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -15686,7 +17795,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0795,
+     "width": 1.054,
+     "emh": 0.782,
+     "ink": 0.406,
+     "counter": 0.144,
+     "contrast": 1.125,
+     "fill": 0.764,
+     "slant": -1.8
+    }
    },
    "license": {
     "basis": "배민 글꼴 라이선스(OFL): 라이선스 전문을 넣으면 재배포 가능",
@@ -15748,7 +17867,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1258,
+     "width": 0.914,
+     "emh": 0.946,
+     "ink": 0.542,
+     "counter": 0.182,
+     "contrast": 1.095,
+     "fill": 0.929,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "배민 글꼴 라이선스(OFL): 라이선스 전문을 넣으면 재배포 가능",
@@ -15810,7 +17939,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0636,
+     "width": 0.789,
+     "emh": 0.888,
+     "ink": 0.327,
+     "counter": 0.04,
+     "contrast": 1.0,
+     "fill": 0.525,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -15872,7 +18011,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1025,
+     "width": 0.958,
+     "emh": 0.887,
+     "ink": 0.182,
+     "counter": 0.001,
+     "contrast": 0.667,
+     "fill": 1.076,
+     "slant": 14.5
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -15934,7 +18083,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1025,
+     "width": 0.924,
+     "emh": 0.915,
+     "ink": 0.465,
+     "counter": 0.105,
+     "contrast": 1.167,
+     "fill": 0.705,
+     "slant": 3.8
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -15996,7 +18155,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1021,
+     "width": 0.985,
+     "emh": 0.805,
+     "ink": 0.52,
+     "counter": 0.169,
+     "contrast": 1.105,
+     "fill": 0.873,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -16058,7 +18227,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1042,
+     "width": 0.936,
+     "emh": 0.831,
+     "ink": 0.506,
+     "counter": 0.186,
+     "contrast": 1.053,
+     "fill": 0.79,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "배민 글꼴 라이선스(OFL): 라이선스 전문을 넣으면 재배포 가능",
@@ -16120,7 +18299,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0593,
+     "width": 0.927,
+     "emh": 0.773,
+     "ink": 0.306,
+     "counter": 0.348,
+     "contrast": 1.1,
+     "fill": 0.76,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -16182,7 +18371,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1042,
+     "width": 0.936,
+     "emh": 0.831,
+     "ink": 0.509,
+     "counter": 0.188,
+     "contrast": 1.105,
+     "fill": 0.786,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -16244,7 +18443,17 @@
      "아주 가늘다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1025,
+     "width": 0.924,
+     "emh": 0.912,
+     "ink": 0.408,
+     "counter": 0.171,
+     "contrast": 0.214,
+     "fill": 0.705,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -16306,7 +18515,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.051,
+     "width": 0.973,
+     "emh": 0.924,
+     "ink": 0.244,
+     "counter": 0.293,
+     "contrast": 1.375,
+     "fill": 0.551,
+     "slant": 0.5
+    }
    },
    "license": {
     "basis": "북엔드 바탕: OFL, 수정/복제/배포 가능",
@@ -16379,7 +18598,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1087,
+     "width": 0.832,
+     "emh": 0.936,
+     "ink": 0.51,
+     "counter": 0.166,
+     "contrast": 1.05,
+     "fill": 0.827,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -16442,7 +18671,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0426,
+     "width": 1.401,
+     "emh": 0.452,
+     "ink": 0.281,
+     "counter": 0.201,
+     "contrast": 1.111,
+     "fill": 0.681,
+     "slant": 1.4
+    }
    },
    "license": {
     "basis": "나눔글꼴과 같은 라이선스(OFL)",
@@ -16505,7 +18744,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "OTF"
+    "install": "OTF",
+    "measure": {
+     "wt": 0.0561,
+     "width": 0.938,
+     "emh": 0.91,
+     "ink": 0.248,
+     "counter": 0.023,
+     "contrast": 1.091,
+     "fill": 0.592,
+     "slant": -0.2
+    }
    },
    "license": {
     "basis": "솔뫼 김대건체 자체 규정: 자유롭게 수정·변경해 영리·비영리 사용 가능, 폰트 파일 유상 판매 금지. 무료 재배포 문구는 없음(공식 사이트 인증서 만료로 원문은 다시 확인 못 함). 파일은 이 PC에 설치된 OTF",
@@ -16580,7 +18829,17 @@
      "가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0316,
+     "width": 0.717,
+     "emh": 0.703,
+     "ink": 0.224,
+     "counter": 0.057,
+     "contrast": 1.0,
+     "fill": 0.472,
+     "slant": 0.6
+    }
    },
    "license": {
     "basis": "공유마당 이용조건 OFL",
@@ -16642,7 +18901,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0608,
+     "width": 0.921,
+     "emh": 0.877,
+     "ink": 0.315,
+     "counter": 0.322,
+     "contrast": 1.2,
+     "fill": 0.72,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -16792,7 +19061,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0599,
+     "width": 0.926,
+     "emh": 0.845,
+     "ink": 0.297,
+     "counter": 0.335,
+     "contrast": 1.2,
+     "fill": 0.589,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -16920,7 +19199,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0656,
+     "width": 1.121,
+     "emh": 0.67,
+     "ink": 0.337,
+     "counter": 0.2,
+     "contrast": 1.0,
+     "fill": 0.758,
+     "slant": -0.4
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -16982,7 +19271,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0644,
+     "width": 0.898,
+     "emh": 0.768,
+     "ink": 0.301,
+     "counter": 0.186,
+     "contrast": 1.0,
+     "fill": 0.531,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -17044,7 +19343,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0659,
+     "width": 1.011,
+     "emh": 0.589,
+     "ink": 0.369,
+     "counter": 0.144,
+     "contrast": 1.083,
+     "fill": 0.566,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "야놀자야체: 자유롭게 수정·재배포 가능",
@@ -17114,7 +19423,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0738,
+     "width": 0.822,
+     "emh": 0.917,
+     "ink": 0.34,
+     "counter": 0.317,
+     "contrast": 1.077,
+     "fill": 0.697,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -17187,7 +19506,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0751,
+     "width": 0.951,
+     "emh": 0.922,
+     "ink": 0.363,
+     "counter": 0.279,
+     "contrast": 1.154,
+     "fill": 0.778,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -17337,7 +19666,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.071,
+     "width": 0.973,
+     "emh": 0.913,
+     "ink": 0.347,
+     "counter": 0.358,
+     "contrast": 1.083,
+     "fill": 0.861,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "엘리스 글꼴: SIL OFL, 수정·재배포 가능",
@@ -17421,7 +19760,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0675,
+     "width": 0.96,
+     "emh": 0.857,
+     "ink": 0.341,
+     "counter": 0.366,
+     "contrast": 1.182,
+     "fill": 0.825,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "엘리스 글꼴: SIL OFL, 수정·재배포 가능",
@@ -17491,7 +19840,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0729,
+     "width": 0.959,
+     "emh": 0.91,
+     "ink": 0.346,
+     "counter": 0.361,
+     "contrast": 1.167,
+     "fill": 0.824,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "엘리스 글꼴: SIL OFL, 수정·재배포 가능",
@@ -17565,7 +19924,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.051,
+     "width": 1.819,
+     "emh": 0.372,
+     "ink": 0.286,
+     "counter": 0.199,
+     "contrast": 1.1,
+     "fill": 0.542,
+     "slant": -1.2
+    }
    },
    "license": {
     "basis": "온글잎 의청수: OFL(산돌구름 요약표 수정/복제/배포 가능) + KERIS OFL 안내",
@@ -17628,7 +19997,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0697,
+     "width": 1.076,
+     "emh": 0.632,
+     "ink": 0.412,
+     "counter": 0.193,
+     "contrast": 1.0,
+     "fill": 0.709,
+     "slant": -3.0
+    }
    },
    "license": {
     "basis": "온글잎 의청수: OFL(산돌구름 요약표 수정/복제/배포 가능) + KERIS OFL 안내",
@@ -17691,7 +20070,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0627,
+     "width": 1.324,
+     "emh": 0.468,
+     "ink": 0.382,
+     "counter": 0.135,
+     "contrast": 1.083,
+     "fill": 0.585,
+     "slant": -5.2
+    }
    },
    "license": {
     "basis": "온글잎 의청수: OFL(산돌구름 요약표 수정/복제/배포 가능) + KERIS OFL 안내",
@@ -17754,7 +20143,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0397,
+     "width": 0.813,
+     "emh": 0.586,
+     "ink": 0.284,
+     "counter": 0.189,
+     "contrast": 1.143,
+     "fill": 0.701,
+     "slant": -0.2
+    }
    },
    "license": {
     "basis": "온글잎 의청수: OFL(산돌구름 요약표 수정/복제/배포 가능) + KERIS OFL 안내",
@@ -17817,7 +20216,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0507,
+     "width": 1.11,
+     "emh": 0.567,
+     "ink": 0.288,
+     "counter": 0.238,
+     "contrast": 1.0,
+     "fill": 0.621,
+     "slant": -1.3
+    }
    },
    "license": {
     "basis": "온글잎 의청수: OFL(산돌구름 요약표 수정/복제/배포 가능) + KERIS OFL 안내",
@@ -17879,7 +20288,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1309,
+     "width": 1.104,
+     "emh": 1.016,
+     "ink": 0.46,
+     "counter": 0.329,
+     "contrast": 3.778,
+     "fill": 0.958,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "OFL",
@@ -17952,7 +20371,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.065,
+     "width": 0.887,
+     "emh": 0.831,
+     "ink": 0.325,
+     "counter": 0.232,
+     "contrast": 1.182,
+     "fill": 0.655,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "원주체: OFL, 수정·재배포 허용",
@@ -18022,7 +20451,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0804,
+     "width": 1.0,
+     "emh": 0.938,
+     "ink": 0.337,
+     "counter": 0.19,
+     "contrast": 2.0,
+     "fill": 0.366,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -18084,7 +20523,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0742,
+     "width": 0.986,
+     "emh": 0.898,
+     "ink": 0.352,
+     "counter": 0.289,
+     "contrast": 1.25,
+     "fill": 0.71,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "유앤피플 고딕: 공유마당 이용조건 OFL",
@@ -18146,7 +20595,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0741,
+     "width": 0.986,
+     "emh": 0.898,
+     "ink": 0.35,
+     "counter": 0.288,
+     "contrast": 1.25,
+     "fill": 0.71,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "유앤피플 고딕: 공유마당 이용조건 OFL",
@@ -18208,7 +20667,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0542,
+     "width": 0.949,
+     "emh": 0.914,
+     "ink": 0.258,
+     "counter": 0.316,
+     "contrast": 1.222,
+     "fill": 0.601,
+     "slant": 0.4
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -18270,7 +20739,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0622,
+     "width": 0.928,
+     "emh": 0.868,
+     "ink": 0.32,
+     "counter": 0.318,
+     "contrast": 1.2,
+     "fill": 0.72,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -18340,7 +20819,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "OTF"
+    "install": "OTF",
+    "measure": {
+     "wt": 0.1414,
+     "width": 0.816,
+     "emh": 0.917,
+     "ink": 0.612,
+     "counter": 0.121,
+     "contrast": 1.0,
+     "fill": 0.848,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -18402,7 +20891,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1397,
+     "width": 1.054,
+     "emh": 0.802,
+     "ink": 0.663,
+     "counter": 0.072,
+     "contrast": 1.0,
+     "fill": 0.887,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "칠칠공 공식 페이지: OFL, 수정/복제/배포 가능(유료 판매 금지)",
@@ -18464,7 +20963,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.068,
+     "width": 0.926,
+     "emh": 0.891,
+     "ink": 0.341,
+     "counter": 0.342,
+     "contrast": 1.083,
+     "fill": 0.746,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -18548,7 +21057,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0681,
+     "width": 0.937,
+     "emh": 0.891,
+     "ink": 0.347,
+     "counter": 0.349,
+     "contrast": 1.083,
+     "fill": 0.778,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -18632,7 +21151,17 @@
      "가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0393,
+     "width": 0.891,
+     "emh": 0.858,
+     "ink": 0.195,
+     "counter": 0.075,
+     "contrast": 1.333,
+     "fill": 0.535,
+     "slant": 0.4
+    }
    },
    "license": {
     "basis": "카페24 라이선스: 수정·재배포 가능, 수정본도 OFL",
@@ -18694,7 +21223,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1,
+     "width": 0.94,
+     "emh": 0.879,
+     "ink": 0.445,
+     "counter": 0.253,
+     "contrast": 2.778,
+     "fill": 0.821,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "카페24 라이선스: 수정·재배포 가능, 수정본도 OFL",
@@ -18756,7 +21295,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1046,
+     "width": 0.928,
+     "emh": 0.901,
+     "ink": 0.446,
+     "counter": 0.263,
+     "contrast": 2.778,
+     "fill": 0.837,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "카페24 라이선스: 수정·재배포 가능, 수정본도 OFL",
@@ -18818,7 +21367,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0676,
+     "width": 1.669,
+     "emh": 0.492,
+     "ink": 0.335,
+     "counter": 0.17,
+     "contrast": 1.0,
+     "fill": 0.621,
+     "slant": 0.5
+    }
    },
    "license": {
     "basis": "카페24 라이선스: 수정·재배포 가능, 수정본도 OFL",
@@ -18891,7 +21450,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1497,
+     "width": 1.117,
+     "emh": 0.798,
+     "ink": 0.665,
+     "counter": 0.038,
+     "contrast": 1.24,
+     "fill": 0.914,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "카페24 라이선스: 수정·재배포 가능, 수정본도 OFL",
@@ -18965,7 +21534,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0432,
+     "width": 1.052,
+     "emh": 0.601,
+     "ink": 0.26,
+     "counter": 0.018,
+     "contrast": 0.9,
+     "fill": 0.469,
+     "slant": -0.6
+    }
    },
    "license": {
     "basis": "카페24 라이선스: 수정·재배포 가능, 수정본도 OFL",
@@ -19028,7 +21607,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0702,
+     "width": 1.72,
+     "emh": 0.456,
+     "ink": 0.31,
+     "counter": 0.097,
+     "contrast": 1.071,
+     "fill": 0.619,
+     "slant": -3.7
+    }
    },
    "license": {
     "basis": "카페24 라이선스: 수정·재배포 가능, 수정본도 OFL",
@@ -19091,7 +21680,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0638,
+     "width": 0.962,
+     "emh": 0.8,
+     "ink": 0.298,
+     "counter": 0.263,
+     "contrast": 2.143,
+     "fill": 0.704,
+     "slant": -0.1
+    }
    },
    "license": {
     "basis": "카페24 라이선스: 수정·재배포 가능, 수정본도 OFL",
@@ -19165,7 +21764,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0465,
+     "width": 1.049,
+     "emh": 0.762,
+     "ink": 0.243,
+     "counter": 0.388,
+     "contrast": 1.429,
+     "fill": 0.775,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "카페24 라이선스: 수정·재배포 가능, 수정본도 OFL",
@@ -19227,7 +21836,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0554,
+     "width": 1.029,
+     "emh": 0.859,
+     "ink": 0.269,
+     "counter": 0.385,
+     "contrast": 1.111,
+     "fill": 0.91,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "카페24 라이선스: 수정·재배포 가능, 수정본도 OFL",
@@ -19300,7 +21919,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0693,
+     "width": 1.225,
+     "emh": 0.639,
+     "ink": 0.315,
+     "counter": 0.139,
+     "contrast": 1.0,
+     "fill": 0.561,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -19373,7 +22002,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1307,
+     "width": 1.004,
+     "emh": 0.836,
+     "ink": 0.614,
+     "counter": 0.162,
+     "contrast": 1.182,
+     "fill": 0.923,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "카페24 라이선스: 수정·재배포 가능, 수정본도 OFL",
@@ -19446,7 +22085,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1016,
+     "width": 1.256,
+     "emh": 0.79,
+     "ink": 0.419,
+     "counter": 0.275,
+     "contrast": 4.833,
+     "fill": 0.883,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "카페24 라이선스: 수정·재배포 가능, 수정본도 OFL",
@@ -19508,7 +22157,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0858,
+     "width": 0.969,
+     "emh": 0.812,
+     "ink": 0.451,
+     "counter": 0.203,
+     "contrast": 1.286,
+     "fill": 0.766,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -19603,7 +22262,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1699,
+     "width": 0.98,
+     "emh": 0.909,
+     "ink": 0.679,
+     "counter": 0.044,
+     "contrast": 1.057,
+     "fill": 0.883,
+     "slant": 1.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -19687,7 +22356,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0693,
+     "width": 0.956,
+     "emh": 0.853,
+     "ink": 0.36,
+     "counter": 0.32,
+     "contrast": 1.0,
+     "fill": 0.865,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -19837,7 +22516,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0618,
+     "width": 0.893,
+     "emh": 0.821,
+     "ink": 0.345,
+     "counter": 0.295,
+     "contrast": 1.2,
+     "fill": 0.722,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -19987,7 +22676,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0622,
+     "width": 0.928,
+     "emh": 0.868,
+     "ink": 0.319,
+     "counter": 0.318,
+     "contrast": 1.2,
+     "fill": 0.72,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -20138,7 +22837,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0353,
+     "width": 1.383,
+     "emh": 0.532,
+     "ink": 0.188,
+     "counter": 0.024,
+     "contrast": 1.143,
+     "fill": 0.504,
+     "slant": -0.2
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -20211,7 +22920,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1132,
+     "width": 0.857,
+     "emh": 0.828,
+     "ink": 0.616,
+     "counter": 0.203,
+     "contrast": 1.211,
+     "fill": 0.916,
+     "slant": 6.1
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -20284,7 +23003,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0897,
+     "width": 1.273,
+     "emh": 0.607,
+     "ink": 0.429,
+     "counter": 0.07,
+     "contrast": 1.056,
+     "fill": 0.618,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -20346,7 +23075,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1555,
+     "width": 1.568,
+     "emh": 0.781,
+     "ink": 0.545,
+     "counter": 0.149,
+     "contrast": 6.857,
+     "fill": 0.889,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -20409,7 +23148,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0535,
+     "width": 1.0,
+     "emh": 0.754,
+     "ink": 0.277,
+     "counter": 0.308,
+     "contrast": 1.0,
+     "fill": 0.616,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -20472,7 +23221,17 @@
      "가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0351,
+     "width": 1.051,
+     "emh": 0.662,
+     "ink": 0.193,
+     "counter": 0.325,
+     "contrast": 1.0,
+     "fill": 0.673,
+     "slant": -5.5
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -20534,7 +23293,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1005,
+     "width": 1.055,
+     "emh": 0.801,
+     "ink": 0.516,
+     "counter": 0.143,
+     "contrast": 1.312,
+     "fill": 0.871,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -20597,7 +23366,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0564,
+     "width": 0.788,
+     "emh": 0.944,
+     "ink": 0.271,
+     "counter": 0.194,
+     "contrast": 1.0,
+     "fill": 0.452,
+     "slant": -4.8
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -20659,7 +23438,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0647,
+     "width": 1.191,
+     "emh": 0.573,
+     "ink": 0.371,
+     "counter": 0.205,
+     "contrast": 1.083,
+     "fill": 0.662,
+     "slant": -3.5
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -20732,7 +23521,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1431,
+     "width": 1.092,
+     "emh": 0.817,
+     "ink": 0.628,
+     "counter": 0.06,
+     "contrast": 1.208,
+     "fill": 0.921,
+     "slant": 0.9
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -20805,7 +23604,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0627,
+     "width": 1.091,
+     "emh": 0.689,
+     "ink": 0.346,
+     "counter": 0.252,
+     "contrast": 1.0,
+     "fill": 0.671,
+     "slant": -0.7
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -20867,7 +23676,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0883,
+     "width": 0.939,
+     "emh": 0.826,
+     "ink": 0.443,
+     "counter": 0.209,
+     "contrast": 1.25,
+     "fill": 0.882,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -20930,7 +23749,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.038,
+     "width": 1.211,
+     "emh": 0.562,
+     "ink": 0.212,
+     "counter": 0.329,
+     "contrast": 1.286,
+     "fill": 0.522,
+     "slant": 3.8
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -21014,7 +23843,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0669,
+     "width": 1.0,
+     "emh": 0.775,
+     "ink": 0.354,
+     "counter": 0.307,
+     "contrast": 1.083,
+     "fill": 0.811,
+     "slant": 0.2
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -21087,7 +23926,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0924,
+     "width": 1.333,
+     "emh": 0.508,
+     "ink": 0.473,
+     "counter": 0.063,
+     "contrast": 1.312,
+     "fill": 0.59,
+     "slant": 0.7
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -21149,7 +23998,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1486,
+     "width": 1.051,
+     "emh": 0.9,
+     "ink": 0.572,
+     "counter": 0.132,
+     "contrast": 3.455,
+     "fill": 0.871,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -21211,7 +24070,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.125,
+     "width": 1.146,
+     "emh": 0.815,
+     "ink": 0.563,
+     "counter": 0.147,
+     "contrast": 1.368,
+     "fill": 0.825,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -21273,7 +24142,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0748,
+     "width": 1.654,
+     "emh": 0.475,
+     "ink": 0.386,
+     "counter": 0.208,
+     "contrast": 1.0,
+     "fill": 0.727,
+     "slant": -1.4
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -21335,7 +24214,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0888,
+     "width": 0.993,
+     "emh": 0.916,
+     "ink": 0.382,
+     "counter": 0.29,
+     "contrast": 3.833,
+     "fill": 0.839,
+     "slant": 2.5
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -21397,7 +24286,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0842,
+     "width": 0.965,
+     "emh": 0.708,
+     "ink": 0.418,
+     "counter": 0.254,
+     "contrast": 1.143,
+     "fill": 0.663,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -21470,7 +24369,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0569,
+     "width": 1.2,
+     "emh": 0.751,
+     "ink": 0.254,
+     "counter": 0.43,
+     "contrast": 5.333,
+     "fill": 0.932,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -21543,7 +24452,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1053,
+     "width": 1.5,
+     "emh": 0.556,
+     "ink": 0.473,
+     "counter": 0.076,
+     "contrast": 1.5,
+     "fill": 0.628,
+     "slant": 0.2
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -21606,7 +24525,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0638,
+     "width": 1.422,
+     "emh": 0.4,
+     "ink": 0.371,
+     "counter": 0.053,
+     "contrast": 1.0,
+     "fill": 0.56,
+     "slant": -0.4
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -21668,7 +24597,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1216,
+     "width": 1.273,
+     "emh": 0.74,
+     "ink": 0.466,
+     "counter": 0.175,
+     "contrast": 5.833,
+     "fill": 0.911,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -21742,7 +24681,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0535,
+     "width": 1.84,
+     "emh": 0.393,
+     "ink": 0.29,
+     "counter": 0.083,
+     "contrast": 1.0,
+     "fill": 0.372,
+     "slant": 6.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -21804,7 +24753,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0609,
+     "width": 0.989,
+     "emh": 0.88,
+     "ink": 0.305,
+     "counter": 0.353,
+     "contrast": 1.2,
+     "fill": 0.751,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -21877,7 +24836,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0421,
+     "width": 0.97,
+     "emh": 0.929,
+     "ink": 0.196,
+     "counter": 0.301,
+     "contrast": 2.0,
+     "fill": 0.512,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -21950,7 +24919,17 @@
      "아주 가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0368,
+     "width": 0.759,
+     "emh": 0.724,
+     "ink": 0.242,
+     "counter": 0.492,
+     "contrast": 0.857,
+     "fill": 0.833,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -22013,7 +24992,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0327,
+     "width": 0.927,
+     "emh": 0.859,
+     "ink": 0.159,
+     "counter": 0.359,
+     "contrast": 1.0,
+     "fill": 0.52,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -22086,7 +25075,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0504,
+     "width": 1.054,
+     "emh": 0.81,
+     "ink": 0.281,
+     "counter": 0.426,
+     "contrast": 1.25,
+     "fill": 0.848,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -22159,7 +25158,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0716,
+     "width": 1.048,
+     "emh": 0.655,
+     "ink": 0.369,
+     "counter": 0.276,
+     "contrast": 1.083,
+     "fill": 0.649,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -22232,7 +25241,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.087,
+     "width": 0.931,
+     "emh": 0.799,
+     "ink": 0.389,
+     "counter": 0.267,
+     "contrast": 2.111,
+     "fill": 0.74,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -22294,7 +25313,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.064,
+     "width": 1.045,
+     "emh": 0.7,
+     "ink": 0.339,
+     "counter": 0.143,
+     "contrast": 1.308,
+     "fill": 0.965,
+     "slant": -22.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -22356,7 +25385,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0639,
+     "width": 0.859,
+     "emh": 0.821,
+     "ink": 0.34,
+     "counter": 0.295,
+     "contrast": 1.0,
+     "fill": 0.826,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -22418,7 +25457,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0516,
+     "width": 1.249,
+     "emh": 0.633,
+     "ink": 0.236,
+     "counter": 0.124,
+     "contrast": 1.2,
+     "fill": 0.491,
+     "slant": 4.2
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -22502,7 +25551,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1497,
+     "width": 1.136,
+     "emh": 0.82,
+     "ink": 0.666,
+     "counter": 0.046,
+     "contrast": 1.138,
+     "fill": 0.916,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -22564,7 +25623,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.054,
+     "width": 0.899,
+     "emh": 0.894,
+     "ink": 0.257,
+     "counter": 0.351,
+     "contrast": 1.111,
+     "fill": 0.625,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -22637,7 +25706,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0458,
+     "width": 1.083,
+     "emh": 0.833,
+     "ink": 0.208,
+     "counter": 0.298,
+     "contrast": 1.667,
+     "fill": 0.544,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -22710,7 +25789,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.071,
+     "width": 0.945,
+     "emh": 0.961,
+     "ink": 0.311,
+     "counter": 0.176,
+     "contrast": 2.0,
+     "fill": 0.546,
+     "slant": 0.4
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -22773,7 +25862,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.054,
+     "width": 1.244,
+     "emh": 0.611,
+     "ink": 0.31,
+     "counter": 0.17,
+     "contrast": 1.077,
+     "fill": 0.579,
+     "slant": -4.9
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -22835,7 +25934,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0815,
+     "width": 1.465,
+     "emh": 0.636,
+     "ink": 0.367,
+     "counter": 0.133,
+     "contrast": 1.667,
+     "fill": 0.639,
+     "slant": 4.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -22897,7 +26006,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0587,
+     "width": 1.127,
+     "emh": 0.664,
+     "ink": 0.299,
+     "counter": 0.252,
+     "contrast": 1.0,
+     "fill": 0.559,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -22959,7 +26078,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1167,
+     "width": 1.429,
+     "emh": 0.743,
+     "ink": 0.53,
+     "counter": 0.192,
+     "contrast": 2.143,
+     "fill": 0.839,
+     "slant": 0.6
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23021,7 +26150,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0958,
+     "width": 1.385,
+     "emh": 0.588,
+     "ink": 0.496,
+     "counter": 0.181,
+     "contrast": 1.05,
+     "fill": 0.387,
+     "slant": -0.8
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23083,7 +26222,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0957,
+     "width": 0.942,
+     "emh": 0.867,
+     "ink": 0.508,
+     "counter": 0.28,
+     "contrast": 1.059,
+     "fill": 0.903,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23156,7 +26305,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1239,
+     "width": 1.122,
+     "emh": 0.767,
+     "ink": 0.514,
+     "counter": 0.078,
+     "contrast": 1.722,
+     "fill": 0.558,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23218,7 +26377,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1127,
+     "width": 1.042,
+     "emh": 0.889,
+     "ink": 0.48,
+     "counter": 0.186,
+     "contrast": 2.333,
+     "fill": 0.915,
+     "slant": 0.6
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23280,7 +26449,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0763,
+     "width": 1.089,
+     "emh": 0.768,
+     "ink": 0.345,
+     "counter": 0.286,
+     "contrast": 1.333,
+     "fill": 0.704,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23343,7 +26522,17 @@
      "아주 굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0623,
+     "width": 2.254,
+     "emh": 0.389,
+     "ink": 0.265,
+     "counter": 0.136,
+     "contrast": 1.364,
+     "fill": 0.47,
+     "slant": 3.3
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23405,7 +26594,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0461,
+     "width": 0.979,
+     "emh": 0.778,
+     "ink": 0.271,
+     "counter": 0.15,
+     "contrast": 1.125,
+     "fill": 0.815,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23467,7 +26666,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1077,
+     "width": 1.058,
+     "emh": 0.854,
+     "ink": 0.48,
+     "counter": 0.179,
+     "contrast": 1.438,
+     "fill": 0.789,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23529,7 +26738,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0695,
+     "width": 0.841,
+     "emh": 0.793,
+     "ink": 0.362,
+     "counter": 0.186,
+     "contrast": 1.167,
+     "fill": 0.48,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23591,7 +26810,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0464,
+     "width": 1.321,
+     "emh": 0.527,
+     "ink": 0.268,
+     "counter": 0.363,
+     "contrast": 0.778,
+     "fill": 0.674,
+     "slant": 7.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23653,7 +26882,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0754,
+     "width": 0.992,
+     "emh": 0.746,
+     "ink": 0.325,
+     "counter": 0.298,
+     "contrast": 3.0,
+     "fill": 0.637,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23715,7 +26954,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0738,
+     "width": 1.016,
+     "emh": 0.776,
+     "ink": 0.334,
+     "counter": 0.206,
+     "contrast": 1.25,
+     "fill": 0.51,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23777,7 +27026,17 @@
      "중간"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0558,
+     "width": 1.098,
+     "emh": 0.767,
+     "ink": 0.324,
+     "counter": 0.358,
+     "contrast": 1.222,
+     "fill": 0.851,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23839,7 +27098,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1367,
+     "width": 1.029,
+     "emh": 0.854,
+     "ink": 0.659,
+     "counter": 0.086,
+     "contrast": 1.037,
+     "fill": 0.932,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23902,7 +27171,17 @@
      "굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0842,
+     "width": 1.212,
+     "emh": 0.741,
+     "ink": 0.358,
+     "counter": 0.17,
+     "contrast": 1.133,
+     "fill": 0.61,
+     "slant": 1.1
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -23964,7 +27243,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0675,
+     "width": 1.128,
+     "emh": 0.733,
+     "ink": 0.392,
+     "counter": 0.293,
+     "contrast": 1.167,
+     "fill": 0.898,
+     "slant": 0.1
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -24038,7 +27327,17 @@
      "굵다"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0433,
+     "width": 1.213,
+     "emh": 0.585,
+     "ink": 0.212,
+     "counter": 0.164,
+     "contrast": 1.059,
+     "fill": 0.535,
+     "slant": 1.8
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -24111,7 +27410,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1305,
+     "width": 1.017,
+     "emh": 0.925,
+     "ink": 0.561,
+     "counter": 0.042,
+     "contrast": 1.5,
+     "fill": 0.887,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -24173,7 +27482,17 @@
      "가늘다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0416,
+     "width": 0.626,
+     "emh": 0.87,
+     "ink": 0.238,
+     "counter": 0.405,
+     "contrast": 1.8,
+     "fill": 0.639,
+     "slant": -0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -24235,7 +27554,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0848,
+     "width": 1.051,
+     "emh": 0.729,
+     "ink": 0.445,
+     "counter": 0.057,
+     "contrast": 1.312,
+     "fill": 0.678,
+     "slant": 5.7
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -24297,7 +27626,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0293,
+     "width": 1.042,
+     "emh": 0.895,
+     "ink": 0.221,
+     "counter": 0.72,
+     "contrast": 1.0,
+     "fill": 1.0,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -24370,7 +27709,17 @@
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.1424,
+     "width": 0.949,
+     "emh": 0.916,
+     "ink": 0.647,
+     "counter": 0.15,
+     "contrast": 1.037,
+     "fill": 0.907,
+     "slant": 1.0
+    }
    },
    "license": {
     "basis": "KERIS 자체 폰트(KERIS OFL)",
@@ -24432,7 +27781,17 @@
      "굵다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0536,
+     "width": 0.932,
+     "emh": 0.92,
+     "ink": 0.249,
+     "counter": 0.37,
+     "contrast": 1.375,
+     "fill": 0.58,
+     "slant": 1.4
+    }
    },
    "license": {
     "basis": "한국외대체: OFL(산돌구름 요약표) + KERIS OFL 안내",
@@ -24516,7 +27875,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0535,
+     "width": 0.877,
+     "emh": 0.963,
+     "ink": 0.25,
+     "counter": 0.173,
+     "contrast": 1.2,
+     "fill": 0.485,
+     "slant": -0.1
+    }
    },
    "license": {
     "basis": "한글재민체: SIL OFL(공유마당 이용조건 OFL)",
@@ -24578,7 +27947,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0537,
+     "width": 0.879,
+     "emh": 0.963,
+     "ink": 0.252,
+     "counter": 0.173,
+     "contrast": 1.2,
+     "fill": 0.485,
+     "slant": -0.1
+    }
    },
    "license": {
     "basis": "한글재민체: SIL OFL(공유마당 이용조건 OFL)",
@@ -24640,7 +28019,17 @@
      "중간"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0538,
+     "width": 0.88,
+     "emh": 0.963,
+     "ink": 0.253,
+     "counter": 0.174,
+     "contrast": 1.2,
+     "fill": 0.485,
+     "slant": -0.2
+    }
    },
    "license": {
     "basis": "한글재민체: SIL OFL(공유마당 이용조건 OFL)",
@@ -24702,7 +28091,17 @@
      "가늘다"
     ],
     "size_feel": "크게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0488,
+     "width": 0.87,
+     "emh": 0.939,
+     "ink": 0.226,
+     "counter": 0.31,
+     "contrast": 1.25,
+     "fill": 0.551,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "한글재민체: SIL OFL(공유마당 이용조건 OFL)",
@@ -24765,7 +28164,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0644,
+     "width": 0.948,
+     "emh": 0.898,
+     "ink": 0.309,
+     "counter": 0.296,
+     "contrast": 1.182,
+     "fill": 0.686,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "폰트 파일 안 OFL",
@@ -24915,7 +28324,17 @@
      "아주 굵다"
     ],
     "size_feel": "보통",
-    "install": "OTF"
+    "install": "OTF",
+    "measure": {
+     "wt": 0.0661,
+     "width": 0.934,
+     "emh": 0.894,
+     "ink": 0.311,
+     "counter": 0.337,
+     "contrast": 1.091,
+     "fill": 0.727,
+     "slant": 0.0
+    }
    },
    "license": {
     "basis": "눈누 라이선스 본문 OFL",
@@ -25000,7 +28419,17 @@
      "중간"
     ],
     "size_feel": "작게 보임",
-    "install": "TTF"
+    "install": "TTF",
+    "measure": {
+     "wt": 0.0377,
+     "width": 1.29,
+     "emh": 0.557,
+     "ink": 0.228,
+     "counter": 0.343,
+     "contrast": 1.0,
+     "fill": 0.643,
+     "slant": -3.5
+    }
    },
    "license": {
     "basis": "네이버 나눔 글꼴 라이선스(OFL 조건)",

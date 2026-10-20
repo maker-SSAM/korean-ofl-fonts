@@ -72,6 +72,24 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
     <input id="sample" type="text" placeholder="미리보기 문장 바꾸기 (글자를 모두 불러오므로 조금 느려요)" aria-label="미리보기 문장">
   </div>
   <label class="opt"><input type="checkbox" id="expand"> 굵기별로 펼쳐서 보기 <small style="color:var(--sub)">(굵기가 여러 개인 폰트를 굵기마다 다른 칸에 · 담기·내려받기는 폰트 전체 기준)</small></label>
+  <label class="opt">정렬 <select id="sort" aria-label="정렬 방법">
+    <option value="">기본 (갈래순)</option>
+    <option value="name">이름순 (가나다)</option>
+    <option value="wt-up">굵기: 가는 것부터</option>
+    <option value="wt-down">굵기: 굵은 것부터</option>
+    <option value="size-up">글자 크기: 작게 보이는 것부터</option>
+    <option value="size-down">글자 크기: 크게 보이는 것부터</option>
+    <option value="width-up">글자 폭: 좁은 것부터</option>
+    <option value="width-down">글자 폭: 넓은 것부터</option>
+    <option value="ink-up">글씨 진하기: 옅은 것부터</option>
+    <option value="ink-down">글씨 진하기: 진한 것부터</option>
+    <option value="counter-up">속공간(ㅇ 안쪽): 좁은 것부터</option>
+    <option value="counter-down">속공간(ㅇ 안쪽): 넓은 것부터</option>
+    <option value="contrast-down">획 굵기 대비: 큰 것(명조 느낌)부터</option>
+    <option value="fill-down">네모틀 채움: 꽉 찬 것부터</option>
+    <option value="hangul">한글 글자 수 많은 순</option>
+    <option value="bytes">파일 용량 작은 순</option>
+  </select></label>
   <p class="lbl">갈래로 좁히기</p>
   <div class="chips" id="groups"></div>
   <p class="lbl">세부조건 선택</p>
@@ -201,9 +219,30 @@ function card(f, v) {   // v가 있으면 굵기별 칸(v = wlines 한 항목)
   c.onclick = e => { if (!e.target.closest('a, button, .pick')) cb.click(); };
   c.append(top, pv, pr, links); c._f = f; c._pv = pv; c._v = v; return c;
 }
+const M = k => c => c._f.facts.measure[k] ?? 0;   // 측정값(fonts.json facts.measure — 대표 굵기 파일을 잰 값)
+const SORTS = {   // [기준 값, 방향] — 같으면 원래 순서(갈래순)를 유지한다. 굵기별 칸은 같은 폰트 안에서 그 칸의 굵기(숫자)로 한 번 더 가른다
+  name: [c => (c._f.name_ko || c._f.name), 1],
+  'wt-up': [c => M('wt')(c) + (c._v ? c._v[3] / 1e7 : 0), 1], 'wt-down': [c => M('wt')(c) + (c._v ? c._v[3] / 1e7 : 0), -1],
+  'size-up': [M('emh'), 1], 'size-down': [M('emh'), -1],
+  'width-up': [M('width'), 1], 'width-down': [M('width'), -1],
+  'ink-up': [M('ink'), 1], 'ink-down': [M('ink'), -1],
+  'counter-up': [M('counter'), 1], 'counter-down': [M('counter'), -1],
+  'contrast-down': [M('contrast'), -1], 'fill-down': [M('fill'), -1],
+  hangul: [c => c._f.facts.hangul, -1], bytes: [c => c._f.download.bytes, 1],
+};
+function sortGrid() {
+  const g = $('#grid'), s = SORTS[$('#sort').value], cs = [...g.children];
+  cs.sort((a, b) => {
+    if (!s) return a._i - b._i;
+    const x = s[0](a), y = s[0](b), d = typeof x === 'string' ? x.localeCompare(y, 'ko') : x - y;
+    return d * s[1] || a._i - b._i;
+  });
+  g.append(...cs);
+}
 function buildGrid() {  // '굵기별로 펼쳐서 보기'가 켜지면 굵기가 여러 개인 폰트는 굵기마다 칸을 따로 만든다
   const g = $('#grid'); g.replaceChildren(...D.fonts.flatMap(f => expand && f.facts.weights > 1 ? wlines(f).map(v => card(f, v)) : [card(f)]));
-  run();
+  [...g.children].forEach((c, i) => c._i = i);
+  sortGrid(); run();
 }
 function run() {
   const q = $('#q').value.trim().toLowerCase(), s = $('#sample').value;
@@ -249,7 +288,7 @@ fetch('fonts.json').then(r => r.json()).then(d => {
   buildGrid();
   run();
 });
-let t; $('#q').oninput = run; $('#expand').onchange = e => { expand = e.target.checked; buildGrid(); };
+let t; $('#sort').onchange = sortGrid; $('#q').oninput = run; $('#expand').onchange = e => { expand = e.target.checked; buildGrid(); };
 $('#sample').oninput = () => { clearTimeout(t); t = setTimeout(run, 400); };
 </script>
 </body>
