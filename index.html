@@ -34,6 +34,7 @@ input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9
 .pickrow { display: flex; justify-content: center; margin-top: auto; }
 .links a, .links button { color: var(--accent); background: none; border: 1.5px solid var(--accent); border-radius: 8px; padding: 6px 8px; font: inherit; font-weight: 600; text-align: center; cursor: pointer; text-decoration: none; }
 .links a, .links button { opacity: .8; }
+.links a, .links button { white-space: nowrap; min-width: 0; overflow: hidden; }
 .links a:hover, .links button:hover { background: var(--chip); opacity: 1; }
 .card[hidden] { display: none; }
 .card.sel { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
@@ -140,16 +141,17 @@ $('#addall').onclick = () => {  // 보이는 폰트 모두 선택 ↔ 모두 해
 };
 $('#tclr').onclick = () => { chosen.clear(); for (const c of $('#grid').children) { c.classList.remove('sel'); c.querySelector('.pick input').checked = false; } tray(); };
 const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { io.unobserve(e.target); load(e.target); } }), { rootMargin: '400px' });
+const setFam = (pv, v) => { pv.style.fontFamily = v; pv.parentNode.querySelectorAll('.links, .pick').forEach(x => x.style.fontFamily = v); };   // 미리보기 글씨체를 카드 아래 버튼·담기에도 적용
 function load(pv) {  // 화면에 가까워진 카드만 미리보기 파일을 불러온다
-  const f = pv._f, fam = 'kofp-' + f.id;
-  new FontFace(fam, `url(${f.preview})`).load().then(ff => { document.fonts.add(ff); pv.style.fontFamily = `'${fam}', sans-serif`; pv.classList.add('ok'); })
+  const f = pv._f, famName = 'kofp-' + f.id;
+  new FontFace(famName, `url(${f.preview})`).load().then(ff => { document.fonts.add(ff); setFam(pv, `'${famName}', sans-serif`); pv.classList.add('ok'); })
     .catch(() => { pv.textContent = '(미리보기를 불러오지 못했습니다)'; pv.classList.add('ok'); });
 }
 function useFull(f, pv) {  // 직접 입력한 문장은 웹폰트 전체(대표 굵기)로
   const file = f.files.find(x => !x.variable && x.style === 'normal' && x.weight === 400) || f.files.find(x => x.style === 'normal') || f.files[0];
-  const fam = 'kof-' + f.id;
-  if (!full.has(fam)) { full.add(fam); new FontFace(fam, `url(${file.file})`).load().then(ff => document.fonts.add(ff)).catch(() => {}); }
-  pv.style.fontFamily = `'${fam}', 'kofp-${f.id}', sans-serif`;
+  const fn = 'kof-' + f.id;
+  if (!full.has(fn)) { full.add(fn); new FontFace(fn, `url(${file.file})`).load().then(ff => document.fonts.add(ff)).catch(() => {}); }
+  setFam(pv, `'${fn}', 'kofp-${f.id}', sans-serif`);
 }
 function card(f) {
   const c = E('article', 'card'), top = E('div', 'top'), l = E('div');
@@ -178,7 +180,7 @@ function run() {
     const f = c._f, hay = [f.name, f.name_ko, f.name_en, f.id].join(' ').toLowerCase();
     const show = (!q || hay.includes(q)) && (!groups.size || groups.has(f.group)) && (!pickOnly || f.pick) && (!usage.size || usage.has(f.tags['쓰임'])) && Object.entries(tagSel).every(([k, v]) => f.tags[k] === v);
     c.hidden = !show; if (!show) continue; n++;
-    if (s) { c._pv.textContent = s; useFull(f, c._pv); } else if (c._pv.textContent !== SAMPLE) { c._pv.textContent = SAMPLE; c._pv.style.fontFamily = c._pv.classList.contains('ok') ? `'kofp-${f.id}', sans-serif` : ''; }
+    if (s) { c._pv.textContent = s; useFull(f, c._pv); } else if (c._pv.textContent !== SAMPLE) { c._pv.textContent = SAMPLE; setFam(c._pv, c._pv.classList.contains('ok') ? `'kofp-${f.id}', sans-serif` : ''); }
   }
   $('#count').textContent = `${n}종`; tray();
 }
