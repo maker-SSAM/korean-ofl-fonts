@@ -12,7 +12,7 @@
   "반고딕",
   "고딕",
   "손글씨",
-  "디지털",
+  "디자인",
   "고정폭",
   "픽셀"
  ],
@@ -217,7 +217,7 @@
    "시대감",
    "격식"
   ],
-  "디지털": [
+  "디자인": [
    "쓰임",
    "굵기",
    "바탕 계열",
@@ -342,7 +342,7 @@
    "name": "DAEHWA_NANUM_SHARING2023_10_FONT",
    "name_ko": "1984대화나눔_소곤소곤체",
    "name_en": "DAEHWA_NANUM_SHARING2023_10_FONT",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -563,7 +563,7 @@
    "name": "Bagel Fat One",
    "name_ko": null,
    "name_en": "Bagel Fat One",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -729,7 +729,7 @@
    "name": "Cafe24 PRO UP",
    "name_ko": null,
    "name_en": "Cafe24 PRO UP",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -881,7 +881,7 @@
    "name": "Diphylleia",
    "name_ko": null,
    "name_en": "Diphylleia",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "가늘다",
@@ -953,7 +953,7 @@
    "name": "Dongle",
    "name_ko": null,
    "name_en": "Dongle",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -1047,7 +1047,7 @@
    "name": "Gasoek One",
    "name_ko": null,
    "name_en": "Gasoek One",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -1279,7 +1279,7 @@
    "name": "Grandiflora One",
    "name_ko": null,
    "name_en": "Grandiflora One",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "가늘다",
@@ -1424,7 +1424,7 @@
    "name": "HS활공명조",
    "name_ko": "HS활공명조",
    "name_en": null,
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -1867,7 +1867,7 @@
    "name": "JHaebaragi",
    "name_ko": null,
    "name_en": "JHaebaragi",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "굵다",
@@ -2542,7 +2542,7 @@
    "name": "KCCDodamdodam",
    "name_ko": "KCC도담도담체",
    "name_en": "KCCDodamdodam",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -2614,7 +2614,7 @@
    "name": "KCCMurukmuruk",
    "name_ko": "KCC무럭무럭",
    "name_en": "KCCMurukmuruk",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -3861,7 +3861,7 @@
    "name": "Moirai One",
    "name_ko": null,
    "name_en": "Moirai One",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -4697,7 +4697,7 @@
    "name": "산돌 삼립호빵체 Outline",
    "name_ko": "Sandoll 삼립호빵체",
    "name_en": "Sandoll Samlip Hobbang Outline",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -5215,7 +5215,7 @@
    "name": "Ghanachocolate",
    "name_ko": "가나초콜릿",
    "name_en": "Ghanachocolate",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -6348,7 +6348,7 @@
    "name": "기후위기-한글",
    "name_ko": "기후위기-한글",
    "name_en": "Climate Crisis - Korean",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -8061,7 +8061,7 @@
    "name": "끄트머리",
    "name_ko": "나눔손글씨 끄트머리체",
    "name_en": "Edge",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -13754,7 +13754,7 @@
    "name": "점꼴체",
    "name_ko": "나눔손글씨 점꼴체",
    "name_en": "Dotted",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "가늘다",
@@ -17699,7 +17699,7 @@
    "name": "BM KIRANGHAERANG",
    "name_ko": "배달의민족 기랑해랑",
    "name_en": "BM KIRANGHAERANG",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -17844,7 +17844,7 @@
    "name": "BM DoHyeon",
    "name_ko": "배달의민족 도현",
    "name_en": "BM DoHyeon",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "굵다",
@@ -17916,7 +17916,7 @@
    "name": "BM YEONSUNG",
    "name_ko": "배달의민족 연성",
    "name_en": "BM YEONSUNG",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "굵다",
@@ -17988,7 +17988,7 @@
    "name": "을지로오래오래체",
    "name_ko": "배달의민족 을지로오래오래체",
    "name_en": "Euljiro Oraeo-rae",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "굵다",
@@ -18060,7 +18060,7 @@
    "name": "BM EULJIRO TTF",
    "name_ko": "배달의민족 을지로체",
    "name_en": "BM EULJIRO TTF",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "굵다",
@@ -18420,7 +18420,7 @@
    "name": "을지로10년후체",
    "name_ko": "배민 을지로10년후체",
    "name_en": "Euljiro 10 Years Later",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "굵다",
@@ -19176,7 +19176,7 @@
    "name": "DX단하루",
    "name_ko": "싱글데이",
    "name_en": "DX One Day",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -19248,7 +19248,7 @@
    "name": "FOUREYES",
    "name_ko": "안경잡이",
    "name_en": "FOUREYES",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -19320,7 +19320,7 @@
    "name": "Yanolja Yache",
    "name_ko": "야놀자 야체",
    "name_en": "Yanolja Yache",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -20265,7 +20265,7 @@
    "name": "우아한 세리프",
    "name_ko": "우아한 세리프",
    "name_en": null,
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -20868,7 +20868,7 @@
    "name": "770Balsa",
    "name_ko": "칠칠공 발사체",
    "name_en": "770Balsa",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -21344,7 +21344,7 @@
    "name": "Cafe24 Dongdong",
    "name_ko": "카페24 동동",
    "name_en": "Cafe24 Dongdong",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -21427,7 +21427,7 @@
    "name": "Cafe24 Moyamoya",
    "name_ko": "카페24 모야모야",
    "name_en": "Cafe24 Moyamoya",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -21896,7 +21896,7 @@
    "name": "Cafe24 Ssukssuk",
    "name_ko": "카페24 쑥쑥",
    "name_en": "Cafe24 Ssukssuk",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -21979,7 +21979,7 @@
    "name": "Cafe24 Ohsquare",
    "name_ko": "카페24 아네모네",
    "name_en": "Cafe24 Ohsquare",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "굵다",
@@ -22062,7 +22062,7 @@
    "name": "Cafe24 ClassicType",
    "name_ko": "카페24 클래식타입",
    "name_en": "Cafe24 ClassicType",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -22239,7 +22239,7 @@
    "name": "KERIS KEDU",
    "name_ko": "케리스 케듀체",
    "name_en": "KERIS KEDU",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -22980,7 +22980,7 @@
    "name": "Hakgyoansim Gongryongal R",
    "name_ko": "학교안심 공룡알",
    "name_en": "Hakgyoansim Gongryongal R",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "굵다",
@@ -23052,7 +23052,7 @@
    "name": "Hakgyoansim Gureum",
    "name_ko": "학교안심 구름",
    "name_en": "Hakgyoansim Gureum",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -23270,7 +23270,7 @@
    "name": "Hakgyoansim Kkwabaegi",
    "name_ko": "학교안심 꽈배기",
    "name_en": "Hakgyoansim Kkwabaegi",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "굵다",
@@ -23415,7 +23415,7 @@
    "name": "Hakgyoansim Nadeuri TTF",
    "name_ko": "학교안심 나들이",
    "name_en": "Hakgyoansim Nadeuri TTF",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -23498,7 +23498,7 @@
    "name": "Hakgyoansim Namu",
    "name_ko": "학교안심 나무",
    "name_en": "Hakgyoansim Namu",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -23581,7 +23581,7 @@
    "name": "Hakgyoansim Nalgae R",
    "name_ko": "학교안심 날개",
    "name_en": "Hakgyoansim Nalgae R",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -23653,7 +23653,7 @@
    "name": "Hakgyoansim Dotbogi",
    "name_ko": "학교안심 돋보기",
    "name_en": "Hakgyoansim Dotbogi",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -23903,7 +23903,7 @@
    "name": "Hakgyoansim TTeokbokki B",
    "name_ko": "학교안심 떡볶이",
    "name_en": "Hakgyoansim TTeokbokki B",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "굵다",
@@ -23975,7 +23975,7 @@
    "name": "Hakgyoansim Ttwimteul",
    "name_ko": "학교안심 뜀틀",
    "name_en": "Hakgyoansim Ttwimteul",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -24047,7 +24047,7 @@
    "name": "Hakgyoansim Rikodeo",
    "name_ko": "학교안심 리코더",
    "name_en": "Hakgyoansim Rikodeo",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -24119,7 +24119,7 @@
    "name": "Hakgyoansim Manito R",
    "name_ko": "학교안심 마니또",
    "name_en": "Hakgyoansim Manito R",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -24191,7 +24191,7 @@
    "name": "Hakgyoansim Mabeopsa",
    "name_ko": "학교안심 마법사",
    "name_en": "Hakgyoansim Mabeopsa",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -24263,7 +24263,7 @@
    "name": "Hakgyoansim Malgeunnal",
    "name_ko": "학교안심 맑은날",
    "name_en": "Hakgyoansim Malgeunnal",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "굵다",
@@ -24346,7 +24346,7 @@
    "name": "Hakgyoansim Moheomga",
    "name_ko": "학교안심 모험가",
    "name_en": "Hakgyoansim Moheomga",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -24429,7 +24429,7 @@
    "name": "Hakgyoansim Monggeulmonggeul",
    "name_ko": "학교안심 몽글몽글",
    "name_en": "Hakgyoansim Monggeulmonggeul",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -24574,7 +24574,7 @@
    "name": "Hakgyoansim Mulgyeol",
    "name_ko": "학교안심 물결",
    "name_en": "Hakgyoansim Mulgyeol",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -24896,7 +24896,7 @@
    "name": "Hakgyoansim Bandal L",
    "name_ko": "학교안심 반달",
    "name_en": "Hakgyoansim Bandal L",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "본문용",
     "굵기": "가늘다",
@@ -25052,7 +25052,7 @@
    "name": "Hakgyoansim Byeolbichhaneul TTF",
    "name_ko": "학교안심 별빛하늘",
    "name_en": "Hakgyoansim Byeolbichhaneul TTF",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -25135,7 +25135,7 @@
    "name": "Hakgyoansim Byeoljari TTF",
    "name_ko": "학교안심 별자리",
    "name_en": "Hakgyoansim Byeoljari TTF",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -25290,7 +25290,7 @@
    "name": "Hakgyoansim Bombanghak",
    "name_ko": "학교안심 봄방학",
    "name_en": "Hakgyoansim Bombanghak",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "굵다",
@@ -25434,7 +25434,7 @@
    "name": "Hakgyoansim Butpen",
    "name_ko": "학교안심 붓펜",
    "name_en": "Hakgyoansim Butpen",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -25528,7 +25528,7 @@
    "name": "Hakgyoansim Samulham",
    "name_ko": "학교안심 사물함",
    "name_en": "Hakgyoansim Samulham",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -25911,7 +25911,7 @@
    "name": "Hakgyoansim Sonagi",
    "name_ko": "학교안심 소나기",
    "name_en": "Hakgyoansim Sonagi",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "굵다",
@@ -25983,7 +25983,7 @@
    "name": "Hakgyoansim Susukkang L",
    "name_ko": "학교안심 수수깡",
    "name_en": "Hakgyoansim Susukkang L",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -26127,7 +26127,7 @@
    "name": "Hakgyoansim Siganpyo R",
    "name_ko": "학교안심 시간표",
    "name_en": "Hakgyoansim Siganpyo R",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "굵다",
@@ -26282,7 +26282,7 @@
    "name": "Hakgyoansim Eohangkkumigi B",
    "name_ko": "학교안심 어항꾸미기",
    "name_en": "Hakgyoansim Eohangkkumigi B",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -26354,7 +26354,7 @@
    "name": "Hakgyoansim Yeohaeng",
    "name_ko": "학교안심 여행",
    "name_en": "Hakgyoansim Yeohaeng",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -26426,7 +26426,7 @@
    "name": "Hakgyoansim Ocarina R",
    "name_ko": "학교안심 오카리나",
    "name_en": "Hakgyoansim Ocarina R",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -26643,7 +26643,7 @@
    "name": "Hakgyoansim Undongjang",
    "name_ko": "학교안심 운동장",
    "name_en": "Hakgyoansim Undongjang",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -26715,7 +26715,7 @@
    "name": "Hakgyoansim Eunhasu",
    "name_ko": "학교안심 은하수",
    "name_en": "Hakgyoansim Eunhasu",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -26787,7 +26787,7 @@
    "name": "Hakgyoansim Yieodalligi L",
    "name_ko": "학교안심 이어달리기",
    "name_en": "Hakgyoansim Yieodalligi L",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -26931,7 +26931,7 @@
    "name": "Hakgyoansim Jayusigan R",
    "name_ko": "학교안심 자유시간",
    "name_en": "Hakgyoansim Jayusigan R",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -27003,7 +27003,7 @@
    "name": "Hakgyoansim Jeomsimsigan",
    "name_ko": "학교안심 점심시간",
    "name_en": "Hakgyoansim Jeomsimsigan",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -27075,7 +27075,7 @@
    "name": "Hakgyoansim Jiugae",
    "name_ko": "학교안심 지우개",
    "name_en": "Hakgyoansim Jiugae",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -27387,7 +27387,7 @@
    "name": "Hakgyoansim Kossuyeom",
    "name_ko": "학교안심 콧수염",
    "name_en": "Hakgyoansim Kossuyeom",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -27459,7 +27459,7 @@
    "name": "Hakgyoansim Kidaripungseon L",
    "name_ko": "학교안심 키다리풍선",
    "name_en": "Hakgyoansim Kidaripungseon L",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "가늘다",
@@ -27531,7 +27531,7 @@
    "name": "Hakgyoansim Tuho",
    "name_ko": "학교안심 투호",
    "name_en": "Hakgyoansim Tuho",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -27603,7 +27603,7 @@
    "name": "Hakgyoansim Puzzle TTF",
    "name_ko": "학교안심 퍼즐",
    "name_en": "Hakgyoansim Puzzle TTF",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "제목용",
     "굵기": "굵다",
@@ -27852,7 +27852,7 @@
    "name": "Jaemin TTF",
    "name_ko": "한글재민",
    "name_en": "Jaemin TTF",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -27924,7 +27924,7 @@
    "name": "Jaemin2.0",
    "name_ko": "한글재민2.0",
    "name_en": "Jaemin2.0",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
@@ -27996,7 +27996,7 @@
    "name": "Jaemin3.0",
    "name_ko": "한글재민3.0",
    "name_en": "Jaemin3.0",
-   "group": "디지털",
+   "group": "디자인",
    "tags": {
     "쓰임": "범용",
     "굵기": "중간",
