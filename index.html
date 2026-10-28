@@ -297,5 +297,7 @@ $('#reset').onclick = () => {   // 검색어·갈래·세부조건을 모두 풀
 let t; $('#sort').onchange = sortGrid; $('#q').oninput = run; $('#expand').onchange = e => { expand = e.target.checked; buildGrid(); };
 $('#sample').oninput = () => { clearTimeout(t); t = setTimeout(run, 400); };
 </script>
+<!-- 방문 집계: Cloudflare Web Analytics(쿠키 없음). 배포 주소(maker-ssam.github.io)에서만 -->
+<script>if(location.hostname==='maker-ssam.github.io'){var s=document.createElement('script');s.defer=true;s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "50978c2fd5224087936fd5e326e45675"}');document.body.appendChild(s);}</script>
 </body>
 </html>
