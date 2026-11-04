@@ -168,7 +168,11 @@ $('#addall').onclick = () => {  // 보이는 폰트 모두 선택 ↔ 모두 해
   tray();
 };
 $('#tclr').onclick = () => { chosen.clear(); for (const c of $('#grid').children) { c.classList.remove('sel'); c.querySelector('.pick input').checked = false; } tray(); };
-const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { io.unobserve(e.target); load(e.target); } }), { rootMargin: '400px' });
+const io = new IntersectionObserver(es => es.forEach(e => {  // 카드가 화면에 가까운지(_near)를 계속 지켜본다 — 전체 웹폰트는 가까운 카드만 받는다
+  const pv = e.target; pv._near = e.isIntersecting; if (!pv._near) return;
+  if (!pv._seen) { pv._seen = true; load(pv); }
+  if (!pv._v && pv.textContent === $('#sample').value) useFull(pv._f, pv);
+}), { rootMargin: '400px' });
 const vfaces = {};
 function loadVar(pv) {  // 굵기별 칸: 그 굵기의 웹폰트 파일을 불러와 보여 준다(가변 폰트는 파일 하나를 칸마다 다른 굵기로)
   const [, file, wr, w, i] = pv._v, fam = `kofv-${pv._f.id}-${i}`;
@@ -179,10 +183,10 @@ function loadVar(pv) {  // 굵기별 칸: 그 굵기의 웹폰트 파일을 불�
 function load(pv) {  // 화면에 가까워진 카드만 미리보기 파일을 불러온다
   if (pv._v) return loadVar(pv);
   const f = pv._f, fam = 'kofp-' + f.id;
-  new FontFace(fam, `url(${f.preview})`).load().then(ff => { document.fonts.add(ff); pv.style.fontFamily = `'${fam}', sans-serif`; pv.classList.add('ok'); })
+  new FontFace(fam, `url(${f.preview})`).load().then(ff => { document.fonts.add(ff); if (pv.textContent === SAMPLE) pv.style.fontFamily = `'${fam}', sans-serif`; pv.classList.add('ok'); })   // 미리보기 파일은 기본 문장 글자만 있으므로 직접 입력한 문장이면 글꼴을 덮지 않는다
     .catch(() => { pv.textContent = '(미리보기를 불러오지 못했습니다)'; pv.classList.add('ok'); });
 }
-function useFull(f, pv) {  // 직접 입력한 문장은 웹폰트 전체(대표 굵기)로
+function useFull(f, pv) {  // 직접 입력한 문장은 웹폰트 전체(대표 굵기)로 — 화면에 가까운 카드만 부른다
   const file = f.files.find(x => !x.variable && x.style === 'normal' && x.weight === 400) || f.files.find(x => x.style === 'normal') || f.files[0];
   const fam = 'kof-' + f.id;
   if (!full.has(fam)) { full.add(fam); new FontFace(fam, `url(${file.file})`).load().then(ff => document.fonts.add(ff)).catch(() => {}); }
@@ -237,7 +241,7 @@ function sortGrid() {
   g.append(...cs);
 }
 function buildGrid() {  // '굵기별로 펼쳐서 보기'가 켜지면 굵기가 여러 개인 폰트는 굵기마다 칸을 따로 만든다
-  const g = $('#grid'); g.replaceChildren(...D.fonts.flatMap(f => expand && f.facts.weights > 1 ? wlines(f).map(v => card(f, v)) : [card(f)]));
+  const g = $('#grid'); io.disconnect(); g.replaceChildren(...D.fonts.flatMap(f => expand && f.facts.weights > 1 ? wlines(f).map(v => card(f, v)) : [card(f)]));
   [...g.children].forEach((c, i) => c._i = i);
   sortGrid(); run();
 }
@@ -249,7 +253,7 @@ function run() {
     const show = (!q || hay.includes(q)) && (!groups.size || groups.has(f.group)) && Object.entries(tagSel).every(([k, v]) => f.tags[k] === v);
     c.hidden = !show; if (!show) continue; n++; ids.add(f.id);
     if (c._v) c._pv.textContent = s || SAMPLE;   // 굵기별 칸은 이미 그 굵기의 전체 웹폰트
-    else if (s) { c._pv.textContent = s; useFull(f, c._pv); } else if (c._pv.textContent !== SAMPLE) { c._pv.textContent = SAMPLE; c._pv.style.fontFamily = c._pv.classList.contains('ok') ? `'kofp-${f.id}', sans-serif` : ''; }
+    else if (s) { c._pv.textContent = s; if (c._pv._near) useFull(f, c._pv); } else if (c._pv.textContent !== SAMPLE) { c._pv.textContent = SAMPLE; c._pv.style.fontFamily = c._pv.classList.contains('ok') ? `'kofp-${f.id}', sans-serif` : ''; }
   }
   $('#empty').hidden = n > 0;
   const nt = Object.keys(tagSel).length; $('#ssum').textContent = '세부조건 선택' + (nt ? ` · ${nt}개 적용 중` : '');
