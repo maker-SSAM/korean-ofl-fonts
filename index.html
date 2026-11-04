@@ -9,7 +9,7 @@
 :root { --bg: #fbfaf7; --card: #fff; --ink: #1d1c1a; --sub: #6b6862; --line: #e6e2da; --accent: #2f5d50; --chip: #f1eee7; }
 @media (prefers-color-scheme: dark) { :root { --bg: #161615; --card: #1f1f1d; --ink: #ecebe7; --sub: #a3a09a; --line: #34332f; --accent: #8cc4b0; --chip: #2a2a27; } }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.6 system-ui, -apple-system, "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.6 system-ui, -apple-system, "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; word-break: keep-all; overflow-wrap: break-word; }   /* 한글은 낱말 단위로 줄을 바꾼다 */
 header, main { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
 header { padding-top: 32px; }
 h1 { font-size: 26px; margin: 0 0 6px; }
@@ -28,7 +28,7 @@ input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9
 .nm { font-weight: 600; overflow-wrap: anywhere; }
 .en { color: var(--sub); font-size: 12px; overflow-wrap: anywhere; }
 .grp { font-size: 12px; color: var(--accent); white-space: nowrap; }
-.pv { font-size: 30px; line-height: 1.35; min-height: 82px; overflow-wrap: anywhere; color: var(--ink); opacity: .25; transition: opacity .2s; }
+.pv { font-size: 30px; line-height: 1.35; min-height: 82px; overflow-wrap: anywhere; text-wrap: balance; color: var(--ink); opacity: .25; transition: opacity .2s; }
 .pv.ok { opacity: 1; }
 [hidden] { display: none !important; }
 .opt { font-size: 13px; margin: 0 0 14px; display: flex; gap: 6px; align-items: center; cursor: pointer; }
@@ -58,7 +58,7 @@ input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9
   .sbox summary { cursor: pointer; font-size: 14px; color: var(--ink); background: var(--chip); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; }
   .sbox summary::before { content: '▸ '; } .sbox[open] summary::before { content: '▾ '; }
   .opt { flex-wrap: wrap; } .opt small { flex-basis: 100%; }
-  #tray { padding: 8px 12px; } #tray small { display: none; } #tray .msg { flex-basis: 100%; }
+  #tray { padding: 8px 12px; } #tray small { display: none; } #tray.busy small { display: block; } #tray .msg { flex-basis: 100%; }   /* 평소 안내는 숨기고 묶는 중·결과는 보여 준다 */
   #tray .btn { padding: 6px 10px; font-size: 12px; }
 }
 #empty { text-align: center; color: var(--sub); padding: 32px 0 64px; }
@@ -108,7 +108,7 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
   <div class="grid" id="grid"></div>
 </main>
 <div id="tray" hidden><div class="in">
-  <div class="msg"><b id="tn">0</b>종 선택 · 약 <span id="tsz"></span><small id="tst">zip 하나로 묶어 저장합니다(폰트마다 폴더, 100종쯤이면 2~3분 걸려요). 풀고 폰트 파일(ttf/otf)을 더블클릭 → 설치.</small></div>
+  <div class="msg"><b id="tn">0</b>종 선택 · 약 <span id="tsz"></span><small id="tst">zip 하나로 묶어 저장합니다(폰트마다 폴더, 300MB가 넘으면 나눠 받기를 권해요). 풀고 폰트 파일(ttf/otf)을 더블클릭 → 설치.</small></div>
   <button class="btn" id="tdl">선택한 폰트 zip 하나로 받기</button>
   <button class="btn ghost" id="tsep">따로따로 받기</button>
   <button class="btn ghost" id="tcss">웹폰트 CSS 복사</button>
@@ -126,21 +126,35 @@ let expand = false, refreshSels = () => {}, D, groups = new Set(), full = new Se
 const mb = b => b >= 1e6 ? (b / 1e6).toFixed(1) + 'MB' : Math.max(1, Math.round(b / 1e3)) + 'KB';
 const byId = id => D.fonts.find(f => f.id === id);
 function tray() {
-  const fs = [...chosen].map(byId); $('#tray').hidden = !fs.length;
+  const fs = [...chosen].map(byId); $('#tray').hidden = !fs.length; if (!fs.length) tstReset();
   $('#tn').textContent = fs.length; $('#tsz').textContent = mb(fs.reduce((a, f) => a + f.download.bytes, 0));
   const vis = [...$('#grid').children].filter(c => !c.hidden), on = vis.length > 0 && vis.every(c => chosen.has(c._f.id));  // 보이는 폰트가 모두 담겼으면 초록색
   $('#addall').classList.toggle('ghost', !on);
 }
+const ZIP_WARN = 300e6, TST = $('#tst').textContent;   // 이보다 크게 고르면 메모리가 모자랄 수 있어 먼저 묻는다
+let tstT;
+const tstReset = () => { clearTimeout(tstT); $('#tst').textContent = TST; $('#tray').classList.remove('busy'); };
 $('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받아 브라우저 안에서 zip 하나로 묶는다(폰트마다 폴더)
-  const b = $('#tdl'), st = $('#tst'), fs = [...chosen].map(byId), msg0 = st.textContent, chunks = [];
-  b.disabled = true;
+  const b = $('#tdl'), st = $('#tst'), tr = $('#tray'), fs = [...chosen].map(byId), chunks = [], failed = [];
+  const sum = fs.reduce((a, f) => a + f.download.bytes, 0);
+  if (sum > ZIP_WARN && !confirm(`선택한 폰트가 약 ${mb(sum)}예요. 한 번에 묶으면 메모리가 모자라 실패할 수 있어서 300MB 이하로 나눠 받기를 권해요.\n\n그래도 한 번에 묶을까요?`)) {
+    clearTimeout(tstT); tr.classList.add('busy'); st.textContent = '「선택 해제」 뒤 갈래나 세부조건으로 좁혀 300MB 이하씩 나눠 받아 주세요.'; tstT = setTimeout(tstReset, 15000); return;
+  }
+  clearTimeout(tstT); b.disabled = true; tr.classList.add('busy');
   try {
     const z = new fflate.Zip((err, c, fin) => { if (err) throw err; chunks.push(c); });
     const used = new Set();
     for (let i = 0; i < fs.length; i++) {
       const f = fs[i]; st.textContent = `${i + 1}/${fs.length} 받는 중… ${f.name_ko || f.name}`;
-      const r = await fetch(PROXY + '?f=' + f.download.file); if (!r.ok) throw new Error(f.download.file + ' ' + r.status);
-      const files = fflate.unzipSync(new Uint8Array(await r.arrayBuffer()));
+      let files;
+      try {   // 하나가 실패해도 나머지는 계속 묶는다
+        const r = await fetch(PROXY + '?f=' + f.download.file); if (!r.ok) throw new Error(r.status);
+        files = fflate.unzipSync(new Uint8Array(await r.arrayBuffer()));
+      } catch {
+        failed.push(f);
+        if (failed.length === 3 && i === 2) throw new Error('중계 서버에 연결하지 못함');   // 처음 3개가 모두 실패하면 학교망 차단 등으로 보고 멈춘다
+        continue;
+      }
       const safe = s => (s || '').replace(/[\\/:*?"<>|]/g, '_').trim();
       let dir = safe(f.name_ko) || safe(f.name) || f.id;   // 폴더 이름 = 카드 제목(한글 이름, 없으면 영문 이름)
       if (used.has(dir)) dir = safe(f.name) || f.id;        // 한글 이름이 같은 폰트(삼립호빵체 Basic·Outline)는 원래 이름으로 나눈다
@@ -150,13 +164,18 @@ $('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받�
         const e = new fflate.ZipDeflate(`${dir}/${rel}`, { level: 3 }); z.add(e); e.push(data, true);
       }
     }
+    const got = fs.length - failed.length; if (!got) throw new Error('받은 폰트 없음');
     z.end();
     await new Promise(r => setTimeout(r, 50));
     const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob(chunks, { type: 'application/zip' }));
-    a.download = `한글폰트-${fs.length}종.zip`; document.body.append(a); a.click(); a.remove();
-    st.textContent = `완료! ${fs.length}종을 zip 하나로 저장했어요.`;
+    a.download = `한글폰트-${got}종.zip`; document.body.append(a); a.click(); a.remove();
+    chunks.length = 0; setTimeout(() => URL.revokeObjectURL(a.href), 60000);   // 나눠 받을 때 앞선 zip이 메모리에 쌓이지 않게 푼다
+    if (failed.length) {   // 저장한 폰트는 선택에서 빼고 못 받은 폰트만 담아 둔다 — 버튼을 다시 누르면 그것만 다시 받는다
+      for (const c of $('#grid').children) if (fs.includes(c._f) && !failed.includes(c._f)) { chosen.delete(c._f.id); c.classList.remove('sel'); c.querySelector('.pick input').checked = false; }
+      tray(); st.textContent = `${got}종을 저장했어요. 받지 못한 ${failed.length}종은 담아 두었으니 버튼을 다시 눌러 주세요.`;
+    } else { st.textContent = `완료! ${got}종을 zip 하나로 저장했어요.`; tstT = setTimeout(tstReset, 6000); }
   } catch (e) { st.textContent = '묶는 데 실패했어요(' + e.message + '). "따로따로 받기"를 써 보세요.'; }
-  b.disabled = false; setTimeout(() => { st.textContent = msg0; }, 6000);
+  b.disabled = false;
 };
 $('#tsep').onclick = async () => {  // 예비: 파일을 차례로 따로 저장
   for (const f of [...chosen].map(byId)) { const a = document.createElement('a'); a.href = D.release + f.download.file; a.download = f.download.file; document.body.append(a); a.click(); a.remove(); await new Promise(r => setTimeout(r, 900)); }
