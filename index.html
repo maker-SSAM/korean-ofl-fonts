@@ -52,14 +52,19 @@ input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9
 #tray .in { max-width: 1120px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
 #tray .msg { flex: 1 1 200px; font-size: 13px; }
 #tray small { color: var(--sub); display: block; }
+#tmore { display: none; }
 .sbox summary { list-style: none; font-size: 12px; color: var(--sub); margin: 0 0 6px; cursor: default; }
 .sbox summary::-webkit-details-marker { display: none; }
 @media (max-width: 700px) {   /* 휴대폰: 세부조건은 접어 두고(눌러서 펼침), 담기 막대는 작게 */
   .sbox summary { cursor: pointer; font-size: 14px; color: var(--ink); background: var(--chip); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; }
   .sbox summary::before { content: '▸ '; } .sbox[open] summary::before { content: '▾ '; }
   .opt { flex-wrap: wrap; } .opt small { flex-basis: 100%; }
-  #tray { padding: 8px 12px; } #tray small { display: none; } #tray.busy small { display: block; } #tray .msg { flex-basis: 100%; }   /* 평소 안내는 숨기고 묶는 중·결과는 보여 준다 */
-  #tray .btn { padding: 6px 10px; font-size: 12px; }
+  #tray { padding: 8px 12px; } #tray small { display: none; } #tray.busy small { display: block; }   /* 평소 안내는 숨기고 묶는 중·결과는 보여 준다 */
+  #tray .in { gap: 6px 8px; } #tray .msg { flex: 1 1 0; min-width: 0; } #tray.busy .msg { flex-basis: 100%; }
+  #tray .btn { min-height: 36px; padding: 6px 10px; font-size: 12px; } #tmore { display: inline-block; }
+  #tray #tdl { flex-basis: 100%; min-height: 44px; font-size: 14px; }   /* 받기만 크게, 나머지 셋은 '더보기' 안에 */
+  #tray #tsep, #tray #tcss, #tray #tclr { display: none; flex: 1 1 0; padding: 6px 4px; }
+  #tray.more #tsep, #tray.more #tcss, #tray.more #tclr { display: block; }
 }
 #empty { text-align: center; color: var(--sub); padding: 32px 0 64px; }
 .pickbadge { font-size: 11px; background: var(--accent); color: var(--bg); border-radius: 4px; padding: 0 6px; margin-left: 6px; vertical-align: 1px; }
@@ -109,6 +114,7 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
 </main>
 <div id="tray" hidden><div class="in">
   <div class="msg"><b id="tn">0</b>종 선택 · 약 <span id="tsz"></span><small id="tst">zip 하나로 묶어 저장합니다(폰트마다 폴더, 300MB가 넘으면 나눠 받기를 권해요). 풀고 폰트 파일(ttf/otf)을 더블클릭 → 설치.</small></div>
+  <button class="btn ghost" id="tmore" aria-expanded="false">더보기</button>
   <button class="btn" id="tdl">선택한 폰트 zip 하나로 받기</button>
   <button class="btn ghost" id="tsep">따로따로 받기</button>
   <button class="btn ghost" id="tcss">웹폰트 CSS 복사</button>
@@ -126,7 +132,7 @@ let expand = false, refreshSels = () => {}, D, groups = new Set(), full = new Se
 const mb = b => b >= 1e6 ? (b / 1e6).toFixed(1) + 'MB' : Math.max(1, Math.round(b / 1e3)) + 'KB';
 const byId = id => D.fonts.find(f => f.id === id);
 function tray() {
-  const fs = [...chosen].map(byId); $('#tray').hidden = !fs.length; if (!fs.length) tstReset();
+  const fs = [...chosen].map(byId); $('#tray').hidden = !fs.length; if (!fs.length) { tstReset(); trayMore(false); }
   $('#tn').textContent = fs.length; $('#tsz').textContent = mb(fs.reduce((a, f) => a + f.download.bytes, 0));
   const vis = [...$('#grid').children].filter(c => !c.hidden), on = vis.length > 0 && vis.every(c => chosen.has(c._f.id));  // 보이는 폰트가 모두 담겼으면 초록색
   $('#addall').classList.toggle('ghost', !on);
@@ -134,11 +140,13 @@ function tray() {
 const ZIP_WARN = 300e6, TST = $('#tst').textContent;   // 이보다 크게 고르면 메모리가 모자랄 수 있어 먼저 묻는다
 let tstT;
 const tstReset = () => { clearTimeout(tstT); $('#tst').textContent = TST; $('#tray').classList.remove('busy'); };
+const trayMore = on => { $('#tray').classList.toggle('more', on); $('#tmore').textContent = on ? '접기' : '더보기'; $('#tmore').setAttribute('aria-expanded', on); };   // 휴대폰: 따로따로 받기·CSS 복사·선택 해제 펼치기
+$('#tmore').onclick = () => trayMore(!$('#tray').classList.contains('more'));
 $('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받아 브라우저 안에서 zip 하나로 묶는다(폰트마다 폴더)
   const b = $('#tdl'), st = $('#tst'), tr = $('#tray'), fs = [...chosen].map(byId), chunks = [], failed = [];
   const sum = fs.reduce((a, f) => a + f.download.bytes, 0);
   if (sum > ZIP_WARN && !confirm(`선택한 폰트가 약 ${mb(sum)}예요. 한 번에 묶으면 메모리가 모자라 실패할 수 있어서 300MB 이하로 나눠 받기를 권해요.\n\n그래도 한 번에 묶을까요?`)) {
-    clearTimeout(tstT); tr.classList.add('busy'); st.textContent = '「선택 해제」 뒤 갈래나 세부조건으로 좁혀 300MB 이하씩 나눠 받아 주세요.'; tstT = setTimeout(tstReset, 15000); return;
+    clearTimeout(tstT); tr.classList.add('busy'); st.textContent = '「선택 해제」 뒤 갈래나 세부조건으로 좁혀 300MB 이하씩 나눠 받아 주세요.'; trayMore(true); tstT = setTimeout(tstReset, 15000); return;
   }
   clearTimeout(tstT); b.disabled = true; tr.classList.add('busy');
   try {
@@ -173,8 +181,8 @@ $('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받�
     if (failed.length) {   // 저장한 폰트는 선택에서 빼고 못 받은 폰트만 담아 둔다 — 버튼을 다시 누르면 그것만 다시 받는다
       for (const c of $('#grid').children) if (fs.includes(c._f) && !failed.includes(c._f)) { chosen.delete(c._f.id); c.classList.remove('sel'); c.querySelector('.pick input').checked = false; }
       tray(); st.textContent = `${got}종을 저장했어요. 받지 못한 ${failed.length}종은 담아 두었으니 버튼을 다시 눌러 주세요.`;
-    } else { st.textContent = `완료! ${got}종을 zip 하나로 저장했어요.`; tstT = setTimeout(tstReset, 6000); }
-  } catch (e) { st.textContent = '묶는 데 실패했어요(' + e.message + '). "따로따로 받기"를 써 보세요.'; }
+    } else { st.textContent = `완료! ${got}종을 zip 하나로 저장했어요.`; trayMore(false); tstT = setTimeout(tstReset, 6000); }
+  } catch (e) { st.textContent = '묶는 데 실패했어요(' + e.message + '). "따로따로 받기"를 써 보세요.'; trayMore(true); }
   b.disabled = false;
 };
 $('#tsep').onclick = async () => {  // 예비: 파일을 차례로 따로 저장
