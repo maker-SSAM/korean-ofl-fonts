@@ -18,10 +18,11 @@ h1 { font-size: 26px; margin: 0 0 6px; }
 .lead a { color: var(--accent); }
 .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
 input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--ink); font: inherit; }
-.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip { border: 1px solid var(--line); background: var(--chip); color: var(--ink); border-radius: 999px; padding: 4px 12px; font: inherit; font-size: 13px; cursor: pointer; }
 .chip.on { background: var(--accent); border-color: var(--accent); color: var(--bg); }
-.count { color: var(--sub); font-size: 13px; margin: 0 0 10px; }
+.chip:disabled { opacity: .4; cursor: default; }
+.count { color: var(--sub); font-size: 13px; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; padding-bottom: 48px; }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
 .top { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
@@ -31,7 +32,8 @@ input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9
 .pv { font-size: 30px; line-height: 1.35; min-height: 82px; overflow-wrap: anywhere; text-wrap: balance; color: var(--ink); opacity: .25; transition: opacity .2s; }
 .pv.ok { opacity: 1; }
 [hidden] { display: none !important; }
-.opt { font-size: 13px; margin: 0 0 14px; display: flex; gap: 6px; align-items: center; cursor: pointer; }
+.opt { font-size: 13px; display: flex; gap: 6px; align-items: center; cursor: pointer; }
+.opt select { padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--ink); font: inherit; font-size: 13px; }
 .card { cursor: pointer; }   /* 카드 빈 곳 어디를 눌러도 '담기' 토글 (링크·버튼은 따로 동작) */
 .links { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; font-size: 13px; }   /* 위 2개·아래 2개 */
 .pickrow { display: flex; justify-content: center; margin-top: auto; }
@@ -44,21 +46,35 @@ input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9
 .pick input { width: 17px; height: 17px; accent-color: var(--accent); }
 .btn { border: 0; background: var(--accent); color: var(--bg); border-radius: 8px; padding: 7px 14px; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; text-decoration: none; }
 .btn.ghost { background: var(--chip); color: var(--ink); border: 1px solid var(--line); }
-.sels label[hidden] { display: none; }   /* label의 display:flex가 hidden을 덮어쓰지 않게 */
-.sels { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
-.sels label { font-size: 12px; color: var(--sub); display: flex; flex-direction: column; gap: 2px; }
-.sels select { padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--ink); font: inherit; font-size: 13px; }
+.find { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; margin-bottom: 14px; }
+.ftitle { font-size: 13px; font-weight: 600; margin: 0 0 8px; }
+.fsec + .fsec { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+#groups { display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: center; }
+.fam { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.flbl { font-size: 12px; color: var(--sub); }
+#ghelp { font-size: 12px; color: var(--sub); margin: 8px 0 0; }
+.frow { display: grid; grid-template-columns: 64px 1fr; gap: 8px; align-items: baseline; }
+.frow + .frow { margin-top: 8px; }
+.fhelp { display: block; font-size: 12px; color: var(--sub); margin-top: 4px; }
+.sbox summary { cursor: pointer; font-size: 13px; font-weight: 600; list-style: none; }
+.sbox summary::-webkit-details-marker { display: none; }
+.sbox summary::before { content: '▸ '; } .sbox[open] summary::before { content: '▾ '; }
+#fbox > summary { list-style: none; cursor: default; }
+#fbox > summary::-webkit-details-marker { display: none; }
+.sbox #sels { margin-top: 10px; }
+.rbar { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin-bottom: 10px; }
+.rside { margin-left: auto; }
+.xnote { flex-basis: 100%; color: var(--sub); font-size: 12px; text-align: right; }
 #tray { position: sticky; bottom: 0; z-index: 5; background: var(--card); border-top: 1px solid var(--line); box-shadow: 0 -4px 16px rgba(0,0,0,.08); padding: 10px 16px; }
 #tray .in { max-width: 1120px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
 #tray .msg { flex: 1 1 200px; font-size: 13px; }
 #tray small { color: var(--sub); display: block; }
 #tmore { display: none; }
-.sbox summary { list-style: none; font-size: 12px; color: var(--sub); margin: 0 0 6px; cursor: default; }
-.sbox summary::-webkit-details-marker { display: none; }
-@media (max-width: 700px) {   /* 휴대폰: 세부조건은 접어 두고(눌러서 펼침), 담기 막대는 작게 */
-  .sbox summary { cursor: pointer; font-size: 14px; color: var(--ink); background: var(--chip); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; }
-  .sbox summary::before { content: '▸ '; } .sbox[open] summary::before { content: '▾ '; }
-  .opt { flex-wrap: wrap; } .opt small { flex-basis: 100%; }
+@media (max-width: 700px) {   /* 휴대폰: 담기 막대는 작게 */
+  .find { padding: 12px; } .chip { min-height: 36px; padding: 6px 11px; }
+  #groups { gap: 6px; } .fam { display: contents; } .fam > .flbl { display: none; }   /* 휴대폰은 묶음 이름 없이 칩만 */
+  #fbox > summary { cursor: pointer; margin: 0; } #fbox > summary::before { content: '▸ '; } #fbox[open] > summary::before { content: '▾ '; } #fbox[open] > summary { margin-bottom: 8px; }
+  .frow { grid-template-columns: 44px 1fr; } .rside { margin-left: 0; } .rbar select { max-width: 150px; }
   #tray { padding: 8px 12px; } #tray small { display: none; } #tray.busy small { display: block; }   /* 평소 안내는 숨기고 묶는 중·결과는 보여 준다 */
   #tray .in { gap: 6px 8px; } #tray .msg { flex: 1 1 0; min-width: 0; } #tray.busy .msg { flex-basis: 100%; }
   #tray .btn { min-height: 36px; padding: 6px 10px; font-size: 12px; } #tmore { display: inline-block; }
@@ -68,7 +84,6 @@ input[type=search], input[type=text] { flex: 1 1 220px; min-width: 0; padding: 9
 }
 #empty { text-align: center; color: var(--sub); padding: 32px 0 64px; }
 .pickbadge { font-size: 11px; background: var(--accent); color: var(--bg); border-radius: 4px; padding: 0 6px; margin-left: 6px; vertical-align: 1px; }
-.lbl { font-size: 12px; color: var(--sub); margin: 0 0 6px; }
 .guide { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 4px 16px; margin-bottom: 14px; font-size: 14px; }
 .guide summary { cursor: pointer; padding: 8px 0; font-weight: 600; }
 .guide ol { margin: 4px 0 12px; padding-left: 20px; } .guide h4 { margin: 10px 0 2px; font-size: 13px; color: var(--accent); }
@@ -82,33 +97,38 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
     <li><b>OFL 폰트란?</b> - 누구나 무료로 쓰고, 고치고, 다시 나눌 수 있게 허락한 오픈 폰트 라이선스(SIL Open Font License)를 따르는 폰트예요.</li>
     <li>한글 OFL 폰트 <b id="total">…</b>종(2종 예외)을 모두 모았습니다. 선택하여 필요한 폰트를 바로 다운로드 하세요.</li>
   </ul>
-  <div class="bar">
-    <input id="q" type="search" placeholder="폰트 이름 찾기 (한글·영문)" aria-label="폰트 이름 찾기">
-    <input id="sample" type="text" placeholder="미리보기 문장 바꾸기 (조금 느려요)" aria-label="미리보기 문장">
-  </div>
-  <label class="opt"><input type="checkbox" id="expand"> 굵기별로 펼쳐서 보기 <small style="color:var(--sub)">(굵기가 여러 개인 폰트를 굵기마다 다른 칸에 · 담기·내려받기는 폰트 전체 기준)</small></label>
-  <label class="opt">정렬 <select id="sort" aria-label="정렬 방법">
-    <option value="">기본 (갈래순)</option>
-    <option value="name">이름순 (가나다)</option>
-    <option value="wt-up">굵기: 가는 것부터</option>
-    <option value="wt-down">굵기: 굵은 것부터</option>
-    <option value="size-up">글자 크기: 작게 보이는 것부터</option>
-    <option value="size-down">글자 크기: 크게 보이는 것부터</option>
-  </select></label>
-  <p class="lbl">갈래로 좁히기</p>
-  <div class="chips" id="groups"></div>
-  <details class="sbox" id="sbox"><summary id="ssum">세부조건 선택</summary>
-    <div class="sels" id="sels"></div>
-  </details>
-</header>
-<main>
   <details class="guide"><summary>받은 폰트 설치하는 방법</summary>
     <h4>윈도우</h4><ol><li>받은 zip을 오른쪽 클릭 → <b>모두 압축 풀기</b></li><li>폴더 안의 폰트 파일(.ttf/.otf)을 모두 선택 → 오른쪽 클릭 → <b>설치</b> (모든 사용자용은 "모든 사용자용으로 설치")</li><li>한글·PPT·워드를 껐다가 다시 켜면 폰트 목록에 나타납니다.</li></ol>
     <h4>맥</h4><ol><li>zip을 더블클릭해 압축을 풉니다.</li><li>폰트 파일(.ttf/.otf)을 더블클릭 → <b>서체 설치</b> 버튼.</li><li>프로그램을 다시 켜면 목록에 나타납니다.</li></ol>
     <h4>웹페이지·슬라이드(HTML)에 쓸 때</h4><ol><li>카드의 <b>CSS 주소 복사</b>를 누르고, 페이지의 <code>&lt;link rel="stylesheet" href="…"&gt;</code>에 붙여 넣습니다.</li><li>CSS 안의 font-family 이름으로 글꼴을 지정합니다.</li></ol>
     <h4>꼭 알아둘 것</h4><ol><li>폰트 파일을 그대로 파는 것은 안 됩니다. 수업자료·문서·인쇄물·영상에 쓰는 것은 괜찮습니다.</li><li>나눔 계열 등은 출처 표기를 권장하며, <b>예외</b> 표시 폰트는 카드의 라이선스를 꼭 읽어 주세요.</li></ol>
   </details>
-  <p class="count"><span id="count"></span> <button class="btn ghost" id="addall">모두선택</button></p>
+  <div class="bar">
+    <input id="q" type="search" placeholder="폰트 이름 찾기 (한글·영문)" aria-label="폰트 이름 찾기">
+    <input id="sample" type="text" placeholder="미리보기 문장 바꾸기 (조금 느려요)" aria-label="미리보기 문장">
+  </div>
+  <section class="find" aria-label="폰트 찾기">
+    <div class="fsec"><p class="ftitle">어떤 글씨?</p><div id="groups"></div><p id="ghelp" hidden></p></div>
+    <details class="fsec" id="fbox" open><summary class="ftitle" id="fsum">어떤 느낌?</summary><div id="feels"></div></details>
+    <details class="sbox fsec" id="sbox" hidden><summary id="ssum">더 좁히기</summary><div id="sels"></div></details>
+  </section>
+</header>
+<main>
+  <div class="rbar">
+    <span class="count" id="count"></span>
+    <button class="btn ghost" id="addall">모두선택</button>
+    <button class="btn ghost" id="clear" hidden>조건 풀기</button>
+    <label class="opt rside">정렬 <select id="sort" aria-label="정렬 방법">
+      <option value="">기본 (갈래순)</option>
+      <option value="name">이름순 (가나다)</option>
+      <option value="wt-up">굵기: 가는 것부터</option>
+      <option value="wt-down">굵기: 굵은 것부터</option>
+      <option value="size-up">글자 크기: 작게 보이는 것부터</option>
+      <option value="size-down">글자 크기: 크게 보이는 것부터</option>
+    </select></label>
+    <label class="opt"><input type="checkbox" id="expand"> 굵기별로 펼치기</label>
+    <small class="xnote" id="xnote" hidden>굵기마다 칸을 나눠 보여 줘요. 담기·내려받기는 폰트 전체 기준이에요.</small>
+  </div>
   <div id="empty" hidden><p>조건에 맞는 폰트가 없어요.</p><button class="btn" id="reset">조건 모두 풀기</button></div>
   <div class="grid" id="grid"></div>
 </main>
@@ -128,7 +148,13 @@ const $ = s => document.querySelector(s);
 const E = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
 const PROXY = 'https://kofonts.erebus921.workers.dev/';   // 중계 서버(worker/proxy.js) — GitHub Releases zip을 브라우저가 읽을 수 있게 해 줌
 const SAMPLE = '다람쥐 헌 쳇바퀴에 타고파';
-let expand = false, refreshSels = () => {}, D, groups = new Set(), full = new Set(), chosen = new Set(), tagSel = {};
+let expand = false, D, group = '', full = new Set(), chosen = new Set(), tagSel = {};
+const FAMILIES = [['기본 글꼴', ['명조', '반고딕', '고딕']], ['개성 글꼴', ['손글씨', '디자인']], ['특수', ['고정폭', '픽셀']]];
+const GHELP = { 명조: '획 끝에 부리가 있는 바탕체 느낌의 글꼴', 반고딕: '명조와 고딕 사이. 부리는 없지만 붓 흔적이 남은 글꼴', 고딕: '획이 고르고 곧은 돋움체 느낌의 글꼴', 손글씨: '손으로 쓴 글씨를 바탕으로 만든 글꼴', 디자인: '처음부터 디지털로 그린 개성 있는 글꼴', 고정폭: '모든 글자의 폭이 같은 코딩·표용 글꼴', 픽셀: '네모난 점을 모아 그린 글꼴' };
+const FEEL = ['쓰임', '격식', '시대감', '굵기'];   // 모든 폰트에 있는 조건 = 항상 보인다
+const TAGNAME = { 격식: '분위기', '아이 느낌': '아이 글씨' }, VALNAME = { 격식: { 격식: '단정한', 친근: '친근한' } };   // 화면에 보이는 이름만 바꾼다(태그 값은 그대로)
+const TAGHELP = { 격식: '단정한 = 공문·안내문에 써도 되는 글씨 · 친근한 = 학급 게시물·놀이 자료처럼 편하고 다정한 글씨' };
+const SKEW = .85;   // 갈래 안에서 한 값이 이만큼 넘게 쏠린 조건은 고르나 마나라 '더 좁히기'에서 뺀다
 const mb = b => b >= 1e6 ? (b / 1e6).toFixed(1) + 'MB' : Math.max(1, Math.round(b / 1e3)) + 'KB';
 const byId = id => D.fonts.find(f => f.id === id);
 function tray() {
@@ -146,7 +172,7 @@ $('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받�
   const b = $('#tdl'), st = $('#tst'), tr = $('#tray'), fs = [...chosen].map(byId), chunks = [], failed = [];
   const sum = fs.reduce((a, f) => a + f.download.bytes, 0);
   if (sum > ZIP_WARN && !confirm(`선택한 폰트가 약 ${mb(sum)}예요. 한 번에 묶으면 메모리가 모자라 실패할 수 있어서 300MB 이하로 나눠 받기를 권해요.\n\n그래도 한 번에 묶을까요?`)) {
-    clearTimeout(tstT); tr.classList.add('busy'); st.textContent = '「선택 해제」 뒤 갈래나 세부조건으로 좁혀 300MB 이하씩 나눠 받아 주세요.'; trayMore(true); tstT = setTimeout(tstReset, 15000); return;
+    clearTimeout(tstT); tr.classList.add('busy'); st.textContent = '「선택 해제」 뒤 갈래나 조건으로 좁혀 300MB 이하씩 나눠 받아 주세요.'; trayMore(true); tstT = setTimeout(tstReset, 15000); return;
   }
   clearTimeout(tstT); b.disabled = true; tr.classList.add('busy');
   try {
@@ -272,60 +298,77 @@ function buildGrid() {  // '굵기별로 펼쳐서 보기'가 켜지면 굵기�
   [...g.children].forEach((c, i) => c._i = i);
   sortGrid(); run();
 }
+function hit(f, skip) {   // 검색어·갈래·조건에 맞는 폰트인가(skip = 칩의 숫자를 셀 때 그 조건만 빼고 본다. '갈래'면 갈래를 바꿀 때 풀리는 전용 조건도 뺀다)
+  const q = $('#q').value.trim().toLowerCase();
+  return (!q || [f.name, f.name_ko, f.name_en, f.id].join(' ').toLowerCase().includes(q)) && (skip === '갈래' || !group || f.group === group)
+    && Object.entries(tagSel).every(([k, v]) => k === skip || (skip === '갈래' && !FEEL.includes(k)) || f.tags[k] === v);
+}
+const inGroup = () => D.fonts.filter(f => !group || f.group === group);
+const tagVals = k => D.tags[k].values.filter(v => v !== '해당없음' && inGroup().some(f => f.tags[k] === v));
+function narrowTags() {   // 고른 갈래의 전용 조건
+  if (!group) return [];
+  const base = inGroup();
+  return D.groupTags[group].filter(k => !FEEL.includes(k) && Math.max(...D.tags[k].values.map(v => base.filter(f => f.tags[k] === v).length)) / base.length < SKEW);
+}
+function chip(key, text, on, off, fn) {
+  const b = E('button', 'chip' + (on ? ' on' : ''), text); b.dataset.key = key; b.disabled = off; b.onclick = fn; b.setAttribute('aria-pressed', on); return b;
+}
+function pickGroup(g) {   // 갈래를 바꾸면 전용 조건만 푼다(느낌 조건은 유지. 그 조건에 맞는 폰트가 없는 갈래는 칩이 꺼져 있다)
+  group = group === g ? '' : g;
+  for (const k of Object.keys(tagSel)) if (!FEEL.includes(k)) delete tagSel[k];
+  run();
+}
+function chipRow(k, help) {
+  const t = D.tags[k], row = E('div', 'frow'), wrap = E('div'), chips = E('div', 'chips');
+  for (const v of tagVals(k)) {
+    const n = D.fonts.filter(f => hit(f, k) && f.tags[k] === v).length, on = tagSel[k] === v;
+    chips.append(chip(`${k}=${v}`, `${VALNAME[k]?.[v] || v} ${n}`, on, !n && !on, () => { on ? delete tagSel[k] : tagSel[k] = v; run(); }));
+  }
+  wrap.append(chips); if (help && t.help) wrap.append(E('small', 'fhelp', t.help));
+  row.append(E('span', 'flbl', TAGNAME[k] || t.label || k), wrap); row.title = TAGHELP[k] || t.help || ''; return row;
+}
+function renderFind() {   // 칩의 숫자는 지금 고른 다른 조건을 반영해 매번 다시 센다
+  const focused = document.activeElement?.dataset.key;   // 칩을 다시 그려도 키보드 초점을 잃지 않게
+  const cnt = g => D.fonts.filter(f => (g && g === group ? hit(f) : hit(f, '갈래')) && (!g || f.group === g)).length;   // 누르면 나올 종 수
+  const rest = D.groups.filter(g => !FAMILIES.some(([, gs]) => gs.includes(g)));   // 묶음에 없는 새 갈래는 마지막 묶음에 붙인다
+  $('#groups').replaceChildren(chip('갈래=', `전체 ${cnt('')}`, !group, false, () => pickGroup('')), ...FAMILIES.map(([nm, gs], i) => {
+    const w = E('div', 'fam'); w.append(E('span', 'flbl', nm), ...[...gs, ...(i === FAMILIES.length - 1 ? rest : [])].map(g => chip(`갈래=${g}`, `${g} ${cnt(g)}`, group === g, !cnt(g) && group !== g, () => pickGroup(g)))); return w;
+  }));
+  const fs = FEEL.filter(k => tagSel[k]).map(k => VALNAME[k]?.[tagSel[k]] || tagSel[k]);
+  $('#fsum').textContent = '어떤 느낌?' + (fs.length ? ' · ' + fs.join(' · ') : '');
+  $('#ghelp').hidden = !group; $('#ghelp').textContent = GHELP[group] || '';
+  $('#feels').replaceChildren(...FEEL.filter(k => tagVals(k).length > 1).map(k => chipRow(k)));
+  const nr = narrowTags(), nt = nr.filter(k => tagSel[k]).length;
+  $('#sbox').hidden = !nr.length; $('#sels').replaceChildren(...nr.map(k => chipRow(k, true)));
+  $('#ssum').textContent = `더 좁히기 · ${group} 조건 ${nr.length}개` + (nt ? ` · ${nt}개 적용 중` : '');
+  $('#clear').hidden = !(group || Object.keys(tagSel).length || $('#q').value);
+  if (focused) [...document.querySelectorAll('.find .chip')].find(b => b.dataset.key === focused)?.focus({ preventScroll: true });
+}
 function run() {
-  const q = $('#q').value.trim().toLowerCase(), s = $('#sample').value;
+  if (!D) return;
+  const s = $('#sample').value;
   let n = 0; const ids = new Set();
   for (const c of $('#grid').children) {
-    const f = c._f, hay = [f.name, f.name_ko, f.name_en, f.id].join(' ').toLowerCase();
-    const show = (!q || hay.includes(q)) && (!groups.size || groups.has(f.group)) && Object.entries(tagSel).every(([k, v]) => f.tags[k] === v);
+    const f = c._f, show = hit(f);
     c.hidden = !show; if (!show) continue; n++; ids.add(f.id);
     if (c._v) c._pv.textContent = s || SAMPLE;   // 굵기별 칸은 이미 그 굵기의 전체 웹폰트
     else if (s) { c._pv.textContent = s; if (c._pv._near) useFull(f, c._pv); } else if (c._pv.textContent !== SAMPLE) { c._pv.textContent = SAMPLE; c._pv.style.fontFamily = c._pv.classList.contains('ok') ? `'kofp-${f.id}', sans-serif` : ''; }
   }
   $('#empty').hidden = n > 0;
-  const nt = Object.keys(tagSel).length; $('#ssum').textContent = '세부조건 선택' + (nt ? ` · ${nt}개 적용 중` : '');
+  renderFind();
   $('#count').textContent = expand ?`${ids.size}종 · ${n}칸` : `${n}종`; tray();
 }
 fetch('fonts.json').then(r => r.json()).then(d => {
   D = d; $('#total').textContent = d.count;
-  for (const g of d.groups) {
-    const k = d.fonts.filter(f => f.group === g).length; if (!k) continue;
-    const b = E('button', 'chip', `${g} ${k}`); b.onclick = () => {  // 갈래는 하나만 고른다(다시 누르면 해제 = 전체)
-      const was = groups.has(g); groups.clear(); $('#groups').querySelectorAll('.chip').forEach(x => x.classList.remove('on'));
-      if (!was) { groups.add(g); b.classList.add('on'); }
-      tagSel = {}; refreshSels(); run();   // 갈래를 바꾸면 세부조건은 모두 초기화
-    };
-    $('#groups').append(b);
-  }
-  const selUI = [];   // 세부조건 고르개: 지금 고른 갈래에 있는 조건·값만 보여 준다(갈래를 안 골랐으면 전체 폰트 기준)
-  for (const [k, t] of Object.entries(d.tags)) {
-    if (!d.fonts.some(f => f.tags[k])) continue;
-    const lb = E('label', '', t.label || k), sl = E('select'); sl.title = t.help || '';
-    sl.onchange = () => { sl.value ? tagSel[k] = sl.value : delete tagSel[k]; run(); };
-    lb.append(sl); $('#sels').append(lb); selUI.push([k, t, lb, sl]);
-  }
-  refreshSels = () => {
-    const base = d.fonts.filter(f => !groups.size || groups.has(f.group));
-    for (const [k, t, lb, sl] of selUI) {
-      const vals = t.values.filter(v => base.some(f => f.tags[k] === v));
-      lb.hidden = !vals.length;
-      if (tagSel[k] && !vals.includes(tagSel[k])) delete tagSel[k];
-      sl.replaceChildren(new Option('전체', ''), ...vals.map(v => new Option(v, v)));
-      sl.value = tagSel[k] || '';
-    }
-  };
-  refreshSels();
   buildGrid();
-  run();
 });
-const mq = matchMedia('(max-width: 700px)');   // 넓은 화면은 세부조건을 항상 펼치고, 휴대폰은 접어 둔다
-const setSbox = () => { $('#sbox').open = !mq.matches; }; setSbox(); mq.onchange = setSbox;
-$('#ssum').onclick = e => { if (!mq.matches) e.preventDefault(); };
-$('#reset').onclick = () => {   // 검색어·갈래·세부조건을 모두 풀어 전체 보기로
-  $('#q').value = ''; groups.clear(); $('#groups').querySelectorAll('.chip').forEach(x => x.classList.remove('on'));
-  tagSel = {}; refreshSels(); run();
+const mq = matchMedia('(max-width: 700px)');   // 넓은 화면은 느낌 칩을 항상 펼치고, 휴대폰은 접어 둔다
+const setFbox = () => { $('#fbox').open = !mq.matches; }; setFbox(); mq.onchange = setFbox;
+$('#fsum').onclick = e => { if (!mq.matches) e.preventDefault(); };
+$('#reset').onclick = $('#clear').onclick = () => {   // 검색어·갈래·조건을 모두 풀어 전체 보기로
+  $('#q').value = ''; group = ''; tagSel = {}; run();
 };
-let t; $('#sort').onchange = sortGrid; $('#q').oninput = run; $('#expand').onchange = e => { expand = e.target.checked; buildGrid(); };
+let t; $('#sort').onchange = sortGrid; $('#q').oninput = run; $('#expand').onchange = e => { expand = e.target.checked; $('#xnote').hidden = !expand; buildGrid(); };
 $('#sample').oninput = () => { clearTimeout(t); t = setTimeout(run, 400); };
 </script>
 <!-- 방문 집계: Cloudflare Web Analytics(쿠키 없음). 배포 주소(maker-ssam.github.io)에서만 -->
