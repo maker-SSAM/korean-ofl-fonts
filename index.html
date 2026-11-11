@@ -98,8 +98,8 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
     <li>한글 OFL 폰트 <b id="total">…</b>종(2종 예외)을 모두 모았습니다. 선택하여 필요한 폰트를 바로 다운로드 하세요.</li>
   </ul>
   <details class="guide"><summary>받은 폰트 설치하는 방법</summary>
-    <h4>윈도우</h4><ol><li>받은 zip을 오른쪽 클릭 → <b>모두 압축 풀기</b></li><li>폴더 안의 폰트 파일(.ttf/.otf)을 모두 선택 → 오른쪽 클릭 → <b>설치</b> (모든 사용자용은 "모든 사용자용으로 설치")</li><li>한글·PPT·워드를 껐다가 다시 켜면 폰트 목록에 나타납니다.</li></ol>
-    <h4>맥</h4><ol><li>zip을 더블클릭해 압축을 풉니다.</li><li>폰트 파일(.ttf/.otf)을 더블클릭 → <b>서체 설치</b> 버튼.</li><li>프로그램을 다시 켜면 목록에 나타납니다.</li></ol>
+    <h4>윈도우</h4><ol><li>받은 zip을 오른쪽 클릭 → <b>모두 압축 풀기</b></li><li><b>여러 개를 zip 하나로 받았을 때</b>: <b>폰트</b> 폴더를 열고 Ctrl+A로 모두 선택 → 오른쪽 클릭 → <b>설치</b><br><b>카드에서 받았거나 「따로따로 받기」로 받았을 때</b>: 폰트마다 폴더가 있어요. 폴더 안의 폰트 파일(.ttf/.otf)을 선택 → 오른쪽 클릭 → <b>설치</b><br>(모든 사용자용은 "모든 사용자용으로 설치". 메뉴에 설치가 없으면 "추가 옵션 표시")</li><li>한글·PPT·워드를 껐다가 다시 켜면 폰트 목록에 나타납니다.</li></ol>
+    <h4>맥</h4><ol><li>zip을 더블클릭해 압축을 풉니다.</li><li><b>여러 개를 zip 하나로 받았을 때</b>: 서체 관리자(Font Book)를 열고 <b>폰트</b> 폴더를 창에 끌어다 놓습니다.<br><b>하나만 받았을 때</b>: 폰트 파일(.ttf/.otf)을 더블클릭 → <b>서체 설치</b> 버튼.</li><li>프로그램을 다시 켜면 목록에 나타납니다.</li></ol>
     <h4>웹페이지·슬라이드(HTML)에 쓸 때</h4><ol><li>카드의 <b>CSS 주소 복사</b>를 누르고, 페이지의 <code>&lt;link rel="stylesheet" href="…"&gt;</code>에 붙여 넣습니다.</li><li>CSS 안의 font-family 이름으로 글꼴을 지정합니다.</li></ol>
     <h4>꼭 알아둘 것</h4><ol><li>폰트 파일을 그대로 파는 것은 안 됩니다. 수업자료·문서·인쇄물·영상에 쓰는 것은 괜찮습니다.</li><li>나눔 계열 등은 출처 표기를 권장하며, <b>예외</b> 표시 폰트는 카드의 라이선스를 꼭 읽어 주세요.</li></ol>
   </details>
@@ -133,7 +133,7 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
   <div class="grid" id="grid"></div>
 </main>
 <div id="tray" hidden><div class="in">
-  <div class="msg"><b id="tn">0</b>종 선택 · 약 <span id="tsz"></span><small id="tst">zip 하나로 묶어 저장합니다(폰트마다 폴더, 300MB가 넘으면 나눠 받기를 권해요). 풀고 폰트 파일(ttf/otf)을 더블클릭 → 설치.</small></div>
+  <div class="msg"><b id="tn">0</b>종 선택 · 약 <span id="tsz"></span><small id="tst">zip 하나로 묶어 저장합니다(300MB가 넘으면 나눠 받기를 권해요). 풀고 「폰트」 폴더의 파일을 모두 설치하면 돼요(방법은 zip 안 읽어주세요.txt).</small></div>
   <button class="btn ghost" id="tmore" aria-expanded="false">더보기</button>
   <button class="btn" id="tdl">선택한 폰트 zip 하나로 받기</button>
   <button class="btn ghost" id="tsep">따로따로 받기</button>
@@ -168,7 +168,7 @@ let tstT;
 const tstReset = () => { clearTimeout(tstT); $('#tst').textContent = TST; $('#tray').classList.remove('busy'); };
 const trayMore = on => { $('#tray').classList.toggle('more', on); $('#tmore').textContent = on ? '접기' : '더보기'; $('#tmore').setAttribute('aria-expanded', on); };   // 휴대폰: 따로따로 받기·CSS 복사·선택 해제 펼치기
 $('#tmore').onclick = () => trayMore(!$('#tray').classList.contains('more'));
-$('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받아 브라우저 안에서 zip 하나로 묶는다(폰트마다 폴더)
+$('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받아 브라우저 안에서 zip 하나로 묶는다(폰트 파일은 '폰트/' 한곳, 라이선스는 '라이선스/<카드 제목>/')
   const b = $('#tdl'), st = $('#tst'), tr = $('#tray'), fs = [...chosen].map(byId), chunks = [], failed = [];
   const sum = fs.reduce((a, f) => a + f.download.bytes, 0);
   if (sum > ZIP_WARN && !confirm(`선택한 폰트가 약 ${mb(sum)}예요. 한 번에 묶으면 메모리가 모자라 실패할 수 있어서 300MB 이하로 나눠 받기를 권해요.\n\n그래도 한 번에 묶을까요?`)) {
@@ -177,7 +177,8 @@ $('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받�
   clearTimeout(tstT); b.disabled = true; tr.classList.add('busy');
   try {
     const z = new fflate.Zip((err, c, fin) => { if (err) throw err; chunks.push(c); });
-    const used = new Set();
+    const used = new Set(), usedF = new Set();
+    const isFont = n => /\.(ttf|otf|ttc|otc)$/i.test(n);
     for (let i = 0; i < fs.length; i++) {
       const f = fs[i]; st.textContent = `${i + 1}/${fs.length} 받는 중… ${f.name_ko || f.name}`;
       let files;
@@ -193,12 +194,34 @@ $('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받�
       let dir = safe(f.name_ko) || safe(f.name) || f.id;   // 폴더 이름 = 카드 제목(한글 이름, 없으면 영문 이름)
       if (used.has(dir)) dir = safe(f.name) || f.id;        // 한글 이름이 같은 폰트(삼립호빵체 Basic·Outline)는 원래 이름으로 나눈다
       while (used.has(dir)) dir += '_'; used.add(dir);
-      for (const [n, data] of Object.entries(files)) {     // 배포 zip은 모두 '원래 폴더 이름/파일'(publish.py) — 맨 앞 폴더만 위 이름으로 바꾼다
+      for (let [n, data] of Object.entries(files)) {     // 배포 zip은 모두 '원래 폴더 이름/파일'(publish.py)
         const rel = n.slice(n.indexOf('/') + 1); if (!rel || rel.endsWith('/')) continue;
-        const e = new fflate.ZipDeflate(`${dir}/${rel}`, { level: 3 }); z.add(e); e.push(data, true);
+        let path;
+        if (isFont(rel)) {   // 폰트 파일은 '폰트/' 한곳에 모아 모두 선택 → 설치 한 번으로 끝나게 한다
+          let b = rel.split('/').pop(); const dot = b.lastIndexOf('.'), stem = b.slice(0, dot), ext = b.slice(dot);
+          for (let k = 2; usedF.has(b.toLowerCase()); k++) b = `${stem}_${k}${ext}`;   // 이름이 겹치면(지금 343종엔 없음) 뒤에 숫자
+          usedF.add(b.toLowerCase()); path = `폰트/${b}`;
+        } else {   // LICENSE.txt·안내.txt는 이름이 모두 같아 폰트마다 폴더로 둔다
+          path = `라이선스/${dir}/${rel}`;
+          if (rel === '안내.txt') data = fflate.strToU8(fflate.strFromU8(data).replace('이 폴더의 TTF/OTF 파일을', "'폰트' 폴더에 있는 아래 TTF/OTF 파일을"));   // publish.py 문구를 새 구조에 맞춤
+        }
+        const e = new fflate.ZipDeflate(path, { level: 3 }); z.add(e); e.push(data, true);
       }
     }
     const got = fs.length - failed.length; if (!got) throw new Error('받은 폰트 없음');
+    const readme = [`한글 OFL 폰트 ${got}종 - korean-ofl-fonts`, location.origin + location.pathname, '',
+      '[설치하기]',
+      "- 윈도우: '폰트' 폴더를 열고 Ctrl+A로 모두 선택 → 오른쪽 클릭 → 설치",
+      "  (모든 사용자용은 '모든 사용자용으로 설치'. 메뉴에 설치가 없으면 '추가 옵션 표시'를 누르세요)",
+      "- 맥: 서체 관리자(Font Book)를 열고 '폰트' 폴더를 창에 끌어다 놓습니다.",
+      '- 한글·PPT·워드를 껐다가 다시 켜면 폰트 목록에 나타납니다.', '',
+      '[라이선스]',
+      "- '라이선스' 폴더에 폰트마다 LICENSE.txt(라이선스)와 안내.txt(그 폰트의 파일 목록)가 있습니다.",
+      "- 폰트를 다른 사람에게 다시 나눌 때는 '라이선스' 폴더도 함께 넣어 주세요.",
+      '- 폰트 파일 자체를 파는 것은 안 됩니다. 수업자료·문서·인쇄물·영상에 쓰는 것은 괜찮습니다.',
+      '- 나눔 계열은 출처 표기를 권장합니다. 그 폰트의 LICENSE.txt를 읽어 주세요.']
+      .concat((ex => ex.length ? [`- 예외 폰트(SIL OFL 아님, 제작사 규정을 따름): ${ex.join(', ')} — LICENSE.txt를 꼭 읽어 주세요.`] : [])(fs.filter(f => !failed.includes(f) && f.license.exception).map(f => f.name_ko || f.name)), ['']).join('\r\n');
+    const rd = new fflate.ZipDeflate('읽어주세요.txt', { level: 3 }); z.add(rd); rd.push(fflate.strToU8(readme), true);
     z.end();
     await new Promise(r => setTimeout(r, 50));
     const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob(chunks, { type: 'application/zip' }));
