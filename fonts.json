@@ -1,7 +1,7 @@
 {
  "name": "korean-ofl-fonts",
  "version": "1.0.0",
- "updated": "2026-10-20",
+ "updated": "2026-11-12",
  "count": 343,
  "base": "https://maker-ssam.github.io/korean-ofl-fonts/",
  "release": "https://github.com/maker-SSAM/korean-ofl-fonts/releases/download/v1.0.0/",
@@ -361,8 +361,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "아주 굵다"
+     "중간",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -972,8 +972,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "아주 굵다"
+     "가늘다",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -1371,8 +1371,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -1643,7 +1643,7 @@
     "italic": false,
     "weight_range": [
      "아주 가늘다",
-     "아주 굵다"
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -1792,8 +1792,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "아주 굵다"
+     "가늘다",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -1887,7 +1887,7 @@
     "italic": false,
     "weight_range": [
      "중간",
-     "아주 굵다"
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -1980,8 +1980,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -2052,8 +2052,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -2125,8 +2125,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -2489,8 +2489,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -2561,8 +2561,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -2633,8 +2633,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -3071,8 +3071,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -3333,7 +3333,7 @@
     "italic": false,
     "weight_range": [
      "가늘다",
-     "굵다"
+     "중간"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -3707,7 +3707,7 @@
     "italic": false,
     "weight_range": [
      "아주 가늘다",
-     "아주 굵다"
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -3935,7 +3935,7 @@
    "group": "고정폭",
    "tags": {
     "쓰임": "범용",
-    "굵기": "중간",
+    "굵기": "굵다",
     "고정폭 바탕": "고딕",
     "시대감": "레트로",
     "격식": "친근"
@@ -4004,7 +4004,7 @@
    "group": "픽셀",
    "tags": {
     "쓰임": "범용",
-    "굵기": "중간",
+    "굵기": "굵다",
     "도트 크기": "작음",
     "시대감": "레트로",
     "격식": "친근"
@@ -4700,7 +4700,7 @@
    "group": "디자인",
    "tags": {
     "쓰임": "범용",
-    "굵기": "중간",
+    "굵기": "굵다",
     "바탕 계열": "명조 계열",
     "글자틀": "네모",
     "장식 방식": "효과",
@@ -5010,8 +5010,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -5234,8 +5234,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "크게 보임",
     "install": "TTF",
@@ -5567,7 +5567,7 @@
    "group": "픽셀",
    "tags": {
     "쓰임": "범용",
-    "굵기": "중간",
+    "굵기": "굵다",
     "도트 크기": "큼",
     "시대감": "레트로",
     "격식": "친근"
@@ -5653,8 +5653,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -5798,8 +5798,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -5976,8 +5976,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -6367,7 +6367,7 @@
     "variable": true,
     "italic": false,
     "weight_range": [
-     "굵다",
+     "가늘다",
      "아주 굵다"
     ],
     "size_feel": "보통",
@@ -6527,7 +6527,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 가늘다",
+     "가늘다",
      "굵다"
     ],
     "size_feel": "크게 보임",
@@ -6806,8 +6806,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "굵다"
+     "가늘다",
+     "중간"
     ],
     "size_feel": "크게 보임",
     "install": "TTF",
@@ -7005,7 +7005,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 가늘다",
+     "가늘다",
      "굵다"
     ],
     "size_feel": "크게 보임",
@@ -7121,7 +7121,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
+     "중간",
      "중간"
     ],
     "size_feel": "보통",
@@ -7205,8 +7205,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -7278,8 +7278,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -7351,8 +7351,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -7407,7 +7407,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "범용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -7424,8 +7424,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -7570,8 +7570,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -7643,8 +7643,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -7716,8 +7716,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -7789,8 +7789,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -7862,8 +7862,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -7935,8 +7935,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -8080,8 +8080,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -8282,7 +8282,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -8299,8 +8299,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -8445,8 +8445,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -8518,8 +8518,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -8574,7 +8574,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -8591,8 +8591,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -8647,7 +8647,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "중간",
     "글씨 인상": "필체(개인)",
@@ -8664,8 +8664,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -8737,8 +8737,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -8810,8 +8810,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -8956,8 +8956,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -9029,8 +9029,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -9102,8 +9102,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -9175,8 +9175,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -9248,8 +9248,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -9377,7 +9377,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -9394,8 +9394,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -9467,8 +9467,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -9540,8 +9540,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -9613,8 +9613,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -9686,8 +9686,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -9832,8 +9832,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -9905,8 +9905,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -10051,8 +10051,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -10107,7 +10107,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -10124,8 +10124,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -10197,8 +10197,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -10253,7 +10253,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -10270,8 +10270,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -10326,7 +10326,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "중간",
     "글씨 인상": "필체(개인)",
@@ -10343,8 +10343,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -10489,8 +10489,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -10635,8 +10635,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -10708,8 +10708,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -10927,8 +10927,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -11000,8 +11000,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -11073,8 +11073,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -11129,7 +11129,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "중간",
     "글씨 인상": "필체(개인)",
@@ -11146,8 +11146,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -11219,8 +11219,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -11275,7 +11275,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "제목용",
-    "굵기": "굵다",
+    "굵기": "중간",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "정돈(디지털)",
@@ -11292,8 +11292,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -11438,8 +11438,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -11511,8 +11511,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -11567,7 +11567,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -11584,8 +11584,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -11640,7 +11640,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "중간",
     "글씨 인상": "필체(개인)",
@@ -11657,8 +11657,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -11730,8 +11730,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -11932,7 +11932,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "중간",
     "글씨 인상": "필체(개인)",
@@ -11949,8 +11949,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -12022,8 +12022,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -12095,8 +12095,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -12224,7 +12224,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "중간",
     "글씨 인상": "정갈",
@@ -12241,8 +12241,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -12314,8 +12314,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -12387,8 +12387,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -12679,8 +12679,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -12808,7 +12808,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "범용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "중간",
     "글씨 인상": "정갈",
@@ -12825,8 +12825,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -12954,7 +12954,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "제목용",
-    "굵기": "굵다",
+    "굵기": "중간",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -12971,8 +12971,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -13044,8 +13044,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -13100,7 +13100,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "범용",
-    "굵기": "가늘다",
+    "굵기": "중간",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -13117,8 +13117,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 가늘다",
-     "아주 가늘다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -13263,8 +13263,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -13336,8 +13336,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -13392,7 +13392,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "정갈",
@@ -13409,8 +13409,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -13538,7 +13538,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -13555,8 +13555,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -13611,7 +13611,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -13628,8 +13628,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -13701,8 +13701,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -13829,7 +13829,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "중간",
     "글씨 인상": "필체(개인)",
@@ -13846,8 +13846,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -13919,8 +13919,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -13975,7 +13975,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "중간",
     "글씨 인상": "필체(개인)",
@@ -13992,8 +13992,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -14121,7 +14121,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -14138,8 +14138,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -14211,8 +14211,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -14284,8 +14284,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -14357,8 +14357,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -14413,7 +14413,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "정갈",
@@ -14430,8 +14430,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -14486,7 +14486,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "제목용",
-    "굵기": "굵다",
+    "굵기": "중간",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "정돈(디지털)",
@@ -14503,8 +14503,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -14559,7 +14559,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -14576,8 +14576,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -14632,7 +14632,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "중간",
     "글씨 인상": "정갈",
@@ -14649,8 +14649,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -14778,7 +14778,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -14795,8 +14795,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -14924,7 +14924,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "중간",
+    "굵기": "가늘다",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -14941,8 +14941,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
-     "가늘다"
+     "아주 가늘다",
+     "아주 가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -15087,8 +15087,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -15160,8 +15160,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -15232,7 +15232,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 가늘다",
+     "가늘다",
      "굵다"
     ],
     "size_feel": "크게 보임",
@@ -15321,7 +15321,7 @@
    "group": "고딕",
    "tags": {
     "쓰임": "범용",
-    "굵기": "가늘다",
+    "굵기": "중간",
     "틀 채움": "보통",
     "폭": "보통",
     "모서리": "각진",
@@ -15337,7 +15337,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 가늘다",
+     "가늘다",
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
@@ -15442,7 +15442,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 가늘다",
+     "가늘다",
      "굵다"
     ],
     "size_feel": "크게 보임",
@@ -15547,7 +15547,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 가늘다",
+     "가늘다",
      "굵다"
     ],
     "size_feel": "보통",
@@ -15652,7 +15652,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 가늘다",
+     "가늘다",
      "굵다"
     ],
     "size_feel": "보통",
@@ -15849,8 +15849,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -15918,8 +15918,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -15974,7 +15974,7 @@
    "group": "고정폭",
    "tags": {
     "쓰임": "범용",
-    "굵기": "중간",
+    "굵기": "굵다",
     "고정폭 바탕": "고딕",
     "시대감": "레트로",
     "격식": "친근"
@@ -16056,8 +16056,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -16128,7 +16128,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 가늘다",
+     "가늘다",
      "굵다"
     ],
     "size_feel": "크게 보임",
@@ -16297,7 +16297,7 @@
    "group": "픽셀",
    "tags": {
     "쓰임": "범용",
-    "굵기": "중간",
+    "굵기": "굵다",
     "도트 크기": "큼",
     "시대감": "레트로",
     "격식": "친근"
@@ -16391,7 +16391,7 @@
     "italic": false,
     "weight_range": [
      "중간",
-     "아주 굵다"
+     "굵다"
     ],
     "size_feel": "크게 보임",
     "install": "TTF",
@@ -16471,7 +16471,7 @@
     "italic": false,
     "weight_range": [
      "중간",
-     "아주 굵다"
+     "굵다"
     ],
     "size_feel": "크게 보임",
     "install": "TTF",
@@ -17577,8 +17577,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "크게 보임",
     "install": "TTF",
@@ -17646,8 +17646,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "크게 보임",
     "install": "TTF",
@@ -17702,7 +17702,7 @@
    "group": "디자인",
    "tags": {
     "쓰임": "범용",
-    "굵기": "중간",
+    "굵기": "굵다",
     "바탕 계열": "고딕 계열",
     "글자틀": "네모",
     "장식 방식": "해당없음",
@@ -17863,8 +17863,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "아주 굵다",
+     "아주 굵다"
     ],
     "size_feel": "크게 보임",
     "install": "TTF",
@@ -18079,8 +18079,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "크게 보임",
     "install": "TTF",
@@ -18151,8 +18151,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -18439,8 +18439,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 가늘다",
-     "아주 가늘다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "크게 보임",
     "install": "TTF",
@@ -18667,8 +18667,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -18898,7 +18898,7 @@
     "italic": false,
     "weight_range": [
      "아주 가늘다",
-     "아주 굵다"
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -19195,8 +19195,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -19339,8 +19339,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "아주 굵다"
+     "중간",
+     "굵다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -19502,7 +19502,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 가늘다",
+     "가늘다",
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
@@ -19903,7 +19903,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "제목용",
-    "굵기": "굵다",
+    "굵기": "중간",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -19920,8 +19920,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -19993,8 +19993,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -20049,7 +20049,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "제목용",
-    "굵기": "굵다",
+    "굵기": "중간",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "필체(개인)",
@@ -20066,8 +20066,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -20139,8 +20139,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -20212,8 +20212,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -20284,7 +20284,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
+     "굵다",
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
@@ -20368,7 +20368,7 @@
     "italic": false,
     "weight_range": [
      "중간",
-     "아주 굵다"
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -21219,8 +21219,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -21291,8 +21291,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "크게 보임",
     "install": "TTF",
@@ -21363,8 +21363,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "아주 굵다"
+     "가늘다",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -21530,8 +21530,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -21586,7 +21586,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "제목용",
-    "굵기": "굵다",
+    "굵기": "중간",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "정돈(디지털)",
@@ -21603,8 +21603,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -21676,8 +21676,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "아주 굵다"
+     "중간",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -21760,8 +21760,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -21916,7 +21916,7 @@
     "italic": false,
     "weight_range": [
      "가늘다",
-     "굵다"
+     "중간"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -22081,8 +22081,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -22258,7 +22258,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 가늘다",
+     "가늘다",
      "아주 굵다"
     ],
     "size_feel": "크게 보임",
@@ -22513,7 +22513,7 @@
     "italic": false,
     "weight_range": [
      "아주 가늘다",
-     "아주 굵다"
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -22673,7 +22673,7 @@
     "italic": false,
     "weight_range": [
      "아주 가늘다",
-     "아주 굵다"
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -22833,8 +22833,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "굵다"
+     "가늘다",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -22916,7 +22916,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
+     "굵다",
      "아주 굵다"
     ],
     "size_feel": "보통",
@@ -22999,8 +22999,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -23289,8 +23289,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -23434,8 +23434,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "아주 굵다"
+     "중간",
+     "굵다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -23517,7 +23517,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
+     "굵다",
      "아주 굵다"
     ],
     "size_feel": "보통",
@@ -23745,8 +23745,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "굵다"
+     "가늘다",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -23922,8 +23922,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -24138,8 +24138,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -24283,7 +24283,7 @@
     "italic": false,
     "weight_range": [
      "굵다",
-     "아주 굵다"
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -24365,8 +24365,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "아주 굵다"
+     "중간",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -24448,8 +24448,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -24504,7 +24504,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "제목용",
-    "굵기": "굵다",
+    "굵기": "중간",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "정돈(디지털)",
@@ -24521,8 +24521,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -24677,8 +24677,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -24899,7 +24899,7 @@
    "group": "디자인",
    "tags": {
     "쓰임": "본문용",
-    "굵기": "가늘다",
+    "굵기": "중간",
     "바탕 계열": "고딕 계열",
     "글자틀": "네모",
     "장식 방식": "해당없음",
@@ -24915,8 +24915,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 가늘다",
-     "아주 가늘다"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -24971,7 +24971,7 @@
    "group": "반고딕",
    "tags": {
     "쓰임": "범용",
-    "굵기": "가늘다",
+    "굵기": "중간",
     "틀 채움": "여유",
     "폭": "보통",
     "모서리": "중간",
@@ -24988,7 +24988,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 가늘다",
+     "가늘다",
      "굵다"
     ],
     "size_feel": "보통",
@@ -25072,7 +25072,7 @@
     "italic": false,
     "weight_range": [
      "중간",
-     "아주 굵다"
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -25154,8 +25154,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "아주 굵다"
+     "중간",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -25309,8 +25309,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -25453,8 +25453,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "아주 굵다"
+     "중간",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -25619,7 +25619,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "가늘다",
+     "중간",
      "중간"
     ],
     "size_feel": "보통",
@@ -25702,7 +25702,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
+     "가늘다",
      "중간"
     ],
     "size_feel": "보통",
@@ -25785,8 +25785,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "크게 보임",
     "install": "TTF",
@@ -25858,8 +25858,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -25930,8 +25930,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -26074,8 +26074,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -26146,8 +26146,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -26373,8 +26373,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -26445,8 +26445,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -26501,7 +26501,7 @@
    "group": "손글씨",
    "tags": {
     "쓰임": "제목용",
-    "굵기": "굵다",
+    "굵기": "중간",
     "바탕 계열": "해당없음",
     "글자틀": "탈네모",
     "글씨 인상": "정돈(디지털)",
@@ -26518,8 +26518,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -26590,8 +26590,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -26662,8 +26662,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -26734,8 +26734,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -26806,8 +26806,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -26878,8 +26878,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -26950,8 +26950,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "굵다"
+     "중간",
+     "중간"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -27239,8 +27239,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "굵다",
-     "아주 굵다"
+     "중간",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -27323,8 +27323,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "굵다"
+     "가늘다",
+     "중간"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
@@ -27550,8 +27550,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 굵다",
-     "아주 굵다"
+     "굵다",
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "TTF",
@@ -28160,7 +28160,7 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "아주 가늘다",
+     "가늘다",
      "아주 굵다"
     ],
     "size_feel": "보통",
@@ -28321,7 +28321,7 @@
     "italic": false,
     "weight_range": [
      "중간",
-     "아주 굵다"
+     "굵다"
     ],
     "size_feel": "보통",
     "install": "OTF",
@@ -28415,8 +28415,8 @@
     "variable": false,
     "italic": false,
     "weight_range": [
-     "중간",
-     "중간"
+     "가늘다",
+     "가늘다"
     ],
     "size_feel": "작게 보임",
     "install": "TTF",
