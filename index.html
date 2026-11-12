@@ -168,7 +168,7 @@ let tstT;
 const tstReset = () => { clearTimeout(tstT); $('#tst').textContent = TST; $('#tray').classList.remove('busy'); };
 const trayMore = on => { $('#tray').classList.toggle('more', on); $('#tmore').textContent = on ? '접기' : '더보기'; $('#tmore').setAttribute('aria-expanded', on); };   // 휴대폰: 따로따로 받기·CSS 복사·선택 해제 펼치기
 $('#tmore').onclick = () => trayMore(!$('#tray').classList.contains('more'));
-$('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받아 브라우저 안에서 zip 하나로 묶는다(폰트 파일은 '폰트/' 한곳, 라이선스는 '라이선스/<카드 제목>/')
+$('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받아 브라우저 안에서 zip 하나로 묶는다(폰트 파일은 '폰트/' 한곳, 라이선스는 '라이선스/<카드 제목>-LICENSE.txt')
   const b = $('#tdl'), st = $('#tst'), tr = $('#tray'), fs = [...chosen].map(byId), chunks = [], failed = [];
   const sum = fs.reduce((a, f) => a + f.download.bytes, 0);
   if (sum > ZIP_WARN && !confirm(`선택한 폰트가 약 ${mb(sum)}예요. 한 번에 묶으면 메모리가 모자라 실패할 수 있어서 300MB 이하로 나눠 받기를 권해요.\n\n그래도 한 번에 묶을까요?`)) {
@@ -177,7 +177,7 @@ $('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받�
   clearTimeout(tstT); b.disabled = true; tr.classList.add('busy');
   try {
     const z = new fflate.Zip((err, c, fin) => { if (err) throw err; chunks.push(c); });
-    const used = new Set(), usedF = new Set();
+    const used = new Set(), usedF = new Set(), list = [];
     const isFont = n => /\.(ttf|otf|ttc|otc)$/i.test(n);
     for (let i = 0; i < fs.length; i++) {
       const f = fs[i]; st.textContent = `${i + 1}/${fs.length} 받는 중… ${f.name_ko || f.name}`;
@@ -194,19 +194,18 @@ $('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받�
       let dir = safe(f.name_ko) || safe(f.name) || f.id;   // 폴더 이름 = 카드 제목(한글 이름, 없으면 영문 이름)
       if (used.has(dir)) dir = safe(f.name) || f.id;        // 한글 이름이 같은 폰트(삼립호빵체 Basic·Outline)는 원래 이름으로 나눈다
       while (used.has(dir)) dir += '_'; used.add(dir);
-      for (let [n, data] of Object.entries(files)) {     // 배포 zip은 모두 '원래 폴더 이름/파일'(publish.py)
-        const rel = n.slice(n.indexOf('/') + 1); if (!rel || rel.endsWith('/')) continue;
+      const mine = [];   // 이 폰트의 파일 이름(읽어주세요.txt 목록용)
+      for (const [n, data] of Object.entries(files)) {     // 배포 zip은 모두 '원래 폴더 이름/파일'(publish.py)
+        const rel = n.slice(n.indexOf('/') + 1); if (!rel || rel.endsWith('/') || rel === '안내.txt') continue;   // 안내.txt는 '폰트마다 폴더' 기준 문구라 빼고, 파일 목록은 읽어주세요.txt에 모아 적는다
         let path;
         if (isFont(rel)) {   // 폰트 파일은 '폰트/' 한곳에 모아 모두 선택 → 설치 한 번으로 끝나게 한다
           let b = rel.split('/').pop(); const dot = b.lastIndexOf('.'), stem = b.slice(0, dot), ext = b.slice(dot);
           for (let k = 2; usedF.has(b.toLowerCase()); k++) b = `${stem}_${k}${ext}`;   // 이름이 겹치면(지금 343종엔 없음) 뒤에 숫자
-          usedF.add(b.toLowerCase()); path = `폰트/${b}`;
-        } else {   // LICENSE.txt·안내.txt는 이름이 모두 같아 폰트마다 폴더로 둔다
-          path = `라이선스/${dir}/${rel}`;
-          if (rel === '안내.txt') data = fflate.strToU8(fflate.strFromU8(data).replace('이 폴더의 TTF/OTF 파일을', "'폰트' 폴더에 있는 아래 TTF/OTF 파일을"));   // publish.py 문구를 새 구조에 맞춤
-        }
+          usedF.add(b.toLowerCase()); path = `폰트/${b}`; mine.push(b);
+        } else path = `라이선스/${dir}-${rel.replace(/\//g, '_')}`;   // LICENSE.txt는 이름이 모두 같아 앞에 카드 제목을 붙여 한 폴더에 모은다
         const e = new fflate.ZipDeflate(path, { level: 3 }); z.add(e); e.push(data, true);
       }
+      list.push(`- ${dir}: ${mine.join(', ')}  (라이선스: ${dir}-LICENSE.txt)`);
     }
     const got = fs.length - failed.length; if (!got) throw new Error('받은 폰트 없음');
     const readme = [`한글 OFL 폰트 ${got}종 - korean-ofl-fonts`, location.origin + location.pathname, '',
@@ -216,11 +215,12 @@ $('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받�
       "- 맥: 서체 관리자(Font Book)를 열고 '폰트' 폴더를 창에 끌어다 놓습니다.",
       '- 한글·PPT·워드를 껐다가 다시 켜면 폰트 목록에 나타납니다.', '',
       '[라이선스]',
-      "- '라이선스' 폴더에 폰트마다 LICENSE.txt(라이선스)와 안내.txt(그 폰트의 파일 목록)가 있습니다.",
+      "- '라이선스' 폴더에 폰트마다 '<폰트 이름>-LICENSE.txt'가 있습니다(라이선스 근거·공식 배포처·저작권 문구).",
       "- 폰트를 다른 사람에게 다시 나눌 때는 '라이선스' 폴더도 함께 넣어 주세요.",
       '- 폰트 파일 자체를 파는 것은 안 됩니다. 수업자료·문서·인쇄물·영상에 쓰는 것은 괜찮습니다.',
       '- 나눔 계열은 출처 표기를 권장합니다. 그 폰트의 LICENSE.txt를 읽어 주세요.']
-      .concat((ex => ex.length ? [`- 예외 폰트(SIL OFL 아님, 제작사 규정을 따름): ${ex.join(', ')} — LICENSE.txt를 꼭 읽어 주세요.`] : [])(fs.filter(f => !failed.includes(f) && f.license.exception).map(f => f.name_ko || f.name)), ['']).join('\r\n');
+      .concat((ex => ex.length ? [`- 예외 폰트(SIL OFL 아님, 제작사 규정을 따름): ${ex.join(', ')} — 그 폰트의 LICENSE.txt를 꼭 읽어 주세요.`] : [])(fs.filter(f => !failed.includes(f) && f.license.exception).map(f => f.name_ko || f.name)),
+        ['', `[받은 폰트 ${got}종과 파일]`], list, ['']).join('\r\n');
     const rd = new fflate.ZipDeflate('읽어주세요.txt', { level: 3 }); z.add(rd); rd.push(fflate.strToU8(readme), true);
     z.end();
     await new Promise(r => setTimeout(r, 50));
