@@ -95,7 +95,7 @@ footer { color: var(--sub); font-size: 12px; text-align: center; padding: 0 16px
   <h1>한글 OFL 폰트 창고</h1>
   <ul class="lead">
     <li><b>OFL 폰트란?</b> - 누구나 무료로 쓰고, 고치고, 다시 나눌 수 있게 허락한 오픈 폰트 라이선스(SIL Open Font License)를 따르는 폰트예요.</li>
-    <li>한글 OFL 폰트 <b id="total">…</b>종(2종 예외)을 모두 모았습니다. 선택하여 필요한 폰트를 바로 다운로드 하세요.</li>
+    <li>한글 OFL 폰트 <b id="total">…</b>종<span id="exc"></span>을 모두 모았습니다. 선택하여 필요한 폰트를 바로 다운로드 하세요.</li>
   </ul>
   <details class="guide"><summary>받은 폰트 설치하는 방법</summary>
     <h4>윈도우</h4><ol><li>받은 zip을 오른쪽 클릭 → <b>모두 압축 풀기</b></li><li><b>여러 개를 zip 하나로 받았을 때</b>: <b>폰트</b> 폴더를 열고 Ctrl+A로 모두 선택 → 오른쪽 클릭 → <b>설치</b><br><b>카드에서 받았거나 「따로따로 받기」로 받았을 때</b>: 폰트마다 폴더가 있어요. 폴더 안의 폰트 파일(.ttf/.otf)을 선택 → 오른쪽 클릭 → <b>설치</b><br>(모든 사용자용은 "모든 사용자용으로 설치". 메뉴에 설치가 없으면 "추가 옵션 표시")</li><li>한글·PPT·워드를 껐다가 다시 켜면 폰트 목록에 나타납니다.</li></ol>
@@ -234,10 +234,22 @@ $('#tdl').onclick = async () => {  // 선택한 폰트를 중계 서버로 받�
   } catch (e) { st.textContent = '묶는 데 실패했어요(' + e.message + '). "따로따로 받기"를 써 보세요.'; trayMore(true); }
   b.disabled = false;
 };
+const SEP_WARN = 20;   // 따로따로 받기를 이보다 많이 고르면 브라우저가 여러 파일 받기를 막을 수 있어 먼저 묻는다
 $('#tsep').onclick = async () => {  // 예비: 파일을 차례로 따로 저장
-  for (const f of [...chosen].map(byId)) { const a = document.createElement('a'); a.href = D.release + f.download.file; a.download = f.download.file; document.body.append(a); a.click(); a.remove(); await new Promise(r => setTimeout(r, 900)); }
+  const b = $('#tsep'), st = $('#tst'), fs = [...chosen].map(byId);
+  if (fs.length > SEP_WARN && !confirm(`${fs.length}개 파일을 하나씩 차례로 저장해요. 파일이 많으면 브라우저가 여러 파일 받기를 막거나 중간에 멈출 수 있어요.\n\n많이 받을 때는 「zip 하나로 받기」를 권해요. 그래도 따로따로 받을까요?`)) return;
+  clearTimeout(tstT); b.disabled = true; $('#tray').classList.add('busy');
+  for (let i = 0; i < fs.length; i++) {
+    const f = fs[i]; st.textContent = `${i + 1}/${fs.length} 저장 중… ${f.name_ko || f.name} (브라우저가 여러 파일 받기를 물으면 「허용」을 눌러 주세요)`;
+    const a = document.createElement('a'); a.href = D.release + f.download.file; a.download = f.download.file; document.body.append(a); a.click(); a.remove(); await new Promise(r => setTimeout(r, 900));
+  }
+  st.textContent = `${fs.length}개 파일을 차례로 보냈어요. 빠진 것이 있으면 브라우저의 다운로드 목록을 확인해 주세요.`; b.disabled = false; tstT = setTimeout(tstReset, 8000);
 };
-$('#tcss').onclick = () => { const t = [...chosen].map(id => `<link rel="stylesheet" href="${D.base + byId(id).css}">`).join('\n'); navigator.clipboard?.writeText(t).then(() => { $('#tcss').textContent = '복사했어요'; setTimeout(() => $('#tcss').textContent = '웹폰트 CSS 복사', 1500); }); };
+const copy = (btn, text, label) => {   // 복사 결과를 버튼 글자로 잠깐 알려 준다(권한이 없거나 http 주소면 실패)
+  const say = m => { btn.textContent = m; clearTimeout(btn._t); btn._t = setTimeout(() => btn.textContent = label, 2000); };
+  (navigator.clipboard?.writeText ? navigator.clipboard.writeText(text) : Promise.reject()).then(() => say('복사했어요'), () => say('복사 실패'));
+};
+$('#tcss').onclick = () => copy($('#tcss'), [...chosen].map(id => `<link rel="stylesheet" href="${D.base + byId(id).css}">`).join('\n'), '웹폰트 CSS 복사');
 $('#addall').onclick = () => {  // 보이는 폰트 모두 선택 ↔ 모두 해제
   const vis = [...$('#grid').children].filter(c => !c.hidden), on = vis.length > 0 && vis.every(c => chosen.has(c._f.id));
   for (const c of vis) { on ? chosen.delete(c._f.id) : chosen.add(c._f.id); c.classList.toggle('sel', !on); c.querySelector('.pick input').checked = !on; }
@@ -292,7 +304,7 @@ function card(f, v) {   // v가 있으면 굵기별 칸(v = wlines 한 항목)
   if (f.license.exception) { const x = E('span', 'grp', '예외'); x.title = f.license.exception; l.append(x); }  // 2개 폰트는 예외처리(fonts.json license.exception)
   const pv = E('div', 'pv', SAMPLE); pv._f = f; pv._v = v; io.observe(pv);
   const links = E('div', 'links');
-  const css = E('button', '', 'CSS 주소 복사'); css.onclick = () => navigator.clipboard?.writeText(D.base + f.css).then(() => { css.textContent = '복사했어요'; setTimeout(() => css.textContent = 'CSS 주소 복사', 1500); });
+  const css = E('button', '', 'CSS 주소 복사'); css.onclick = () => copy(css, D.base + f.css, 'CSS 주소 복사');
   const dl = E('a', '', `내려받기 ${mb(f.download.bytes)}`); dl.href = D.release + f.download.file;
   const lic = E('a', '', '라이선스'); lic.href = f.license.file;
   const of = E('a', '', '공식 배포처'); if (f.license.official) { of.href = f.license.official; of.rel = 'noopener'; of.target = '_blank'; }
@@ -381,9 +393,13 @@ function run() {
   renderFind();
   $('#count').textContent = expand ?`${ids.size}종 · ${n}칸` : `${n}종`; tray();
 }
-fetch('fonts.json').then(r => r.json()).then(d => {
+fetch('fonts.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
   D = d; $('#total').textContent = d.count;
+  const ex = d.fonts.filter(f => f.license.exception).length; $('#exc').textContent = ex ? `(${ex}종 예외)` : '';   // 예외 폰트 수는 fonts.json에서 센다
   buildGrid();
+}, () => {   // 목록을 못 받으면 빈 화면 대신 안내(학교망 차단·연결 끊김 등). 받기 실패만 잡고 화면 그리기 오류는 잡지 않는다
+  $('#empty p').textContent = '폰트 목록을 불러오지 못했어요. 인터넷 연결을 확인하고 새로고침해 주세요.';
+  $('#reset').textContent = '새로고침'; $('#reset').onclick = () => location.reload(); $('#empty').hidden = false;
 });
 const mq = matchMedia('(max-width: 700px)');   // 넓은 화면은 느낌 칩을 항상 펼치고, 휴대폰은 접어 둔다
 const setFbox = () => { $('#fbox').open = !mq.matches; }; setFbox(); mq.onchange = setFbox;
