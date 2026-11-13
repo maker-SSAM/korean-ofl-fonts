@@ -1,0 +1,9 @@
+{
+  "hosting": {
+    "site": "k-ofl",
+    "public": "public",
+    "redirects": [
+      { "source": "**", "destination": "https://maker-ssam.github.io/korean-ofl-fonts/", "type": 302 }
+    ]
+  }
+}
